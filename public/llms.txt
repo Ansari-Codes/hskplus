@@ -10,6 +10,7 @@
 - [HSK Score Calculator](https://desihop.net/score-calculator): Official scaled score and CSC scholarship eligibility calculator.
 - [Pedagogical Blog Guides](https://desihop.net/blogs): 20 comprehensive 1,000+ word guides on tones, pinyin, characters, and exam tactics.
 - [About HSK Plus](https://desihop.net/about): Pedagogical mission, curriculum alignment, and multi-platform comparison benchmark.
+- [Official Curriculum Downloads](https://desihop.net/downloads): Authentic BLCUP textbooks, Hanban vocabulary checklists, and mock test audio packages.
 
 ## Direct Section Links
 - [HSK 1 Vocabulary Encyclopedia](https://desihop.net/hsk1/vocabulary): 150 official vocabulary words with pinyin, audio, and example sentences.

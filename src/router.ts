@@ -40,6 +40,13 @@ const routes: RouteRecordRaw[] = [
     component: () => import('./Pages/ScoreCalculator/Index.vue'),
   },
 
+  // Official Standard Course Material Downloads
+  {
+    path: '/downloads',
+    name: 'downloads',
+    component: () => import('./Pages/Downloads/Index.vue'),
+  },
+
   // Blogs Pages
   {
     path: '/blogs',

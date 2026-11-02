@@ -297,6 +297,23 @@ onBeforeUnmount(() => {
                 <div class="text-[11px] text-muted-foreground truncate">Scaled passing check & CSC eligibility</div>
               </div>
             </RouterLink>
+
+            <!-- 4: Standard Material Downloads -->
+            <RouterLink
+              to="/downloads"
+              class="flex items-center gap-3 rounded-xl p-2 hover:bg-muted transition-colors group"
+              @click="closeAllMenus"
+            >
+              <span class="flex size-8 shrink-0 items-center justify-center rounded-lg bg-amber-500/10 text-amber-700 dark:text-amber-400 group-hover:scale-105 transition-transform">
+                <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+              </span>
+              <div class="min-w-0">
+                <div class="text-xs font-bold text-foreground">Official Downloads</div>
+                <div class="text-[11px] text-muted-foreground truncate">Textbook PDFs, vocab sheets & audio</div>
+              </div>
+            </RouterLink>
           </div>
         </div>
 
@@ -497,6 +514,19 @@ onBeforeUnmount(() => {
               </svg>
             </span>
             <span>Score Calculator</span>
+          </RouterLink>
+
+          <RouterLink
+            to="/downloads"
+            class="flex items-center gap-3 rounded-xl px-3 py-2 text-foreground hover:bg-muted"
+            @click="closeAllMenus"
+          >
+            <span class="flex size-7 shrink-0 items-center justify-center rounded-lg bg-amber-500/10 text-amber-700 dark:text-amber-400">
+              <svg class="size-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+              </svg>
+            </span>
+            <span>Official Material Downloads</span>
           </RouterLink>
         </nav>
       </div>

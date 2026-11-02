@@ -98,6 +98,9 @@ import { RouterLink } from 'vue-router'
             <li>
               <RouterLink to="/blogs" class="text-muted-foreground hover:text-primary transition-colors">Chinese Learning Articles and Study Tips</RouterLink>
             </li>
+            <li>
+              <RouterLink to="/downloads" class="text-muted-foreground hover:text-primary transition-colors">Official Textbook & Audio Downloads</RouterLink>
+            </li>
           </ul>
         </div>
 

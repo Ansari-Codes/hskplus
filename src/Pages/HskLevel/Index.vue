@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import { UiButton, UiBadge } from '../../Ui'
 import CompAdSense from '../../Components/CompAdSense.vue'
+import CompDownloadMaterials from '../../Components/CompDownloadMaterials.vue'
 
 const route = useRoute()
 const level = computed<1 | 2 | 3>(() => {
@@ -199,6 +200,15 @@ const modules = computed(() => [
           </div>
         </div>
       </div>
+
+      <!-- Dedicated Standard Material Downloads Section -->
+      <section class="mt-12 pt-8 border-t border-border">
+        <CompDownloadMaterials
+          :level="level"
+          :title="`📥 Download HSK ${level} Standard Course Materials`"
+          :subtitle="`Get the authentic BLCUP textbook PDF, Hanban certified vocabulary sheet, and full mock test papers with listening audio for HSK ${level}.`"
+        />
+      </section>
 
       <!-- In-Page Ad Placement -->
       <CompAdSense format="in-article" slot-id="hsk-hub-mid" />
