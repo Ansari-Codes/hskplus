@@ -1,0 +1,6302 @@
+[
+  {
+    "id": 301,
+    "character": "阿姨",
+    "pinyin": "āyí",
+    "meaning": "aunt",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "这位阿姨很热心。",
+        "pinyin": "Zhè wèi āyí hěn rèxīn.",
+        "translation": "This auntie is very warm-hearted."
+      },
+      {
+        "chinese": "阿姨好，请进！",
+        "pinyin": "Āyí hǎo, qǐng jìn!",
+        "translation": "Hello Auntie, please come in!"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "character": "啊",
+    "pinyin": "a",
+    "meaning": "ah",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用啊交流。",
+        "pinyin": "Wǒmen jīngcháng yòng a jiāoliú.",
+        "translation": "We often use 啊 (ah) in communication."
+      },
+      {
+        "chinese": "你知道这个啊的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège a de yìsi ma?",
+        "translation": "Do you know the meaning of this 啊?"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "character": "矮",
+    "pinyin": "ǎi",
+    "meaning": "short",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们经常用矮交流。",
+        "pinyin": "Wǒmen jīngcháng yòng ǎi jiāoliú.",
+        "translation": "We often use 矮 (short) in communication."
+      },
+      {
+        "chinese": "你知道这个矮的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège ǎi de yìsi ma?",
+        "translation": "Do you know the meaning of this 矮?"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "character": "爱好",
+    "pinyin": "àihào",
+    "meaning": "hobby",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用爱好交流。",
+        "pinyin": "Wǒmen jīngcháng yòng àihào jiāoliú.",
+        "translation": "We often use 爱好 (hobby) in communication."
+      },
+      {
+        "chinese": "你知道这个爱好的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège àihào de yìsi ma?",
+        "translation": "Do you know the meaning of this 爱好?"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "character": "安静",
+    "pinyin": "ānjìng",
+    "meaning": "Be quiet",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "图书馆里非常安静。",
+        "pinyin": "Túshūguǎn lǐ fēicháng ānjìng.",
+        "translation": "It is very quiet inside the library."
+      },
+      {
+        "chinese": "请大家保持安静。",
+        "pinyin": "Qǐng dàjiā bǎochí ānjìng.",
+        "translation": "Please remain quiet, everyone."
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "character": "把",
+    "pinyin": "bǎ",
+    "meaning": "hold",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "请把空调关了。",
+        "pinyin": "Qǐng bǎ kōngtiáo guān le.",
+        "translation": "Please turn off the air conditioner."
+      },
+      {
+        "chinese": "他把作业做完了。",
+        "pinyin": "Tā bǎ zuòyè zuò wán le.",
+        "translation": "He finished his homework."
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "character": "班",
+    "pinyin": "bān",
+    "meaning": "class",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用班交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bān jiāoliú.",
+        "translation": "We often use 班 (class) in communication."
+      },
+      {
+        "chinese": "你知道这个班的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bān de yìsi ma?",
+        "translation": "Do you know the meaning of this 班?"
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "character": "搬",
+    "pinyin": "bān",
+    "meaning": "move",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们下个月搬新家。",
+        "pinyin": "Wǒmen xià ge yuè bān xīn jiā.",
+        "translation": "We are moving to a new home next month."
+      },
+      {
+        "chinese": "请帮我搬一下这张桌子。",
+        "pinyin": "Qǐng bāng wǒ bān yíxià zhè zhāng zhuōzi.",
+        "translation": "Please help me move this table."
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "character": "半",
+    "pinyin": "bàn",
+    "meaning": "half",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用半交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bàn jiāoliú.",
+        "translation": "We often use 半 (half) in communication."
+      },
+      {
+        "chinese": "你知道这个半的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 半?"
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "character": "办法",
+    "pinyin": "bànfǎ",
+    "meaning": "Way",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "这是一个好办法！",
+        "pinyin": "Zhè shì yí ge hǎo bànfǎ!",
+        "translation": "This is a great solution!"
+      },
+      {
+        "chinese": "你想出办法了吗？",
+        "pinyin": "Nǐ xiǎng chū bànfǎ le ma?",
+        "translation": "Have you thought of a way?"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "character": "办公室",
+    "pinyin": "bàngōngshì",
+    "meaning": "Office",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用办公室交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bàngōngshì jiāoliú.",
+        "translation": "We often use 办公室 (Office) in communication."
+      },
+      {
+        "chinese": "你知道这个办公室的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bàngōngshì de yìsi ma?",
+        "translation": "Do you know the meaning of this 办公室?"
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "character": "帮忙",
+    "pinyin": "bāngmáng",
+    "meaning": "Help",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用帮忙交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bāngmáng jiāoliú.",
+        "translation": "We often use 帮忙 (Help) in communication."
+      },
+      {
+        "chinese": "你知道这个帮忙的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bāngmáng de yìsi ma?",
+        "translation": "Do you know the meaning of this 帮忙?"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "character": "包",
+    "pinyin": "bāo",
+    "meaning": "package",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用包交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bāo jiāoliú.",
+        "translation": "We often use 包 (package) in communication."
+      },
+      {
+        "chinese": "你知道这个包的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bāo de yìsi ma?",
+        "translation": "Do you know the meaning of this 包?"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "character": "饱",
+    "pinyin": "bǎo",
+    "meaning": "full",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用饱交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bǎo jiāoliú.",
+        "translation": "We often use 饱 (full) in communication."
+      },
+      {
+        "chinese": "你知道这个饱的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bǎo de yìsi ma?",
+        "translation": "Do you know the meaning of this 饱?"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "character": "北方",
+    "pinyin": "běifāng",
+    "meaning": "north",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用北方交流。",
+        "pinyin": "Wǒmen jīngcháng yòng běifāng jiāoliú.",
+        "translation": "We often use 北方 (north) in communication."
+      },
+      {
+        "chinese": "你知道这个北方的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège běifāng de yìsi ma?",
+        "translation": "Do you know the meaning of this 北方?"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "character": "被",
+    "pinyin": "bèi",
+    "meaning": "cover",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "西瓜被弟弟吃完了。",
+        "pinyin": "Xīguā bèi dìdi chī wán le.",
+        "translation": "The watermelon was eaten up by younger brother."
+      },
+      {
+        "chinese": "我的雨伞被他借走了。",
+        "pinyin": "Wǒ de yǔsǎn bèi tā jiè zǒu le.",
+        "translation": "My umbrella was borrowed by him."
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "character": "鼻子",
+    "pinyin": "bízi",
+    "meaning": "nose",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 14,
+    "examples": [
+      {
+        "chinese": "我们经常用鼻子交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bízi jiāoliú.",
+        "translation": "We often use 鼻子 (nose) in communication."
+      },
+      {
+        "chinese": "你知道这个鼻子的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bízi de yìsi ma?",
+        "translation": "Do you know the meaning of this 鼻子?"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "character": "比较",
+    "pinyin": "bǐjiào",
+    "meaning": "compare",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用比较交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bǐjiào jiāoliú.",
+        "translation": "We often use 比较 (compare) in communication."
+      },
+      {
+        "chinese": "你知道这个比较的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bǐjiào de yìsi ma?",
+        "translation": "Do you know the meaning of this 比较?"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "character": "比赛",
+    "pinyin": "bǐsài",
+    "meaning": "Match",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用比赛交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bǐsài jiāoliú.",
+        "translation": "We often use 比赛 (Match) in communication."
+      },
+      {
+        "chinese": "你知道这个比赛的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bǐsài de yìsi ma?",
+        "translation": "Do you know the meaning of this 比赛?"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "character": "笔记本",
+    "pinyin": "bǐjìběn",
+    "meaning": "notebook",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用笔记本交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bǐjìběn jiāoliú.",
+        "translation": "We often use 笔记本 (notebook) in communication."
+      },
+      {
+        "chinese": "你知道这个笔记本的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bǐjìběn de yìsi ma?",
+        "translation": "Do you know the meaning of this 笔记本?"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "character": "必须",
+    "pinyin": "bìxū",
+    "meaning": "Must",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用必须交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bìxū jiāoliú.",
+        "translation": "We often use 必须 (Must) in communication."
+      },
+      {
+        "chinese": "你知道这个必须的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bìxū de yìsi ma?",
+        "translation": "Do you know the meaning of this 必须?"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "character": "变化",
+    "pinyin": "biànhuà",
+    "meaning": "change",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用变化交流。",
+        "pinyin": "Wǒmen jīngcháng yòng biànhuà jiāoliú.",
+        "translation": "We often use 变化 (change) in communication."
+      },
+      {
+        "chinese": "你知道这个变化的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège biànhuà de yìsi ma?",
+        "translation": "Do you know the meaning of this 变化?"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "character": "别人",
+    "pinyin": "biéren",
+    "meaning": "Others",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用别人交流。",
+        "pinyin": "Wǒmen jīngcháng yòng biéren jiāoliú.",
+        "translation": "We often use 别人 (Others) in communication."
+      },
+      {
+        "chinese": "你知道这个别人的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège biéren de yìsi ma?",
+        "translation": "Do you know the meaning of this 别人?"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "character": "冰箱",
+    "pinyin": "bīngxiāng",
+    "meaning": "Refrigerator",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用冰箱交流。",
+        "pinyin": "Wǒmen jīngcháng yòng bīngxiāng jiāoliú.",
+        "translation": "We often use 冰箱 (Refrigerator) in communication."
+      },
+      {
+        "chinese": "你知道这个冰箱的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège bīngxiāng de yìsi ma?",
+        "translation": "Do you know the meaning of this 冰箱?"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "character": "菜单",
+    "pinyin": "càidān",
+    "meaning": "menu",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用菜单交流。",
+        "pinyin": "Wǒmen jīngcháng yòng càidān jiāoliú.",
+        "translation": "We often use 菜单 (menu) in communication."
+      },
+      {
+        "chinese": "你知道这个菜单的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège càidān de yìsi ma?",
+        "translation": "Do you know the meaning of this 菜单?"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "character": "参加",
+    "pinyin": "cānjiā",
+    "meaning": "participate in",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用参加交流。",
+        "pinyin": "Wǒmen jīngcháng yòng cānjiā jiāoliú.",
+        "translation": "We often use 参加 (participate in) in communication."
+      },
+      {
+        "chinese": "你知道这个参加的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège cānjiā de yìsi ma?",
+        "translation": "Do you know the meaning of this 参加?"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "character": "草",
+    "pinyin": "cǎo",
+    "meaning": "grass",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用草交流。",
+        "pinyin": "Wǒmen jīngcháng yòng cǎo jiāoliú.",
+        "translation": "We often use 草 (grass) in communication."
+      },
+      {
+        "chinese": "你知道这个草的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège cǎo de yìsi ma?",
+        "translation": "Do you know the meaning of this 草?"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "character": "层",
+    "pinyin": "céng",
+    "meaning": "layer",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用层交流。",
+        "pinyin": "Wǒmen jīngcháng yòng céng jiāoliú.",
+        "translation": "We often use 层 (layer) in communication."
+      },
+      {
+        "chinese": "你知道这个层的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège céng de yìsi ma?",
+        "translation": "Do you know the meaning of this 层?"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "character": "差",
+    "pinyin": "chà",
+    "meaning": "bad",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用差交流。",
+        "pinyin": "Wǒmen jīngcháng yòng chà jiāoliú.",
+        "translation": "We often use 差 (bad) in communication."
+      },
+      {
+        "chinese": "你知道这个差的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège chà de yìsi ma?",
+        "translation": "Do you know the meaning of this 差?"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "character": "超市",
+    "pinyin": "chāoshì",
+    "meaning": "Supermarket",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用超市交流。",
+        "pinyin": "Wǒmen jīngcháng yòng chāoshì jiāoliú.",
+        "translation": "We often use 超市 (Supermarket) in communication."
+      },
+      {
+        "chinese": "你知道这个超市的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège chāoshì de yìsi ma?",
+        "translation": "Do you know the meaning of this 超市?"
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "character": "衬衫",
+    "pinyin": "chènshān",
+    "meaning": "shirt",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用衬衫交流。",
+        "pinyin": "Wǒmen jīngcháng yòng chènshān jiāoliú.",
+        "translation": "We often use 衬衫 (shirt) in communication."
+      },
+      {
+        "chinese": "你知道这个衬衫的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège chènshān de yìsi ma?",
+        "translation": "Do you know the meaning of this 衬衫?"
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "character": "成绩",
+    "pinyin": "chéngjì",
+    "meaning": "achievement",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用成绩交流。",
+        "pinyin": "Wǒmen jīngcháng yòng chéngjì jiāoliú.",
+        "translation": "We often use 成绩 (achievement) in communication."
+      },
+      {
+        "chinese": "你知道这个成绩的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège chéngjì de yìsi ma?",
+        "translation": "Do you know the meaning of this 成绩?"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "character": "城市",
+    "pinyin": "chéngshì",
+    "meaning": "City",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用城市交流。",
+        "pinyin": "Wǒmen jīngcháng yòng chéngshì jiāoliú.",
+        "translation": "We often use 城市 (City) in communication."
+      },
+      {
+        "chinese": "你知道这个城市的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège chéngshì de yìsi ma?",
+        "translation": "Do you know the meaning of this 城市?"
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "character": "迟到",
+    "pinyin": "chídào",
+    "meaning": "Late",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用迟到交流。",
+        "pinyin": "Wǒmen jīngcháng yòng chídào jiāoliú.",
+        "translation": "We often use 迟到 (Late) in communication."
+      },
+      {
+        "chinese": "你知道这个迟到的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège chídào de yìsi ma?",
+        "translation": "Do you know the meaning of this 迟到?"
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "character": "除了",
+    "pinyin": "chúle",
+    "meaning": "except, besides",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用除了交流。",
+        "pinyin": "Wǒmen jīngcháng yòng chúle jiāoliú.",
+        "translation": "We often use 除了 (except, besides) in communication."
+      },
+      {
+        "chinese": "你知道这个除了的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège chúle de yìsi ma?",
+        "translation": "Do you know the meaning of this 除了?"
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "character": "船",
+    "pinyin": "chuán",
+    "meaning": "ship",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用船交流。",
+        "pinyin": "Wǒmen jīngcháng yòng chuán jiāoliú.",
+        "translation": "We often use 船 (ship) in communication."
+      },
+      {
+        "chinese": "你知道这个船的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège chuán de yìsi ma?",
+        "translation": "Do you know the meaning of this 船?"
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "character": "春",
+    "pinyin": "chūn",
+    "meaning": "spring",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用春交流。",
+        "pinyin": "Wǒmen jīngcháng yòng chūn jiāoliú.",
+        "translation": "We often use 春 (spring) in communication."
+      },
+      {
+        "chinese": "你知道这个春的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège chūn de yìsi ma?",
+        "translation": "Do you know the meaning of this 春?"
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "character": "词典",
+    "pinyin": "cídiǎn",
+    "meaning": "Dictionaries",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用词典交流。",
+        "pinyin": "Wǒmen jīngcháng yòng cídiǎn jiāoliú.",
+        "translation": "We often use 词典 (Dictionaries) in communication."
+      },
+      {
+        "chinese": "你知道这个词典的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège cídiǎn de yìsi ma?",
+        "translation": "Do you know the meaning of this 词典?"
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "character": "聪明",
+    "pinyin": "cōngming",
+    "meaning": "clever",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用聪明交流。",
+        "pinyin": "Wǒmen jīngcháng yòng cōngming jiāoliú.",
+        "translation": "We often use 聪明 (clever) in communication."
+      },
+      {
+        "chinese": "你知道这个聪明的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège cōngming de yìsi ma?",
+        "translation": "Do you know the meaning of this 聪明?"
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "character": "打扫",
+    "pinyin": "dǎsǎo",
+    "meaning": "Clean",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用打扫交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dǎsǎo jiāoliú.",
+        "translation": "We often use 打扫 (Clean) in communication."
+      },
+      {
+        "chinese": "你知道这个打扫的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dǎsǎo de yìsi ma?",
+        "translation": "Do you know the meaning of this 打扫?"
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "character": "打算",
+    "pinyin": "dǎsuàn",
+    "meaning": "Plan",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用打算交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dǎsuàn jiāoliú.",
+        "translation": "We often use 打算 (Plan) in communication."
+      },
+      {
+        "chinese": "你知道这个打算的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dǎsuàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 打算?"
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "character": "带",
+    "pinyin": "dài",
+    "meaning": "belt",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用带交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dài jiāoliú.",
+        "translation": "We often use 带 (belt) in communication."
+      },
+      {
+        "chinese": "你知道这个带的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dài de yìsi ma?",
+        "translation": "Do you know the meaning of this 带?"
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "character": "担心",
+    "pinyin": "dānxīn",
+    "meaning": "Worry",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用担心交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dānxīn jiāoliú.",
+        "translation": "We often use 担心 (Worry) in communication."
+      },
+      {
+        "chinese": "你知道这个担心的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dānxīn de yìsi ma?",
+        "translation": "Do you know the meaning of this 担心?"
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "character": "蛋糕",
+    "pinyin": "dàngāo",
+    "meaning": "Cake",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用蛋糕交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dàngāo jiāoliú.",
+        "translation": "We often use 蛋糕 (Cake) in communication."
+      },
+      {
+        "chinese": "你知道这个蛋糕的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dàngāo de yìsi ma?",
+        "translation": "Do you know the meaning of this 蛋糕?"
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "character": "当然",
+    "pinyin": "dāngrán",
+    "meaning": "Of course",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用当然交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dāngrán jiāoliú.",
+        "translation": "We often use 当然 (Of course) in communication."
+      },
+      {
+        "chinese": "你知道这个当然的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dāngrán de yìsi ma?",
+        "translation": "Do you know the meaning of this 当然?"
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "character": "地",
+    "pinyin": "de",
+    "meaning": "word; term",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用地交流。",
+        "pinyin": "Wǒmen jīngcháng yòng de jiāoliú.",
+        "translation": "We often use 地 (word; term) in communication."
+      },
+      {
+        "chinese": "你知道这个地的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège de de yìsi ma?",
+        "translation": "Do you know the meaning of this 地?"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "character": "灯",
+    "pinyin": "dēng",
+    "meaning": "lamp",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用灯交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dēng jiāoliú.",
+        "translation": "We often use 灯 (lamp) in communication."
+      },
+      {
+        "chinese": "你知道这个灯的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dēng de yìsi ma?",
+        "translation": "Do you know the meaning of this 灯?"
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "character": "地方",
+    "pinyin": "dìfang",
+    "meaning": "local",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用地方交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dìfang jiāoliú.",
+        "translation": "We often use 地方 (local) in communication."
+      },
+      {
+        "chinese": "你知道这个地方的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dìfang de yìsi ma?",
+        "translation": "Do you know the meaning of this 地方?"
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "character": "地铁",
+    "pinyin": "dìtiě",
+    "meaning": "metro",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用地铁交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dìtiě jiāoliú.",
+        "translation": "We often use 地铁 (metro) in communication."
+      },
+      {
+        "chinese": "你知道这个地铁的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dìtiě de yìsi ma?",
+        "translation": "Do you know the meaning of this 地铁?"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "character": "地图",
+    "pinyin": "dìtú",
+    "meaning": "Map",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用地图交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dìtú jiāoliú.",
+        "translation": "We often use 地图 (Map) in communication."
+      },
+      {
+        "chinese": "你知道这个地图的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dìtú de yìsi ma?",
+        "translation": "Do you know the meaning of this 地图?"
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "character": "电梯",
+    "pinyin": "diàntī",
+    "meaning": "Elevator.",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用电梯交流。",
+        "pinyin": "Wǒmen jīngcháng yòng diàntī jiāoliú.",
+        "translation": "We often use 电梯 (Elevator.) in communication."
+      },
+      {
+        "chinese": "你知道这个电梯的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège diàntī de yìsi ma?",
+        "translation": "Do you know the meaning of this 电梯?"
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "character": "电子邮件",
+    "pinyin": "diànzǐyóujiàn",
+    "meaning": "E-mail",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用电子邮件交流。",
+        "pinyin": "Wǒmen jīngcháng yòng diànzǐyóujiàn jiāoliú.",
+        "translation": "We often use 电子邮件 (E-mail) in communication."
+      },
+      {
+        "chinese": "你知道这个电子邮件的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège diànzǐyóujiàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 电子邮件?"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "character": "东",
+    "pinyin": "dōng",
+    "meaning": "east",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用东交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dōng jiāoliú.",
+        "translation": "We often use 东 (east) in communication."
+      },
+      {
+        "chinese": "你知道这个东的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dōng de yìsi ma?",
+        "translation": "Do you know the meaning of this 东?"
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "character": "冬",
+    "pinyin": "dōng",
+    "meaning": "winter",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用冬交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dōng jiāoliú.",
+        "translation": "We often use 冬 (winter) in communication."
+      },
+      {
+        "chinese": "你知道这个冬的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dōng de yìsi ma?",
+        "translation": "Do you know the meaning of this 冬?"
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "character": "动物",
+    "pinyin": "dòngwù",
+    "meaning": "Animal",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用动物交流。",
+        "pinyin": "Wǒmen jīngcháng yòng dòngwù jiāoliú.",
+        "translation": "We often use 动物 (Animal) in communication."
+      },
+      {
+        "chinese": "你知道这个动物的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège dòngwù de yìsi ma?",
+        "translation": "Do you know the meaning of this 动物?"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "character": "短",
+    "pinyin": "duǎn",
+    "meaning": "short",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用短交流。",
+        "pinyin": "Wǒmen jīngcháng yòng duǎn jiāoliú.",
+        "translation": "We often use 短 (short) in communication."
+      },
+      {
+        "chinese": "你知道这个短的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège duǎn de yìsi ma?",
+        "translation": "Do you know the meaning of this 短?"
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "character": "段",
+    "pinyin": "duàn",
+    "meaning": "paragraph",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用段交流。",
+        "pinyin": "Wǒmen jīngcháng yòng duàn jiāoliú.",
+        "translation": "We often use 段 (paragraph) in communication."
+      },
+      {
+        "chinese": "你知道这个段的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège duàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 段?"
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "character": "锻炼",
+    "pinyin": "duànliàn",
+    "meaning": "Physical exercise",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 14,
+    "examples": [
+      {
+        "chinese": "我们经常用锻炼交流。",
+        "pinyin": "Wǒmen jīngcháng yòng duànliàn jiāoliú.",
+        "translation": "We often use 锻炼 (Physical exercise) in communication."
+      },
+      {
+        "chinese": "你知道这个锻炼的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège duànliàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 锻炼?"
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "character": "多么",
+    "pinyin": "duōme",
+    "meaning": "such",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用多么交流。",
+        "pinyin": "Wǒmen jīngcháng yòng duōme jiāoliú.",
+        "translation": "We often use 多么 (such) in communication."
+      },
+      {
+        "chinese": "你知道这个多么的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège duōme de yìsi ma?",
+        "translation": "Do you know the meaning of this 多么?"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "character": "饿",
+    "pinyin": "è",
+    "meaning": "hungry",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用饿交流。",
+        "pinyin": "Wǒmen jīngcháng yòng è jiāoliú.",
+        "translation": "We often use 饿 (hungry) in communication."
+      },
+      {
+        "chinese": "你知道这个饿的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège è de yìsi ma?",
+        "translation": "Do you know the meaning of this 饿?"
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "character": "不但……而且……",
+    "pinyin": "búdàn...érqiě…",
+    "meaning": "not only…but also…",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用不但……而且……交流。",
+        "pinyin": "Wǒmen jīngcháng yòng búdàn...érqiě… jiāoliú.",
+        "translation": "We often use 不但……而且…… (not only…but also…) in communication."
+      },
+      {
+        "chinese": "你知道这个不但……而且……的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège búdàn...érqiě… de yìsi ma?",
+        "translation": "Do you know the meaning of this 不但……而且……?"
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "character": "耳朵",
+    "pinyin": "ěrduo",
+    "meaning": "Ears",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用耳朵交流。",
+        "pinyin": "Wǒmen jīngcháng yòng ěrduo jiāoliú.",
+        "translation": "We often use 耳朵 (Ears) in communication."
+      },
+      {
+        "chinese": "你知道这个耳朵的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège ěrduo de yìsi ma?",
+        "translation": "Do you know the meaning of this 耳朵?"
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "character": "发",
+    "pinyin": "fā",
+    "meaning": "send out",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用发交流。",
+        "pinyin": "Wǒmen jīngcháng yòng fā jiāoliú.",
+        "translation": "We often use 发 (send out) in communication."
+      },
+      {
+        "chinese": "你知道这个发的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège fā de yìsi ma?",
+        "translation": "Do you know the meaning of this 发?"
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "character": "发烧",
+    "pinyin": "fāshāo",
+    "meaning": "Have a fever",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用发烧交流。",
+        "pinyin": "Wǒmen jīngcháng yòng fāshāo jiāoliú.",
+        "translation": "We often use 发烧 (Have a fever) in communication."
+      },
+      {
+        "chinese": "你知道这个发烧的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège fāshāo de yìsi ma?",
+        "translation": "Do you know the meaning of this 发烧?"
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "character": "发现",
+    "pinyin": "fāxiàn",
+    "meaning": "find, discover",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用发现交流。",
+        "pinyin": "Wǒmen jīngcháng yòng fāxiàn jiāoliú.",
+        "translation": "We often use 发现 (find, discover) in communication."
+      },
+      {
+        "chinese": "你知道这个发现的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège fāxiàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 发现?"
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "character": "方便",
+    "pinyin": "fāngbiàn",
+    "meaning": "convenient",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用方便交流。",
+        "pinyin": "Wǒmen jīngcháng yòng fāngbiàn jiāoliú.",
+        "translation": "We often use 方便 (convenient) in communication."
+      },
+      {
+        "chinese": "你知道这个方便的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège fāngbiàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 方便?"
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "character": "放",
+    "pinyin": "fàng",
+    "meaning": "discharge",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用放交流。",
+        "pinyin": "Wǒmen jīngcháng yòng fàng jiāoliú.",
+        "translation": "We often use 放 (discharge) in communication."
+      },
+      {
+        "chinese": "你知道这个放的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège fàng de yìsi ma?",
+        "translation": "Do you know the meaning of this 放?"
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "character": "放心",
+    "pinyin": "fàngxīn",
+    "meaning": "Don't worry",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用放心交流。",
+        "pinyin": "Wǒmen jīngcháng yòng fàngxīn jiāoliú.",
+        "translation": "We often use 放心 (Don't worry) in communication."
+      },
+      {
+        "chinese": "你知道这个放心的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège fàngxīn de yìsi ma?",
+        "translation": "Do you know the meaning of this 放心?"
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "character": "分",
+    "pinyin": "fēn",
+    "meaning": "minute",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用分交流。",
+        "pinyin": "Wǒmen jīngcháng yòng fēn jiāoliú.",
+        "translation": "We often use 分 (minute) in communication."
+      },
+      {
+        "chinese": "你知道这个分的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège fēn de yìsi ma?",
+        "translation": "Do you know the meaning of this 分?"
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "character": "附近",
+    "pinyin": "fùjìn",
+    "meaning": "nearby",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用附近交流。",
+        "pinyin": "Wǒmen jīngcháng yòng fùjìn jiāoliú.",
+        "translation": "We often use 附近 (nearby) in communication."
+      },
+      {
+        "chinese": "你知道这个附近的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège fùjìn de yìsi ma?",
+        "translation": "Do you know the meaning of this 附近?"
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "character": "复习",
+    "pinyin": "fùxí",
+    "meaning": "Review",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用复习交流。",
+        "pinyin": "Wǒmen jīngcháng yòng fùxí jiāoliú.",
+        "translation": "We often use 复习 (Review) in communication."
+      },
+      {
+        "chinese": "你知道这个复习的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège fùxí de yìsi ma?",
+        "translation": "Do you know the meaning of this 复习?"
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "character": "干净",
+    "pinyin": "gānjìng",
+    "meaning": "clean",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用干净交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gānjìng jiāoliú.",
+        "translation": "We often use 干净 (clean) in communication."
+      },
+      {
+        "chinese": "你知道这个干净的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gānjìng de yìsi ma?",
+        "translation": "Do you know the meaning of this 干净?"
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "character": "感兴趣",
+    "pinyin": "gǎnxìngqù",
+    "meaning": "be intretested in",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用感兴趣交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gǎnxìngqù jiāoliú.",
+        "translation": "We often use 感兴趣 (be intretested in) in communication."
+      },
+      {
+        "chinese": "你知道这个感兴趣的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gǎnxìngqù de yìsi ma?",
+        "translation": "Do you know the meaning of this 感兴趣?"
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "character": "感冒",
+    "pinyin": "gǎnmào",
+    "meaning": "get a cold",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用感冒交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gǎnmào jiāoliú.",
+        "translation": "We often use 感冒 (get a cold) in communication."
+      },
+      {
+        "chinese": "你知道这个感冒的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gǎnmào de yìsi ma?",
+        "translation": "Do you know the meaning of this 感冒?"
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "character": "刚才",
+    "pinyin": "gāngcái",
+    "meaning": "just",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用刚才交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gāngcái jiāoliú.",
+        "translation": "We often use 刚才 (just) in communication."
+      },
+      {
+        "chinese": "你知道这个刚才的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gāngcái de yìsi ma?",
+        "translation": "Do you know the meaning of this 刚才?"
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "character": "个子",
+    "pinyin": "gèzi",
+    "meaning": "height",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 3,
+    "examples": [
+      {
+        "chinese": "我们经常用个子交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gèzi jiāoliú.",
+        "translation": "We often use 个子 (height) in communication."
+      },
+      {
+        "chinese": "你知道这个个子的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gèzi de yìsi ma?",
+        "translation": "Do you know the meaning of this 个子?"
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "character": "跟",
+    "pinyin": "gēn",
+    "meaning": "with",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们经常用跟交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gēn jiāoliú.",
+        "translation": "We often use 跟 (with) in communication."
+      },
+      {
+        "chinese": "你知道这个跟的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gēn de yìsi ma?",
+        "translation": "Do you know the meaning of this 跟?"
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "character": "根据",
+    "pinyin": "gēnjù",
+    "meaning": "according to",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用根据交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gēnjù jiāoliú.",
+        "translation": "We often use 根据 (according to) in communication."
+      },
+      {
+        "chinese": "你知道这个根据的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gēnjù de yìsi ma?",
+        "translation": "Do you know the meaning of this 根据?"
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "character": "更",
+    "pinyin": "gèng",
+    "meaning": "more",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用更交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gèng jiāoliú.",
+        "translation": "We often use 更 (more) in communication."
+      },
+      {
+        "chinese": "你知道这个更的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gèng de yìsi ma?",
+        "translation": "Do you know the meaning of this 更?"
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "character": "公斤",
+    "pinyin": "gōngjīn",
+    "meaning": "Kg.",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用公斤交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gōngjīn jiāoliú.",
+        "translation": "We often use 公斤 (Kg.) in communication."
+      },
+      {
+        "chinese": "你知道这个公斤的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gōngjīn de yìsi ma?",
+        "translation": "Do you know the meaning of this 公斤?"
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "character": "公园",
+    "pinyin": "gōngyuán",
+    "meaning": "Park",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用公园交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gōngyuán jiāoliú.",
+        "translation": "We often use 公园 (Park) in communication."
+      },
+      {
+        "chinese": "你知道这个公园的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gōngyuán de yìsi ma?",
+        "translation": "Do you know the meaning of this 公园?"
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "character": "故事",
+    "pinyin": "gùshi",
+    "meaning": "Story",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用故事交流。",
+        "pinyin": "Wǒmen jīngcháng yòng gùshi jiāoliú.",
+        "translation": "We often use 故事 (Story) in communication."
+      },
+      {
+        "chinese": "你知道这个故事的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège gùshi de yìsi ma?",
+        "translation": "Do you know the meaning of this 故事?"
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "character": "刮风",
+    "pinyin": "guāfēng",
+    "meaning": "Windy",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用刮风交流。",
+        "pinyin": "Wǒmen jīngcháng yòng guāfēng jiāoliú.",
+        "translation": "We often use 刮风 (Windy) in communication."
+      },
+      {
+        "chinese": "你知道这个刮风的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège guāfēng de yìsi ma?",
+        "translation": "Do you know the meaning of this 刮风?"
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "character": "关",
+    "pinyin": "guān",
+    "meaning": "shut",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用关交流。",
+        "pinyin": "Wǒmen jīngcháng yòng guān jiāoliú.",
+        "translation": "We often use 关 (shut) in communication."
+      },
+      {
+        "chinese": "你知道这个关的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège guān de yìsi ma?",
+        "translation": "Do you know the meaning of this 关?"
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "character": "关系",
+    "pinyin": "guānxì",
+    "meaning": "relationship",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用关系交流。",
+        "pinyin": "Wǒmen jīngcháng yòng guānxì jiāoliú.",
+        "translation": "We often use 关系 (relationship) in communication."
+      },
+      {
+        "chinese": "你知道这个关系的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège guānxì de yìsi ma?",
+        "translation": "Do you know the meaning of this 关系?"
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "character": "关心",
+    "pinyin": "guānxīn",
+    "meaning": "Care for",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用关心交流。",
+        "pinyin": "Wǒmen jīngcháng yòng guānxīn jiāoliú.",
+        "translation": "We often use 关心 (Care for) in communication."
+      },
+      {
+        "chinese": "你知道这个关心的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège guānxīn de yìsi ma?",
+        "translation": "Do you know the meaning of this 关心?"
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "character": "关于",
+    "pinyin": "guānyú",
+    "meaning": "about",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用关于交流。",
+        "pinyin": "Wǒmen jīngcháng yòng guānyú jiāoliú.",
+        "translation": "We often use 关于 (about) in communication."
+      },
+      {
+        "chinese": "你知道这个关于的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège guānyú de yìsi ma?",
+        "translation": "Do you know the meaning of this 关于?"
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "character": "国家",
+    "pinyin": "guójiā",
+    "meaning": "Country",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用国家交流。",
+        "pinyin": "Wǒmen jīngcháng yòng guójiā jiāoliú.",
+        "translation": "We often use 国家 (Country) in communication."
+      },
+      {
+        "chinese": "你知道这个国家的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège guójiā de yìsi ma?",
+        "translation": "Do you know the meaning of this 国家?"
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "character": "过去",
+    "pinyin": "guòqù",
+    "meaning": "Past times",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用过去交流。",
+        "pinyin": "Wǒmen jīngcháng yòng guòqù jiāoliú.",
+        "translation": "We often use 过去 (Past times) in communication."
+      },
+      {
+        "chinese": "你知道这个过去的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège guòqù de yìsi ma?",
+        "translation": "Do you know the meaning of this 过去?"
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "character": "过（动词）",
+    "pinyin": "guò",
+    "meaning": "pass",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用过（动词）交流。",
+        "pinyin": "Wǒmen jīngcháng yòng guò jiāoliú.",
+        "translation": "We often use 过（动词） (pass) in communication."
+      },
+      {
+        "chinese": "你知道这个过（动词）的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège guò de yìsi ma?",
+        "translation": "Do you know the meaning of this 过（动词）?"
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "character": "还是",
+    "pinyin": "háishì",
+    "meaning": "still",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用还是交流。",
+        "pinyin": "Wǒmen jīngcháng yòng háishì jiāoliú.",
+        "translation": "We often use 还是 (still) in communication."
+      },
+      {
+        "chinese": "你知道这个还是的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège háishì de yìsi ma?",
+        "translation": "Do you know the meaning of this 还是?"
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "character": "害怕",
+    "pinyin": "hàipà",
+    "meaning": "Fear",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用害怕交流。",
+        "pinyin": "Wǒmen jīngcháng yòng hàipà jiāoliú.",
+        "translation": "We often use 害怕 (Fear) in communication."
+      },
+      {
+        "chinese": "你知道这个害怕的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège hàipà de yìsi ma?",
+        "translation": "Do you know the meaning of this 害怕?"
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "character": "黑板",
+    "pinyin": "hēibǎn",
+    "meaning": "blackboard",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用黑板交流。",
+        "pinyin": "Wǒmen jīngcháng yòng hēibǎn jiāoliú.",
+        "translation": "We often use 黑板 (blackboard) in communication."
+      },
+      {
+        "chinese": "你知道这个黑板的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège hēibǎn de yìsi ma?",
+        "translation": "Do you know the meaning of this 黑板?"
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "character": "后来",
+    "pinyin": "hòulái",
+    "meaning": "later",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用后来交流。",
+        "pinyin": "Wǒmen jīngcháng yòng hòulái jiāoliú.",
+        "translation": "We often use 后来 (later) in communication."
+      },
+      {
+        "chinese": "你知道这个后来的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège hòulái de yìsi ma?",
+        "translation": "Do you know the meaning of this 后来?"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "character": "护照",
+    "pinyin": "hùzhào",
+    "meaning": "passport",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用护照交流。",
+        "pinyin": "Wǒmen jīngcháng yòng hùzhào jiāoliú.",
+        "translation": "We often use 护照 (passport) in communication."
+      },
+      {
+        "chinese": "你知道这个护照的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège hùzhào de yìsi ma?",
+        "translation": "Do you know the meaning of this 护照?"
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "character": "花（动词）",
+    "pinyin": "huā",
+    "meaning": "spend",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用花（动词）交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huā jiāoliú.",
+        "translation": "We often use 花（动词） (spend) in communication."
+      },
+      {
+        "chinese": "你知道这个花（动词）的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huā de yìsi ma?",
+        "translation": "Do you know the meaning of this 花（动词）?"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "character": "花（名词）",
+    "pinyin": "huā",
+    "meaning": "flower",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用花（名词）交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huā jiāoliú.",
+        "translation": "We often use 花（名词） (flower) in communication."
+      },
+      {
+        "chinese": "你知道这个花（名词）的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huā de yìsi ma?",
+        "translation": "Do you know the meaning of this 花（名词）?"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "character": "画",
+    "pinyin": "huà",
+    "meaning": "painting",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用画交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huà jiāoliú.",
+        "translation": "We often use 画 (painting) in communication."
+      },
+      {
+        "chinese": "你知道这个画的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huà de yìsi ma?",
+        "translation": "Do you know the meaning of this 画?"
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "character": "坏",
+    "pinyin": "huài",
+    "meaning": "bad",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用坏交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huài jiāoliú.",
+        "translation": "We often use 坏 (bad) in communication."
+      },
+      {
+        "chinese": "你知道这个坏的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huài de yìsi ma?",
+        "translation": "Do you know the meaning of this 坏?"
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "character": "欢迎",
+    "pinyin": "huānyíng",
+    "meaning": "Welcome",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用欢迎交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huānyíng jiāoliú.",
+        "translation": "We often use 欢迎 (Welcome) in communication."
+      },
+      {
+        "chinese": "你知道这个欢迎的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huānyíng de yìsi ma?",
+        "translation": "Do you know the meaning of this 欢迎?"
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "character": "还（动词）",
+    "pinyin": "huán",
+    "meaning": "Return",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用还（动词）交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huán jiāoliú.",
+        "translation": "We often use 还（动词） (Return) in communication."
+      },
+      {
+        "chinese": "你知道这个还（动词）的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huán de yìsi ma?",
+        "translation": "Do you know the meaning of this 还（动词）?"
+      }
+    ]
+  },
+  {
+    "id": 402,
+    "character": "环境",
+    "pinyin": "huánjìng",
+    "meaning": "Environment",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用环境交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huánjìng jiāoliú.",
+        "translation": "We often use 环境 (Environment) in communication."
+      },
+      {
+        "chinese": "你知道这个环境的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huánjìng de yìsi ma?",
+        "translation": "Do you know the meaning of this 环境?"
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "character": "换",
+    "pinyin": "huàn",
+    "meaning": "change",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用换交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huàn jiāoliú.",
+        "translation": "We often use 换 (change) in communication."
+      },
+      {
+        "chinese": "你知道这个换的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 换?"
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "character": "黄河",
+    "pinyin": "huánghé",
+    "meaning": "Yellow River",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用黄河交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huánghé jiāoliú.",
+        "translation": "We often use 黄河 (Yellow River) in communication."
+      },
+      {
+        "chinese": "你知道这个黄河的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huánghé de yìsi ma?",
+        "translation": "Do you know the meaning of this 黄河?"
+      }
+    ]
+  },
+  {
+    "id": 405,
+    "character": "回答",
+    "pinyin": "huídá",
+    "meaning": "Answer",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用回答交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huídá jiāoliú.",
+        "translation": "We often use 回答 (Answer) in communication."
+      },
+      {
+        "chinese": "你知道这个回答的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huídá de yìsi ma?",
+        "translation": "Do you know the meaning of this 回答?"
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "character": "会议",
+    "pinyin": "huìyì",
+    "meaning": "Meeting",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用会议交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huìyì jiāoliú.",
+        "translation": "We often use 会议 (Meeting) in communication."
+      },
+      {
+        "chinese": "你知道这个会议的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huìyì de yìsi ma?",
+        "translation": "Do you know the meaning of this 会议?"
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "character": "或者",
+    "pinyin": "huòzhě",
+    "meaning": "perhaps",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用或者交流。",
+        "pinyin": "Wǒmen jīngcháng yòng huòzhě jiāoliú.",
+        "translation": "We often use 或者 (perhaps) in communication."
+      },
+      {
+        "chinese": "你知道这个或者的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège huòzhě de yìsi ma?",
+        "translation": "Do you know the meaning of this 或者?"
+      }
+    ]
+  },
+  {
+    "id": 408,
+    "character": "几乎",
+    "pinyin": "jīhū",
+    "meaning": "almost",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 2,
+    "examples": [
+      {
+        "chinese": "我们经常用几乎交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jīhū jiāoliú.",
+        "translation": "We often use 几乎 (almost) in communication."
+      },
+      {
+        "chinese": "你知道这个几乎的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jīhū de yìsi ma?",
+        "translation": "Do you know the meaning of this 几乎?"
+      }
+    ]
+  },
+  {
+    "id": 409,
+    "character": "机会",
+    "pinyin": "jīhuì",
+    "meaning": "Opportunity",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用机会交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jīhuì jiāoliú.",
+        "translation": "We often use 机会 (Opportunity) in communication."
+      },
+      {
+        "chinese": "你知道这个机会的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jīhuì de yìsi ma?",
+        "translation": "Do you know the meaning of this 机会?"
+      }
+    ]
+  },
+  {
+    "id": 410,
+    "character": "极",
+    "pinyin": "jí",
+    "meaning": "extremely",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用极交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jí jiāoliú.",
+        "translation": "We often use 极 (extremely) in communication."
+      },
+      {
+        "chinese": "你知道这个极的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jí de yìsi ma?",
+        "translation": "Do you know the meaning of this 极?"
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "character": "记得",
+    "pinyin": "jìde",
+    "meaning": "remember",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用记得交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jìde jiāoliú.",
+        "translation": "We often use 记得 (remember) in communication."
+      },
+      {
+        "chinese": "你知道这个记得的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jìde de yìsi ma?",
+        "translation": "Do you know the meaning of this 记得?"
+      }
+    ]
+  },
+  {
+    "id": 412,
+    "character": "季节",
+    "pinyin": "jìjié",
+    "meaning": "Season",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用季节交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jìjié jiāoliú.",
+        "translation": "We often use 季节 (Season) in communication."
+      },
+      {
+        "chinese": "你知道这个季节的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jìjié de yìsi ma?",
+        "translation": "Do you know the meaning of this 季节?"
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "character": "检查",
+    "pinyin": "jiǎnchá",
+    "meaning": "inspect",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用检查交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiǎnchá jiāoliú.",
+        "translation": "We often use 检查 (inspect) in communication."
+      },
+      {
+        "chinese": "你知道这个检查的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiǎnchá de yìsi ma?",
+        "translation": "Do you know the meaning of this 检查?"
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "character": "简单",
+    "pinyin": "jiǎndān",
+    "meaning": "simple",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用简单交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiǎndān jiāoliú.",
+        "translation": "We often use 简单 (simple) in communication."
+      },
+      {
+        "chinese": "你知道这个简单的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiǎndān de yìsi ma?",
+        "translation": "Do you know the meaning of this 简单?"
+      }
+    ]
+  },
+  {
+    "id": 415,
+    "character": "健康",
+    "pinyin": "jiànkāng",
+    "meaning": "Healthy",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用健康交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiànkāng jiāoliú.",
+        "translation": "We often use 健康 (Healthy) in communication."
+      },
+      {
+        "chinese": "你知道这个健康的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiànkāng de yìsi ma?",
+        "translation": "Do you know the meaning of this 健康?"
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "character": "见面",
+    "pinyin": "jiànmiàn",
+    "meaning": "meet",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用见面交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiànmiàn jiāoliú.",
+        "translation": "We often use 见面 (meet) in communication."
+      },
+      {
+        "chinese": "你知道这个见面的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiànmiàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 见面?"
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "character": "讲",
+    "pinyin": "jiǎng",
+    "meaning": "speak",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用讲交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiǎng jiāoliú.",
+        "translation": "We often use 讲 (speak) in communication."
+      },
+      {
+        "chinese": "你知道这个讲的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiǎng de yìsi ma?",
+        "translation": "Do you know the meaning of this 讲?"
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "character": "教",
+    "pinyin": "jiāo",
+    "meaning": "teach",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用教交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiāo jiāoliú.",
+        "translation": "We often use 教 (teach) in communication."
+      },
+      {
+        "chinese": "你知道这个教的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiāo de yìsi ma?",
+        "translation": "Do you know the meaning of this 教?"
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "character": "角",
+    "pinyin": "jiǎo",
+    "meaning": "horn",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用角交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiǎo jiāoliú.",
+        "translation": "We often use 角 (horn) in communication."
+      },
+      {
+        "chinese": "你知道这个角的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiǎo de yìsi ma?",
+        "translation": "Do you know the meaning of this 角?"
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "character": "脚",
+    "pinyin": "jiǎo",
+    "meaning": "foot",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用脚交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiǎo jiāoliú.",
+        "translation": "We often use 脚 (foot) in communication."
+      },
+      {
+        "chinese": "你知道这个脚的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiǎo de yìsi ma?",
+        "translation": "Do you know the meaning of this 脚?"
+      }
+    ]
+  },
+  {
+    "id": 421,
+    "character": "接",
+    "pinyin": "jiē",
+    "meaning": "pick,get",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用接交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiē jiāoliú.",
+        "translation": "We often use 接 (pick,get) in communication."
+      },
+      {
+        "chinese": "你知道这个接的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiē de yìsi ma?",
+        "translation": "Do you know the meaning of this 接?"
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "character": "街道",
+    "pinyin": "jiēdào",
+    "meaning": "Street",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用街道交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiēdào jiāoliú.",
+        "translation": "We often use 街道 (Street) in communication."
+      },
+      {
+        "chinese": "你知道这个街道的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiēdào de yìsi ma?",
+        "translation": "Do you know the meaning of this 街道?"
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "character": "结婚",
+    "pinyin": "jiéhūn",
+    "meaning": "marry",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用结婚交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiéhūn jiāoliú.",
+        "translation": "We often use 结婚 (marry) in communication."
+      },
+      {
+        "chinese": "你知道这个结婚的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiéhūn de yìsi ma?",
+        "translation": "Do you know the meaning of this 结婚?"
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "character": "结束",
+    "pinyin": "jiéshù",
+    "meaning": "End",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用结束交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiéshù jiāoliú.",
+        "translation": "We often use 结束 (End) in communication."
+      },
+      {
+        "chinese": "你知道这个结束的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiéshù de yìsi ma?",
+        "translation": "Do you know the meaning of this 结束?"
+      }
+    ]
+  },
+  {
+    "id": 425,
+    "character": "节目",
+    "pinyin": "jiémù",
+    "meaning": "program",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用节目交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiémù jiāoliú.",
+        "translation": "We often use 节目 (program) in communication."
+      },
+      {
+        "chinese": "你知道这个节目的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiémù de yìsi ma?",
+        "translation": "Do you know the meaning of this 节目?"
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "character": "节日",
+    "pinyin": "jiérì",
+    "meaning": "festival",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用节日交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiérì jiāoliú.",
+        "translation": "We often use 节日 (festival) in communication."
+      },
+      {
+        "chinese": "你知道这个节日的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiérì de yìsi ma?",
+        "translation": "Do you know the meaning of this 节日?"
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "character": "解决",
+    "pinyin": "jiějué",
+    "meaning": "Solve",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用解决交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiějué jiāoliú.",
+        "translation": "We often use 解决 (Solve) in communication."
+      },
+      {
+        "chinese": "你知道这个解决的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiějué de yìsi ma?",
+        "translation": "Do you know the meaning of this 解决?"
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "character": "借",
+    "pinyin": "jiè",
+    "meaning": "borrow",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用借交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiè jiāoliú.",
+        "translation": "We often use 借 (borrow) in communication."
+      },
+      {
+        "chinese": "你知道这个借的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiè de yìsi ma?",
+        "translation": "Do you know the meaning of this 借?"
+      }
+    ]
+  },
+  {
+    "id": 429,
+    "character": "经常",
+    "pinyin": "jīngcháng",
+    "meaning": "Often",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用经常交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jīngcháng jiāoliú.",
+        "translation": "We often use 经常 (Often) in communication."
+      },
+      {
+        "chinese": "你知道这个经常的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jīngcháng de yìsi ma?",
+        "translation": "Do you know the meaning of this 经常?"
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "character": "经过",
+    "pinyin": "jīngguò",
+    "meaning": "After, through",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用经过交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jīngguò jiāoliú.",
+        "translation": "We often use 经过 (After, through) in communication."
+      },
+      {
+        "chinese": "你知道这个经过的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jīngguò de yìsi ma?",
+        "translation": "Do you know the meaning of this 经过?"
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "character": "经理",
+    "pinyin": "jīnglǐ",
+    "meaning": "manager",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用经理交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jīnglǐ jiāoliú.",
+        "translation": "We often use 经理 (manager) in communication."
+      },
+      {
+        "chinese": "你知道这个经理的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jīnglǐ de yìsi ma?",
+        "translation": "Do you know the meaning of this 经理?"
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "character": "久",
+    "pinyin": "jiǔ",
+    "meaning": "long",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 3,
+    "examples": [
+      {
+        "chinese": "我们经常用久交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiǔ jiāoliú.",
+        "translation": "We often use 久 (long) in communication."
+      },
+      {
+        "chinese": "你知道这个久的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiǔ de yìsi ma?",
+        "translation": "Do you know the meaning of this 久?"
+      }
+    ]
+  },
+  {
+    "id": 433,
+    "character": "旧",
+    "pinyin": "jiù",
+    "meaning": "old,used",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用旧交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jiù jiāoliú.",
+        "translation": "We often use 旧 (old,used) in communication."
+      },
+      {
+        "chinese": "你知道这个旧的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jiù de yìsi ma?",
+        "translation": "Do you know the meaning of this 旧?"
+      }
+    ]
+  },
+  {
+    "id": 434,
+    "character": "句子",
+    "pinyin": "jùzi",
+    "meaning": "sentence",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用句子交流。",
+        "pinyin": "Wǒmen jīngcháng yòng jùzi jiāoliú.",
+        "translation": "We often use 句子 (sentence) in communication."
+      },
+      {
+        "chinese": "你知道这个句子的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège jùzi de yìsi ma?",
+        "translation": "Do you know the meaning of this 句子?"
+      }
+    ]
+  },
+  {
+    "id": 435,
+    "character": "决定",
+    "pinyin": "juédìng",
+    "meaning": "Decision",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用决定交流。",
+        "pinyin": "Wǒmen jīngcháng yòng juédìng jiāoliú.",
+        "translation": "We often use 决定 (Decision) in communication."
+      },
+      {
+        "chinese": "你知道这个决定的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège juédìng de yìsi ma?",
+        "translation": "Do you know the meaning of this 决定?"
+      }
+    ]
+  },
+  {
+    "id": 436,
+    "character": "渴",
+    "pinyin": "kě",
+    "meaning": "thirsty",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用渴交流。",
+        "pinyin": "Wǒmen jīngcháng yòng kě jiāoliú.",
+        "translation": "We often use 渴 (thirsty) in communication."
+      },
+      {
+        "chinese": "你知道这个渴的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège kě de yìsi ma?",
+        "translation": "Do you know the meaning of this 渴?"
+      }
+    ]
+  },
+  {
+    "id": 437,
+    "character": "可爱",
+    "pinyin": "kě'ài",
+    "meaning": "Lovely",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用可爱交流。",
+        "pinyin": "Wǒmen jīngcháng yòng kě'ài jiāoliú.",
+        "translation": "We often use 可爱 (Lovely) in communication."
+      },
+      {
+        "chinese": "你知道这个可爱的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège kě'ài de yìsi ma?",
+        "translation": "Do you know the meaning of this 可爱?"
+      }
+    ]
+  },
+  {
+    "id": 438,
+    "character": "刻",
+    "pinyin": "kè",
+    "meaning": "moment",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用刻交流。",
+        "pinyin": "Wǒmen jīngcháng yòng kè jiāoliú.",
+        "translation": "We often use 刻 (moment) in communication."
+      },
+      {
+        "chinese": "你知道这个刻的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège kè de yìsi ma?",
+        "translation": "Do you know the meaning of this 刻?"
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "character": "客人",
+    "pinyin": "kèrén",
+    "meaning": "Guest",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用客人交流。",
+        "pinyin": "Wǒmen jīngcháng yòng kèrén jiāoliú.",
+        "translation": "We often use 客人 (Guest) in communication."
+      },
+      {
+        "chinese": "你知道这个客人的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège kèrén de yìsi ma?",
+        "translation": "Do you know the meaning of this 客人?"
+      }
+    ]
+  },
+  {
+    "id": 440,
+    "character": "空调",
+    "pinyin": "kōngtiáo",
+    "meaning": "Air conditioner",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用空调交流。",
+        "pinyin": "Wǒmen jīngcháng yòng kōngtiáo jiāoliú.",
+        "translation": "We often use 空调 (Air conditioner) in communication."
+      },
+      {
+        "chinese": "你知道这个空调的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège kōngtiáo de yìsi ma?",
+        "translation": "Do you know the meaning of this 空调?"
+      }
+    ]
+  },
+  {
+    "id": 441,
+    "character": "口",
+    "pinyin": "kǒu",
+    "meaning": "mouth",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 3,
+    "examples": [
+      {
+        "chinese": "我们经常用口交流。",
+        "pinyin": "Wǒmen jīngcháng yòng kǒu jiāoliú.",
+        "translation": "We often use 口 (mouth) in communication."
+      },
+      {
+        "chinese": "你知道这个口的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège kǒu de yìsi ma?",
+        "translation": "Do you know the meaning of this 口?"
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "character": "哭",
+    "pinyin": "kū",
+    "meaning": "cry",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用哭交流。",
+        "pinyin": "Wǒmen jīngcháng yòng kū jiāoliú.",
+        "translation": "We often use 哭 (cry) in communication."
+      },
+      {
+        "chinese": "你知道这个哭的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège kū de yìsi ma?",
+        "translation": "Do you know the meaning of this 哭?"
+      }
+    ]
+  },
+  {
+    "id": 443,
+    "character": "裤子",
+    "pinyin": "kùzi",
+    "meaning": "trousers",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用裤子交流。",
+        "pinyin": "Wǒmen jīngcháng yòng kùzi jiāoliú.",
+        "translation": "We often use 裤子 (trousers) in communication."
+      },
+      {
+        "chinese": "你知道这个裤子的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège kùzi de yìsi ma?",
+        "translation": "Do you know the meaning of this 裤子?"
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "character": "筷子",
+    "pinyin": "kuàizi",
+    "meaning": "chopsticks",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用筷子交流。",
+        "pinyin": "Wǒmen jīngcháng yòng kuàizi jiāoliú.",
+        "translation": "We often use 筷子 (chopsticks) in communication."
+      },
+      {
+        "chinese": "你知道这个筷子的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège kuàizi de yìsi ma?",
+        "translation": "Do you know the meaning of this 筷子?"
+      }
+    ]
+  },
+  {
+    "id": 445,
+    "character": "蓝",
+    "pinyin": "lán",
+    "meaning": "blue",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用蓝交流。",
+        "pinyin": "Wǒmen jīngcháng yòng lán jiāoliú.",
+        "translation": "We often use 蓝 (blue) in communication."
+      },
+      {
+        "chinese": "你知道这个蓝的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège lán de yìsi ma?",
+        "translation": "Do you know the meaning of this 蓝?"
+      }
+    ]
+  },
+  {
+    "id": 446,
+    "character": "老",
+    "pinyin": "lǎo",
+    "meaning": "old",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用老交流。",
+        "pinyin": "Wǒmen jīngcháng yòng lǎo jiāoliú.",
+        "translation": "We often use 老 (old) in communication."
+      },
+      {
+        "chinese": "你知道这个老的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège lǎo de yìsi ma?",
+        "translation": "Do you know the meaning of this 老?"
+      }
+    ]
+  },
+  {
+    "id": 447,
+    "character": "离开",
+    "pinyin": "líkāi",
+    "meaning": "leave",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用离开交流。",
+        "pinyin": "Wǒmen jīngcháng yòng líkāi jiāoliú.",
+        "translation": "We often use 离开 (leave) in communication."
+      },
+      {
+        "chinese": "你知道这个离开的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège líkāi de yìsi ma?",
+        "translation": "Do you know the meaning of this 离开?"
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "character": "礼物",
+    "pinyin": "lǐwù",
+    "meaning": "gift",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用礼物交流。",
+        "pinyin": "Wǒmen jīngcháng yòng lǐwù jiāoliú.",
+        "translation": "We often use 礼物 (gift) in communication."
+      },
+      {
+        "chinese": "你知道这个礼物的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège lǐwù de yìsi ma?",
+        "translation": "Do you know the meaning of this 礼物?"
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "character": "历史",
+    "pinyin": "lìshǐ",
+    "meaning": "History",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用历史交流。",
+        "pinyin": "Wǒmen jīngcháng yòng lìshǐ jiāoliú.",
+        "translation": "We often use 历史 (History) in communication."
+      },
+      {
+        "chinese": "你知道这个历史的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège lìshǐ de yìsi ma?",
+        "translation": "Do you know the meaning of this 历史?"
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "character": "脸",
+    "pinyin": "liǎn",
+    "meaning": "face",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用脸交流。",
+        "pinyin": "Wǒmen jīngcháng yòng liǎn jiāoliú.",
+        "translation": "We often use 脸 (face) in communication."
+      },
+      {
+        "chinese": "你知道这个脸的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège liǎn de yìsi ma?",
+        "translation": "Do you know the meaning of this 脸?"
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "character": "聊天",
+    "pinyin": "liáotiān",
+    "meaning": "chat",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用聊天交流。",
+        "pinyin": "Wǒmen jīngcháng yòng liáotiān jiāoliú.",
+        "translation": "We often use 聊天 (chat) in communication."
+      },
+      {
+        "chinese": "你知道这个聊天的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège liáotiān de yìsi ma?",
+        "translation": "Do you know the meaning of this 聊天?"
+      }
+    ]
+  },
+  {
+    "id": 452,
+    "character": "练习",
+    "pinyin": "liànxí",
+    "meaning": "Practice",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用练习交流。",
+        "pinyin": "Wǒmen jīngcháng yòng liànxí jiāoliú.",
+        "translation": "We often use 练习 (Practice) in communication."
+      },
+      {
+        "chinese": "你知道这个练习的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège liànxí de yìsi ma?",
+        "translation": "Do you know the meaning of this 练习?"
+      }
+    ]
+  },
+  {
+    "id": 453,
+    "character": "辆",
+    "pinyin": "liàng",
+    "meaning": "Car",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用辆交流。",
+        "pinyin": "Wǒmen jīngcháng yòng liàng jiāoliú.",
+        "translation": "We often use 辆 (Car) in communication."
+      },
+      {
+        "chinese": "你知道这个辆的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège liàng de yìsi ma?",
+        "translation": "Do you know the meaning of this 辆?"
+      }
+    ]
+  },
+  {
+    "id": 454,
+    "character": "了解",
+    "pinyin": "liǎojiě",
+    "meaning": "understand",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 2,
+    "examples": [
+      {
+        "chinese": "我们经常用了解交流。",
+        "pinyin": "Wǒmen jīngcháng yòng liǎojiě jiāoliú.",
+        "translation": "We often use 了解 (understand) in communication."
+      },
+      {
+        "chinese": "你知道这个了解的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège liǎojiě de yìsi ma?",
+        "translation": "Do you know the meaning of this 了解?"
+      }
+    ]
+  },
+  {
+    "id": 455,
+    "character": "邻居",
+    "pinyin": "línjū",
+    "meaning": "neighbor",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用邻居交流。",
+        "pinyin": "Wǒmen jīngcháng yòng línjū jiāoliú.",
+        "translation": "We often use 邻居 (neighbor) in communication."
+      },
+      {
+        "chinese": "你知道这个邻居的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège línjū de yìsi ma?",
+        "translation": "Do you know the meaning of this 邻居?"
+      }
+    ]
+  },
+  {
+    "id": 456,
+    "character": "留学",
+    "pinyin": "liúxué",
+    "meaning": "Overseas Study",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用留学交流。",
+        "pinyin": "Wǒmen jīngcháng yòng liúxué jiāoliú.",
+        "translation": "We often use 留学 (Overseas Study) in communication."
+      },
+      {
+        "chinese": "你知道这个留学的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège liúxué de yìsi ma?",
+        "translation": "Do you know the meaning of this 留学?"
+      }
+    ]
+  },
+  {
+    "id": 457,
+    "character": "楼",
+    "pinyin": "lóu",
+    "meaning": "floor",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们经常用楼交流。",
+        "pinyin": "Wǒmen jīngcháng yòng lóu jiāoliú.",
+        "translation": "We often use 楼 (floor) in communication."
+      },
+      {
+        "chinese": "你知道这个楼的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège lóu de yìsi ma?",
+        "translation": "Do you know the meaning of this 楼?"
+      }
+    ]
+  },
+  {
+    "id": 458,
+    "character": "绿",
+    "pinyin": "lǜ",
+    "meaning": "green",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用绿交流。",
+        "pinyin": "Wǒmen jīngcháng yòng lǜ jiāoliú.",
+        "translation": "We often use 绿 (green) in communication."
+      },
+      {
+        "chinese": "你知道这个绿的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège lǜ de yìsi ma?",
+        "translation": "Do you know the meaning of this 绿?"
+      }
+    ]
+  },
+  {
+    "id": 459,
+    "character": "马",
+    "pinyin": "mǎ",
+    "meaning": "Horse",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 3,
+    "examples": [
+      {
+        "chinese": "我们经常用马交流。",
+        "pinyin": "Wǒmen jīngcháng yòng mǎ jiāoliú.",
+        "translation": "We often use 马 (Horse) in communication."
+      },
+      {
+        "chinese": "你知道这个马的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège mǎ de yìsi ma?",
+        "translation": "Do you know the meaning of this 马?"
+      }
+    ]
+  },
+  {
+    "id": 460,
+    "character": "马上",
+    "pinyin": "mǎshàng",
+    "meaning": "Right off",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 3,
+    "examples": [
+      {
+        "chinese": "我们经常用马上交流。",
+        "pinyin": "Wǒmen jīngcháng yòng mǎshàng jiāoliú.",
+        "translation": "We often use 马上 (Right off) in communication."
+      },
+      {
+        "chinese": "你知道这个马上的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège mǎshàng de yìsi ma?",
+        "translation": "Do you know the meaning of this 马上?"
+      }
+    ]
+  },
+  {
+    "id": 461,
+    "character": "满意",
+    "pinyin": "mǎnyì",
+    "meaning": "Satisfied",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们经常用满意交流。",
+        "pinyin": "Wǒmen jīngcháng yòng mǎnyì jiāoliú.",
+        "translation": "We often use 满意 (Satisfied) in communication."
+      },
+      {
+        "chinese": "你知道这个满意的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège mǎnyì de yìsi ma?",
+        "translation": "Do you know the meaning of this 满意?"
+      }
+    ]
+  },
+  {
+    "id": 462,
+    "character": "帽子",
+    "pinyin": "màozi",
+    "meaning": "Hat",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用帽子交流。",
+        "pinyin": "Wǒmen jīngcháng yòng màozi jiāoliú.",
+        "translation": "We often use 帽子 (Hat) in communication."
+      },
+      {
+        "chinese": "你知道这个帽子的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège màozi de yìsi ma?",
+        "translation": "Do you know the meaning of this 帽子?"
+      }
+    ]
+  },
+  {
+    "id": 463,
+    "character": "米",
+    "pinyin": "mǐ",
+    "meaning": "rice",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用米交流。",
+        "pinyin": "Wǒmen jīngcháng yòng mǐ jiāoliú.",
+        "translation": "We often use 米 (rice) in communication."
+      },
+      {
+        "chinese": "你知道这个米的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège mǐ de yìsi ma?",
+        "translation": "Do you know the meaning of this 米?"
+      }
+    ]
+  },
+  {
+    "id": 464,
+    "character": "面包",
+    "pinyin": "miànbāo",
+    "meaning": "Bread",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用面包交流。",
+        "pinyin": "Wǒmen jīngcháng yòng miànbāo jiāoliú.",
+        "translation": "We often use 面包 (Bread) in communication."
+      },
+      {
+        "chinese": "你知道这个面包的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège miànbāo de yìsi ma?",
+        "translation": "Do you know the meaning of this 面包?"
+      }
+    ]
+  },
+  {
+    "id": 465,
+    "character": "明白",
+    "pinyin": "míngbai",
+    "meaning": "clear",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用明白交流。",
+        "pinyin": "Wǒmen jīngcháng yòng míngbai jiāoliú.",
+        "translation": "We often use 明白 (clear) in communication."
+      },
+      {
+        "chinese": "你知道这个明白的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège míngbai de yìsi ma?",
+        "translation": "Do you know the meaning of this 明白?"
+      }
+    ]
+  },
+  {
+    "id": 466,
+    "character": "拿",
+    "pinyin": "ná",
+    "meaning": "take",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用拿交流。",
+        "pinyin": "Wǒmen jīngcháng yòng ná jiāoliú.",
+        "translation": "We often use 拿 (take) in communication."
+      },
+      {
+        "chinese": "你知道这个拿的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège ná de yìsi ma?",
+        "translation": "Do you know the meaning of this 拿?"
+      }
+    ]
+  },
+  {
+    "id": 467,
+    "character": "奶奶",
+    "pinyin": "nǎinai",
+    "meaning": "grandma",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用奶奶交流。",
+        "pinyin": "Wǒmen jīngcháng yòng nǎinai jiāoliú.",
+        "translation": "We often use 奶奶 (grandma) in communication."
+      },
+      {
+        "chinese": "你知道这个奶奶的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège nǎinai de yìsi ma?",
+        "translation": "Do you know the meaning of this 奶奶?"
+      }
+    ]
+  },
+  {
+    "id": 468,
+    "character": "南",
+    "pinyin": "nán",
+    "meaning": "south",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用南交流。",
+        "pinyin": "Wǒmen jīngcháng yòng nán jiāoliú.",
+        "translation": "We often use 南 (south) in communication."
+      },
+      {
+        "chinese": "你知道这个南的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège nán de yìsi ma?",
+        "translation": "Do you know the meaning of this 南?"
+      }
+    ]
+  },
+  {
+    "id": 469,
+    "character": "难",
+    "pinyin": "nán",
+    "meaning": "difficult",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用难交流。",
+        "pinyin": "Wǒmen jīngcháng yòng nán jiāoliú.",
+        "translation": "We often use 难 (difficult) in communication."
+      },
+      {
+        "chinese": "你知道这个难的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège nán de yìsi ma?",
+        "translation": "Do you know the meaning of this 难?"
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "character": "难过",
+    "pinyin": "nánguò",
+    "meaning": "sad",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用难过交流。",
+        "pinyin": "Wǒmen jīngcháng yòng nánguò jiāoliú.",
+        "translation": "We often use 难过 (sad) in communication."
+      },
+      {
+        "chinese": "你知道这个难过的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège nánguò de yìsi ma?",
+        "translation": "Do you know the meaning of this 难过?"
+      }
+    ]
+  },
+  {
+    "id": 471,
+    "character": "年级",
+    "pinyin": "niánjí",
+    "meaning": "grade",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用年级交流。",
+        "pinyin": "Wǒmen jīngcháng yòng niánjí jiāoliú.",
+        "translation": "We often use 年级 (grade) in communication."
+      },
+      {
+        "chinese": "你知道这个年级的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège niánjí de yìsi ma?",
+        "translation": "Do you know the meaning of this 年级?"
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "character": "年轻",
+    "pinyin": "niánqīng",
+    "meaning": "Young",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用年轻交流。",
+        "pinyin": "Wǒmen jīngcháng yòng niánqīng jiāoliú.",
+        "translation": "We often use 年轻 (Young) in communication."
+      },
+      {
+        "chinese": "你知道这个年轻的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège niánqīng de yìsi ma?",
+        "translation": "Do you know the meaning of this 年轻?"
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "character": "鸟",
+    "pinyin": "niǎo",
+    "meaning": "bird",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用鸟交流。",
+        "pinyin": "Wǒmen jīngcháng yòng niǎo jiāoliú.",
+        "translation": "We often use 鸟 (bird) in communication."
+      },
+      {
+        "chinese": "你知道这个鸟的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège niǎo de yìsi ma?",
+        "translation": "Do you know the meaning of this 鸟?"
+      }
+    ]
+  },
+  {
+    "id": 474,
+    "character": "努力",
+    "pinyin": "nǔlì",
+    "meaning": "Strive",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用努力交流。",
+        "pinyin": "Wǒmen jīngcháng yòng nǔlì jiāoliú.",
+        "translation": "We often use 努力 (Strive) in communication."
+      },
+      {
+        "chinese": "你知道这个努力的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège nǔlì de yìsi ma?",
+        "translation": "Do you know the meaning of this 努力?"
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "character": "爬山",
+    "pinyin": "páshān",
+    "meaning": "Mountain climbing",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用爬山交流。",
+        "pinyin": "Wǒmen jīngcháng yòng páshān jiāoliú.",
+        "translation": "We often use 爬山 (Mountain climbing) in communication."
+      },
+      {
+        "chinese": "你知道这个爬山的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège páshān de yìsi ma?",
+        "translation": "Do you know the meaning of this 爬山?"
+      }
+    ]
+  },
+  {
+    "id": 476,
+    "character": "盘子",
+    "pinyin": "pánzi",
+    "meaning": "plate",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用盘子交流。",
+        "pinyin": "Wǒmen jīngcháng yòng pánzi jiāoliú.",
+        "translation": "We often use 盘子 (plate) in communication."
+      },
+      {
+        "chinese": "你知道这个盘子的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège pánzi de yìsi ma?",
+        "translation": "Do you know the meaning of this 盘子?"
+      }
+    ]
+  },
+  {
+    "id": 477,
+    "character": "胖",
+    "pinyin": "pàng",
+    "meaning": "fat",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用胖交流。",
+        "pinyin": "Wǒmen jīngcháng yòng pàng jiāoliú.",
+        "translation": "We often use 胖 (fat) in communication."
+      },
+      {
+        "chinese": "你知道这个胖的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège pàng de yìsi ma?",
+        "translation": "Do you know the meaning of this 胖?"
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "character": "啤酒",
+    "pinyin": "píjiǔ",
+    "meaning": "Beer",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用啤酒交流。",
+        "pinyin": "Wǒmen jīngcháng yòng píjiǔ jiāoliú.",
+        "translation": "We often use 啤酒 (Beer) in communication."
+      },
+      {
+        "chinese": "你知道这个啤酒的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège píjiǔ de yìsi ma?",
+        "translation": "Do you know the meaning of this 啤酒?"
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "character": "皮鞋",
+    "pinyin": "píxié",
+    "meaning": "leather shoes",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用皮鞋交流。",
+        "pinyin": "Wǒmen jīngcháng yòng píxié jiāoliú.",
+        "translation": "We often use 皮鞋 (leather shoes) in communication."
+      },
+      {
+        "chinese": "你知道这个皮鞋的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège píxié de yìsi ma?",
+        "translation": "Do you know the meaning of this 皮鞋?"
+      }
+    ]
+  },
+  {
+    "id": 480,
+    "character": "瓶子",
+    "pinyin": "píngzi",
+    "meaning": "bottle",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用瓶子交流。",
+        "pinyin": "Wǒmen jīngcháng yòng píngzi jiāoliú.",
+        "translation": "We often use 瓶子 (bottle) in communication."
+      },
+      {
+        "chinese": "你知道这个瓶子的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège píngzi de yìsi ma?",
+        "translation": "Do you know the meaning of this 瓶子?"
+      }
+    ]
+  },
+  {
+    "id": 481,
+    "character": "其实",
+    "pinyin": "qíshí",
+    "meaning": "actually",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用其实交流。",
+        "pinyin": "Wǒmen jīngcháng yòng qíshí jiāoliú.",
+        "translation": "We often use 其实 (actually) in communication."
+      },
+      {
+        "chinese": "你知道这个其实的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège qíshí de yìsi ma?",
+        "translation": "Do you know the meaning of this 其实?"
+      }
+    ]
+  },
+  {
+    "id": 482,
+    "character": "其他",
+    "pinyin": "qítā",
+    "meaning": "Other",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用其他交流。",
+        "pinyin": "Wǒmen jīngcháng yòng qítā jiāoliú.",
+        "translation": "We often use 其他 (Other) in communication."
+      },
+      {
+        "chinese": "你知道这个其他的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège qítā de yìsi ma?",
+        "translation": "Do you know the meaning of this 其他?"
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "character": "骑",
+    "pinyin": "qí",
+    "meaning": "ride",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用骑交流。",
+        "pinyin": "Wǒmen jīngcháng yòng qí jiāoliú.",
+        "translation": "We often use 骑 (ride) in communication."
+      },
+      {
+        "chinese": "你知道这个骑的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège qí de yìsi ma?",
+        "translation": "Do you know the meaning of this 骑?"
+      }
+    ]
+  },
+  {
+    "id": 484,
+    "character": "奇怪",
+    "pinyin": "qíguài",
+    "meaning": "strange",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用奇怪交流。",
+        "pinyin": "Wǒmen jīngcháng yòng qíguài jiāoliú.",
+        "translation": "We often use 奇怪 (strange) in communication."
+      },
+      {
+        "chinese": "你知道这个奇怪的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège qíguài de yìsi ma?",
+        "translation": "Do you know the meaning of this 奇怪?"
+      }
+    ]
+  },
+  {
+    "id": 485,
+    "character": "起来",
+    "pinyin": "qǐlái",
+    "meaning": "get up",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用起来交流。",
+        "pinyin": "Wǒmen jīngcháng yòng qǐlái jiāoliú.",
+        "translation": "We often use 起来 (get up) in communication."
+      },
+      {
+        "chinese": "你知道这个起来的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège qǐlái de yìsi ma?",
+        "translation": "Do you know the meaning of this 起来?"
+      }
+    ]
+  },
+  {
+    "id": 486,
+    "character": "起飞",
+    "pinyin": "qǐfēi",
+    "meaning": "take off",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用起飞交流。",
+        "pinyin": "Wǒmen jīngcháng yòng qǐfēi jiāoliú.",
+        "translation": "We often use 起飞 (take off) in communication."
+      },
+      {
+        "chinese": "你知道这个起飞的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège qǐfēi de yìsi ma?",
+        "translation": "Do you know the meaning of this 起飞?"
+      }
+    ]
+  },
+  {
+    "id": 487,
+    "character": "清楚",
+    "pinyin": "qīngchu",
+    "meaning": "clear",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用清楚交流。",
+        "pinyin": "Wǒmen jīngcháng yòng qīngchu jiāoliú.",
+        "translation": "We often use 清楚 (clear) in communication."
+      },
+      {
+        "chinese": "你知道这个清楚的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège qīngchu de yìsi ma?",
+        "translation": "Do you know the meaning of this 清楚?"
+      }
+    ]
+  },
+  {
+    "id": 488,
+    "character": "请假",
+    "pinyin": "qǐngjià",
+    "meaning": "ask for leave",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用请假交流。",
+        "pinyin": "Wǒmen jīngcháng yòng qǐngjià jiāoliú.",
+        "translation": "We often use 请假 (ask for leave) in communication."
+      },
+      {
+        "chinese": "你知道这个请假的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège qǐngjià de yìsi ma?",
+        "translation": "Do you know the meaning of this 请假?"
+      }
+    ]
+  },
+  {
+    "id": 489,
+    "character": "秋",
+    "pinyin": "qiū",
+    "meaning": "autumn",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用秋交流。",
+        "pinyin": "Wǒmen jīngcháng yòng qiū jiāoliú.",
+        "translation": "We often use 秋 (autumn) in communication."
+      },
+      {
+        "chinese": "你知道这个秋的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège qiū de yìsi ma?",
+        "translation": "Do you know the meaning of this 秋?"
+      }
+    ]
+  },
+  {
+    "id": 490,
+    "character": "裙子",
+    "pinyin": "qúnzi",
+    "meaning": "skirt",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用裙子交流。",
+        "pinyin": "Wǒmen jīngcháng yòng qúnzi jiāoliú.",
+        "translation": "We often use 裙子 (skirt) in communication."
+      },
+      {
+        "chinese": "你知道这个裙子的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège qúnzi de yìsi ma?",
+        "translation": "Do you know the meaning of this 裙子?"
+      }
+    ]
+  },
+  {
+    "id": 491,
+    "character": "然后",
+    "pinyin": "ránhòu",
+    "meaning": "Then",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用然后交流。",
+        "pinyin": "Wǒmen jīngcháng yòng ránhòu jiāoliú.",
+        "translation": "We often use 然后 (Then) in communication."
+      },
+      {
+        "chinese": "你知道这个然后的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège ránhòu de yìsi ma?",
+        "translation": "Do you know the meaning of this 然后?"
+      }
+    ]
+  },
+  {
+    "id": 492,
+    "character": "热情",
+    "pinyin": "rèqíng",
+    "meaning": "Enthusiasm",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用热情交流。",
+        "pinyin": "Wǒmen jīngcháng yòng rèqíng jiāoliú.",
+        "translation": "We often use 热情 (Enthusiasm) in communication."
+      },
+      {
+        "chinese": "你知道这个热情的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège rèqíng de yìsi ma?",
+        "translation": "Do you know the meaning of this 热情?"
+      }
+    ]
+  },
+  {
+    "id": 493,
+    "character": "认为",
+    "pinyin": "rènwéi",
+    "meaning": "think",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用认为交流。",
+        "pinyin": "Wǒmen jīngcháng yòng rènwéi jiāoliú.",
+        "translation": "We often use 认为 (think) in communication."
+      },
+      {
+        "chinese": "你知道这个认为的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège rènwéi de yìsi ma?",
+        "translation": "Do you know the meaning of this 认为?"
+      }
+    ]
+  },
+  {
+    "id": 494,
+    "character": "认真",
+    "pinyin": "rènzhēn",
+    "meaning": "earnest",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用认真交流。",
+        "pinyin": "Wǒmen jīngcháng yòng rènzhēn jiāoliú.",
+        "translation": "We often use 认真 (earnest) in communication."
+      },
+      {
+        "chinese": "你知道这个认真的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège rènzhēn de yìsi ma?",
+        "translation": "Do you know the meaning of this 认真?"
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "character": "容易",
+    "pinyin": "róngyì",
+    "meaning": "easily",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用容易交流。",
+        "pinyin": "Wǒmen jīngcháng yòng róngyì jiāoliú.",
+        "translation": "We often use 容易 (easily) in communication."
+      },
+      {
+        "chinese": "你知道这个容易的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège róngyì de yìsi ma?",
+        "translation": "Do you know the meaning of this 容易?"
+      }
+    ]
+  },
+  {
+    "id": 496,
+    "character": "如果",
+    "pinyin": "rúguǒ",
+    "meaning": "If",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用如果交流。",
+        "pinyin": "Wǒmen jīngcháng yòng rúguǒ jiāoliú.",
+        "translation": "We often use 如果 (If) in communication."
+      },
+      {
+        "chinese": "你知道这个如果的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège rúguǒ de yìsi ma?",
+        "translation": "Do you know the meaning of this 如果?"
+      }
+    ]
+  },
+  {
+    "id": 497,
+    "character": "伞",
+    "pinyin": "sǎn",
+    "meaning": "umbrella",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用伞交流。",
+        "pinyin": "Wǒmen jīngcháng yòng sǎn jiāoliú.",
+        "translation": "We often use 伞 (umbrella) in communication."
+      },
+      {
+        "chinese": "你知道这个伞的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège sǎn de yìsi ma?",
+        "translation": "Do you know the meaning of this 伞?"
+      }
+    ]
+  },
+  {
+    "id": 498,
+    "character": "上网",
+    "pinyin": "shàngwǎng",
+    "meaning": "Surf the Internet",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 3,
+    "examples": [
+      {
+        "chinese": "我们经常用上网交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shàngwǎng jiāoliú.",
+        "translation": "We often use 上网 (Surf the Internet) in communication."
+      },
+      {
+        "chinese": "你知道这个上网的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shàngwǎng de yìsi ma?",
+        "translation": "Do you know the meaning of this 上网?"
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "character": "生气",
+    "pinyin": "shēngqì",
+    "meaning": "get angry",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用生气交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shēngqì jiāoliú.",
+        "translation": "We often use 生气 (get angry) in communication."
+      },
+      {
+        "chinese": "你知道这个生气的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shēngqì de yìsi ma?",
+        "translation": "Do you know the meaning of this 生气?"
+      }
+    ]
+  },
+  {
+    "id": 500,
+    "character": "声音",
+    "pinyin": "shēngyīn",
+    "meaning": "voice",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用声音交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shēngyīn jiāoliú.",
+        "translation": "We often use 声音 (voice) in communication."
+      },
+      {
+        "chinese": "你知道这个声音的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shēngyīn de yìsi ma?",
+        "translation": "Do you know the meaning of this 声音?"
+      }
+    ]
+  },
+  {
+    "id": 501,
+    "character": "试",
+    "pinyin": "shì",
+    "meaning": "try",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用试交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shì jiāoliú.",
+        "translation": "We often use 试 (try) in communication."
+      },
+      {
+        "chinese": "你知道这个试的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shì de yìsi ma?",
+        "translation": "Do you know the meaning of this 试?"
+      }
+    ]
+  },
+  {
+    "id": 502,
+    "character": "世界",
+    "pinyin": "shìjiè",
+    "meaning": "world",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用世界交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shìjiè jiāoliú.",
+        "translation": "We often use 世界 (world) in communication."
+      },
+      {
+        "chinese": "你知道这个世界的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shìjiè de yìsi ma?",
+        "translation": "Do you know the meaning of this 世界?"
+      }
+    ]
+  },
+  {
+    "id": 503,
+    "character": "瘦",
+    "pinyin": "shòu",
+    "meaning": "thin",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 14,
+    "examples": [
+      {
+        "chinese": "我们经常用瘦交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shòu jiāoliú.",
+        "translation": "We often use 瘦 (thin) in communication."
+      },
+      {
+        "chinese": "你知道这个瘦的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shòu de yìsi ma?",
+        "translation": "Do you know the meaning of this 瘦?"
+      }
+    ]
+  },
+  {
+    "id": 504,
+    "character": "舒服",
+    "pinyin": "shūfu",
+    "meaning": "comfortable",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用舒服交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shūfu jiāoliú.",
+        "translation": "We often use 舒服 (comfortable) in communication."
+      },
+      {
+        "chinese": "你知道这个舒服的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shūfu de yìsi ma?",
+        "translation": "Do you know the meaning of this 舒服?"
+      }
+    ]
+  },
+  {
+    "id": 505,
+    "character": "叔叔",
+    "pinyin": "shūshu",
+    "meaning": "uncle",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用叔叔交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shūshu jiāoliú.",
+        "translation": "We often use 叔叔 (uncle) in communication."
+      },
+      {
+        "chinese": "你知道这个叔叔的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shūshu de yìsi ma?",
+        "translation": "Do you know the meaning of this 叔叔?"
+      }
+    ]
+  },
+  {
+    "id": 506,
+    "character": "树",
+    "pinyin": "shù",
+    "meaning": "tree",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用树交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shù jiāoliú.",
+        "translation": "We often use 树 (tree) in communication."
+      },
+      {
+        "chinese": "你知道这个树的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shù de yìsi ma?",
+        "translation": "Do you know the meaning of this 树?"
+      }
+    ]
+  },
+  {
+    "id": 507,
+    "character": "数学",
+    "pinyin": "shùxué",
+    "meaning": "Mathematics",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用数学交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shùxué jiāoliú.",
+        "translation": "We often use 数学 (Mathematics) in communication."
+      },
+      {
+        "chinese": "你知道这个数学的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shùxué de yìsi ma?",
+        "translation": "Do you know the meaning of this 数学?"
+      }
+    ]
+  },
+  {
+    "id": 508,
+    "character": "刷牙",
+    "pinyin": "shuāyá",
+    "meaning": "Brush one's teeth",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用刷牙交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shuāyá jiāoliú.",
+        "translation": "We often use 刷牙 (Brush one's teeth) in communication."
+      },
+      {
+        "chinese": "你知道这个刷牙的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shuāyá de yìsi ma?",
+        "translation": "Do you know the meaning of this 刷牙?"
+      }
+    ]
+  },
+  {
+    "id": 509,
+    "character": "双",
+    "pinyin": "shuāng",
+    "meaning": "double, pair",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用双交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shuāng jiāoliú.",
+        "translation": "We often use 双 (double, pair) in communication."
+      },
+      {
+        "chinese": "你知道这个双的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shuāng de yìsi ma?",
+        "translation": "Do you know the meaning of this 双?"
+      }
+    ]
+  },
+  {
+    "id": 510,
+    "character": "水平",
+    "pinyin": "shuǐpíng",
+    "meaning": "level",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用水平交流。",
+        "pinyin": "Wǒmen jīngcháng yòng shuǐpíng jiāoliú.",
+        "translation": "We often use 水平 (level) in communication."
+      },
+      {
+        "chinese": "你知道这个水平的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège shuǐpíng de yìsi ma?",
+        "translation": "Do you know the meaning of this 水平?"
+      }
+    ]
+  },
+  {
+    "id": 511,
+    "character": "司机",
+    "pinyin": "sījī",
+    "meaning": "Driver",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用司机交流。",
+        "pinyin": "Wǒmen jīngcháng yòng sījī jiāoliú.",
+        "translation": "We often use 司机 (Driver) in communication."
+      },
+      {
+        "chinese": "你知道这个司机的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège sījī de yìsi ma?",
+        "translation": "Do you know the meaning of this 司机?"
+      }
+    ]
+  },
+  {
+    "id": 512,
+    "character": "太阳",
+    "pinyin": "tàiyáng",
+    "meaning": "sun",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用太阳交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tàiyáng jiāoliú.",
+        "translation": "We often use 太阳 (sun) in communication."
+      },
+      {
+        "chinese": "你知道这个太阳的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tàiyáng de yìsi ma?",
+        "translation": "Do you know the meaning of this 太阳?"
+      }
+    ]
+  },
+  {
+    "id": 513,
+    "character": "特别",
+    "pinyin": "tèbié",
+    "meaning": "Especially",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用特别交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tèbié jiāoliú.",
+        "translation": "We often use 特别 (Especially) in communication."
+      },
+      {
+        "chinese": "你知道这个特别的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tèbié de yìsi ma?",
+        "translation": "Do you know the meaning of this 特别?"
+      }
+    ]
+  },
+  {
+    "id": 514,
+    "character": "疼",
+    "pinyin": "téng",
+    "meaning": "hurt",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用疼交流。",
+        "pinyin": "Wǒmen jīngcháng yòng téng jiāoliú.",
+        "translation": "We often use 疼 (hurt) in communication."
+      },
+      {
+        "chinese": "你知道这个疼的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège téng de yìsi ma?",
+        "translation": "Do you know the meaning of this 疼?"
+      }
+    ]
+  },
+  {
+    "id": 515,
+    "character": "提高",
+    "pinyin": "tígāo",
+    "meaning": "increase",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用提高交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tígāo jiāoliú.",
+        "translation": "We often use 提高 (increase) in communication."
+      },
+      {
+        "chinese": "你知道这个提高的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tígāo de yìsi ma?",
+        "translation": "Do you know the meaning of this 提高?"
+      }
+    ]
+  },
+  {
+    "id": 516,
+    "character": "体育",
+    "pinyin": "tǐyù",
+    "meaning": "Sports",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用体育交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tǐyù jiāoliú.",
+        "translation": "We often use 体育 (Sports) in communication."
+      },
+      {
+        "chinese": "你知道这个体育的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tǐyù de yìsi ma?",
+        "translation": "Do you know the meaning of this 体育?"
+      }
+    ]
+  },
+  {
+    "id": 517,
+    "character": "甜",
+    "pinyin": "tián",
+    "meaning": "sweet",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用甜交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tián jiāoliú.",
+        "translation": "We often use 甜 (sweet) in communication."
+      },
+      {
+        "chinese": "你知道这个甜的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tián de yìsi ma?",
+        "translation": "Do you know the meaning of this 甜?"
+      }
+    ]
+  },
+  {
+    "id": 518,
+    "character": "条",
+    "pinyin": "tiáo",
+    "meaning": "strip",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用条交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tiáo jiāoliú.",
+        "translation": "We often use 条 (strip) in communication."
+      },
+      {
+        "chinese": "你知道这个条的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tiáo de yìsi ma?",
+        "translation": "Do you know the meaning of this 条?"
+      }
+    ]
+  },
+  {
+    "id": 519,
+    "character": "同事",
+    "pinyin": "tóngshì",
+    "meaning": "Colleague",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用同事交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tóngshì jiāoliú.",
+        "translation": "We often use 同事 (Colleague) in communication."
+      },
+      {
+        "chinese": "你知道这个同事的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tóngshì de yìsi ma?",
+        "translation": "Do you know the meaning of this 同事?"
+      }
+    ]
+  },
+  {
+    "id": 520,
+    "character": "同意",
+    "pinyin": "tóngyì",
+    "meaning": "Agree",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用同意交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tóngyì jiāoliú.",
+        "translation": "We often use 同意 (Agree) in communication."
+      },
+      {
+        "chinese": "你知道这个同意的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tóngyì de yìsi ma?",
+        "translation": "Do you know the meaning of this 同意?"
+      }
+    ]
+  },
+  {
+    "id": 521,
+    "character": "头发",
+    "pinyin": "tóufa",
+    "meaning": "Hair",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用头发交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tóufa jiāoliú.",
+        "translation": "We often use 头发 (Hair) in communication."
+      },
+      {
+        "chinese": "你知道这个头发的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tóufa de yìsi ma?",
+        "translation": "Do you know the meaning of this 头发?"
+      }
+    ]
+  },
+  {
+    "id": 522,
+    "character": "突然",
+    "pinyin": "tūrán",
+    "meaning": "suddenly",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用突然交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tūrán jiāoliú.",
+        "translation": "We often use 突然 (suddenly) in communication."
+      },
+      {
+        "chinese": "你知道这个突然的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tūrán de yìsi ma?",
+        "translation": "Do you know the meaning of this 突然?"
+      }
+    ]
+  },
+  {
+    "id": 523,
+    "character": "图书馆",
+    "pinyin": "túshūguǎn",
+    "meaning": "Library",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用图书馆交流。",
+        "pinyin": "Wǒmen jīngcháng yòng túshūguǎn jiāoliú.",
+        "translation": "We often use 图书馆 (Library) in communication."
+      },
+      {
+        "chinese": "你知道这个图书馆的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège túshūguǎn de yìsi ma?",
+        "translation": "Do you know the meaning of this 图书馆?"
+      }
+    ]
+  },
+  {
+    "id": 524,
+    "character": "腿",
+    "pinyin": "tuǐ",
+    "meaning": "leg",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用腿交流。",
+        "pinyin": "Wǒmen jīngcháng yòng tuǐ jiāoliú.",
+        "translation": "We often use 腿 (leg) in communication."
+      },
+      {
+        "chinese": "你知道这个腿的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège tuǐ de yìsi ma?",
+        "translation": "Do you know the meaning of this 腿?"
+      }
+    ]
+  },
+  {
+    "id": 525,
+    "character": "完成",
+    "pinyin": "wánchéng",
+    "meaning": "complete",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用完成交流。",
+        "pinyin": "Wǒmen jīngcháng yòng wánchéng jiāoliú.",
+        "translation": "We often use 完成 (complete) in communication."
+      },
+      {
+        "chinese": "你知道这个完成的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège wánchéng de yìsi ma?",
+        "translation": "Do you know the meaning of this 完成?"
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "character": "碗",
+    "pinyin": "wǎn",
+    "meaning": "bowl",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用碗交流。",
+        "pinyin": "Wǒmen jīngcháng yòng wǎn jiāoliú.",
+        "translation": "We often use 碗 (bowl) in communication."
+      },
+      {
+        "chinese": "你知道这个碗的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège wǎn de yìsi ma?",
+        "translation": "Do you know the meaning of this 碗?"
+      }
+    ]
+  },
+  {
+    "id": 527,
+    "character": "万",
+    "pinyin": "wàn",
+    "meaning": "ten thousand",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用万交流。",
+        "pinyin": "Wǒmen jīngcháng yòng wàn jiāoliú.",
+        "translation": "We often use 万 (ten thousand) in communication."
+      },
+      {
+        "chinese": "你知道这个万的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège wàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 万?"
+      }
+    ]
+  },
+  {
+    "id": 528,
+    "character": "忘记",
+    "pinyin": "wàngjì",
+    "meaning": "forget",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用忘记交流。",
+        "pinyin": "Wǒmen jīngcháng yòng wàngjì jiāoliú.",
+        "translation": "We often use 忘记 (forget) in communication."
+      },
+      {
+        "chinese": "你知道这个忘记的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège wàngjì de yìsi ma?",
+        "translation": "Do you know the meaning of this 忘记?"
+      }
+    ]
+  },
+  {
+    "id": 529,
+    "character": "为",
+    "pinyin": "wèi",
+    "meaning": "for",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用为交流。",
+        "pinyin": "Wǒmen jīngcháng yòng wèi jiāoliú.",
+        "translation": "We often use 为 (for) in communication."
+      },
+      {
+        "chinese": "你知道这个为的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège wèi de yìsi ma?",
+        "translation": "Do you know the meaning of this 为?"
+      }
+    ]
+  },
+  {
+    "id": 530,
+    "character": "为了",
+    "pinyin": "wèile",
+    "meaning": "in order to",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用为了交流。",
+        "pinyin": "Wǒmen jīngcháng yòng wèile jiāoliú.",
+        "translation": "We often use 为了 (in order to) in communication."
+      },
+      {
+        "chinese": "你知道这个为了的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège wèile de yìsi ma?",
+        "translation": "Do you know the meaning of this 为了?"
+      }
+    ]
+  },
+  {
+    "id": 531,
+    "character": "位",
+    "pinyin": "wèi",
+    "meaning": "position",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用位交流。",
+        "pinyin": "Wǒmen jīngcháng yòng wèi jiāoliú.",
+        "translation": "We often use 位 (position) in communication."
+      },
+      {
+        "chinese": "你知道这个位的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège wèi de yìsi ma?",
+        "translation": "Do you know the meaning of this 位?"
+      }
+    ]
+  },
+  {
+    "id": 532,
+    "character": "文化",
+    "pinyin": "wénhuà",
+    "meaning": "Culture",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用文化交流。",
+        "pinyin": "Wǒmen jīngcháng yòng wénhuà jiāoliú.",
+        "translation": "We often use 文化 (Culture) in communication."
+      },
+      {
+        "chinese": "你知道这个文化的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège wénhuà de yìsi ma?",
+        "translation": "Do you know the meaning of this 文化?"
+      }
+    ]
+  },
+  {
+    "id": 533,
+    "character": "西",
+    "pinyin": "xī",
+    "meaning": "west",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用西交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xī jiāoliú.",
+        "translation": "We often use 西 (west) in communication."
+      },
+      {
+        "chinese": "你知道这个西的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xī de yìsi ma?",
+        "translation": "Do you know the meaning of this 西?"
+      }
+    ]
+  },
+  {
+    "id": 534,
+    "character": "习惯",
+    "pinyin": "xíguàn",
+    "meaning": "Habit",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用习惯交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xíguàn jiāoliú.",
+        "translation": "We often use 习惯 (Habit) in communication."
+      },
+      {
+        "chinese": "你知道这个习惯的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xíguàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 习惯?"
+      }
+    ]
+  },
+  {
+    "id": 535,
+    "character": "洗手间",
+    "pinyin": "xǐshǒujiān",
+    "meaning": "Restroom",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用洗手间交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xǐshǒujiān jiāoliú.",
+        "translation": "We often use 洗手间 (Restroom) in communication."
+      },
+      {
+        "chinese": "你知道这个洗手间的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xǐshǒujiān de yìsi ma?",
+        "translation": "Do you know the meaning of this 洗手间?"
+      }
+    ]
+  },
+  {
+    "id": 536,
+    "character": "洗澡",
+    "pinyin": "xǐzǎo",
+    "meaning": "Take a shower",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用洗澡交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xǐzǎo jiāoliú.",
+        "translation": "We often use 洗澡 (Take a shower) in communication."
+      },
+      {
+        "chinese": "你知道这个洗澡的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xǐzǎo de yìsi ma?",
+        "translation": "Do you know the meaning of this 洗澡?"
+      }
+    ]
+  },
+  {
+    "id": 537,
+    "character": "夏",
+    "pinyin": "xià",
+    "meaning": "summer",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用夏交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xià jiāoliú.",
+        "translation": "We often use 夏 (summer) in communication."
+      },
+      {
+        "chinese": "你知道这个夏的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xià de yìsi ma?",
+        "translation": "Do you know the meaning of this 夏?"
+      }
+    ]
+  },
+  {
+    "id": 538,
+    "character": "先",
+    "pinyin": "xiān",
+    "meaning": "first",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用先交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xiān jiāoliú.",
+        "translation": "We often use 先 (first) in communication."
+      },
+      {
+        "chinese": "你知道这个先的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xiān de yìsi ma?",
+        "translation": "Do you know the meaning of this 先?"
+      }
+    ]
+  },
+  {
+    "id": 539,
+    "character": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "meaning": "Banana",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用香蕉交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xiāngjiāo jiāoliú.",
+        "translation": "We often use 香蕉 (Banana) in communication."
+      },
+      {
+        "chinese": "你知道这个香蕉的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xiāngjiāo de yìsi ma?",
+        "translation": "Do you know the meaning of this 香蕉?"
+      }
+    ]
+  },
+  {
+    "id": 540,
+    "character": "相信",
+    "pinyin": "xiāngxìn",
+    "meaning": "believe",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用相信交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xiāngxìn jiāoliú.",
+        "translation": "We often use 相信 (believe) in communication."
+      },
+      {
+        "chinese": "你知道这个相信的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xiāngxìn de yìsi ma?",
+        "translation": "Do you know the meaning of this 相信?"
+      }
+    ]
+  },
+  {
+    "id": 541,
+    "character": "向",
+    "pinyin": "xiàng",
+    "meaning": "towards",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用向交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xiàng jiāoliú.",
+        "translation": "We often use 向 (towards) in communication."
+      },
+      {
+        "chinese": "你知道这个向的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xiàng de yìsi ma?",
+        "translation": "Do you know the meaning of this 向?"
+      }
+    ]
+  },
+  {
+    "id": 542,
+    "character": "像",
+    "pinyin": "xiàng",
+    "meaning": "image",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们经常用像交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xiàng jiāoliú.",
+        "translation": "We often use 像 (image) in communication."
+      },
+      {
+        "chinese": "你知道这个像的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xiàng de yìsi ma?",
+        "translation": "Do you know the meaning of this 像?"
+      }
+    ]
+  },
+  {
+    "id": 543,
+    "character": "小心",
+    "pinyin": "xiǎoxīn",
+    "meaning": "watch out",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 3,
+    "examples": [
+      {
+        "chinese": "我们经常用小心交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xiǎoxīn jiāoliú.",
+        "translation": "We often use 小心 (watch out) in communication."
+      },
+      {
+        "chinese": "你知道这个小心的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xiǎoxīn de yìsi ma?",
+        "translation": "Do you know the meaning of this 小心?"
+      }
+    ]
+  },
+  {
+    "id": 544,
+    "character": "校长",
+    "pinyin": "xiàozhǎng",
+    "meaning": "Principal",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用校长交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xiàozhǎng jiāoliú.",
+        "translation": "We often use 校长 (Principal) in communication."
+      },
+      {
+        "chinese": "你知道这个校长的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xiàozhǎng de yìsi ma?",
+        "translation": "Do you know the meaning of this 校长?"
+      }
+    ]
+  },
+  {
+    "id": 545,
+    "character": "新闻",
+    "pinyin": "xīnwén",
+    "meaning": "news",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们经常用新闻交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xīnwén jiāoliú.",
+        "translation": "We often use 新闻 (news) in communication."
+      },
+      {
+        "chinese": "你知道这个新闻的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xīnwén de yìsi ma?",
+        "translation": "Do you know the meaning of this 新闻?"
+      }
+    ]
+  },
+  {
+    "id": 546,
+    "character": "新鲜",
+    "pinyin": "xīnxiān",
+    "meaning": "fresh",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们经常用新鲜交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xīnxiān jiāoliú.",
+        "translation": "We often use 新鲜 (fresh) in communication."
+      },
+      {
+        "chinese": "你知道这个新鲜的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xīnxiān de yìsi ma?",
+        "translation": "Do you know the meaning of this 新鲜?"
+      }
+    ]
+  },
+  {
+    "id": 547,
+    "character": "信用卡",
+    "pinyin": "xìnyòngkǎ",
+    "meaning": "Credit card",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用信用卡交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xìnyòngkǎ jiāoliú.",
+        "translation": "We often use 信用卡 (Credit card) in communication."
+      },
+      {
+        "chinese": "你知道这个信用卡的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xìnyòngkǎ de yìsi ma?",
+        "translation": "Do you know the meaning of this 信用卡?"
+      }
+    ]
+  },
+  {
+    "id": 548,
+    "character": "行李箱",
+    "pinyin": "xínglixiāng",
+    "meaning": "Trunk",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用行李箱交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xínglixiāng jiāoliú.",
+        "translation": "We often use 行李箱 (Trunk) in communication."
+      },
+      {
+        "chinese": "你知道这个行李箱的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xínglixiāng de yìsi ma?",
+        "translation": "Do you know the meaning of this 行李箱?"
+      }
+    ]
+  },
+  {
+    "id": 549,
+    "character": "熊猫",
+    "pinyin": "xióngmāo",
+    "meaning": "Panda",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用熊猫交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xióngmāo jiāoliú.",
+        "translation": "We often use 熊猫 (Panda) in communication."
+      },
+      {
+        "chinese": "你知道这个熊猫的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xióngmāo de yìsi ma?",
+        "translation": "Do you know the meaning of this 熊猫?"
+      }
+    ]
+  },
+  {
+    "id": 550,
+    "character": "需要",
+    "pinyin": "xūyào",
+    "meaning": "Need",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用需要交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xūyào jiāoliú.",
+        "translation": "We often use 需要 (Need) in communication."
+      },
+      {
+        "chinese": "你知道这个需要的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xūyào de yìsi ma?",
+        "translation": "Do you know the meaning of this 需要?"
+      }
+    ]
+  },
+  {
+    "id": 551,
+    "character": "选择",
+    "pinyin": "xuǎnzé",
+    "meaning": "Choice",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用选择交流。",
+        "pinyin": "Wǒmen jīngcháng yòng xuǎnzé jiāoliú.",
+        "translation": "We often use 选择 (Choice) in communication."
+      },
+      {
+        "chinese": "你知道这个选择的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège xuǎnzé de yìsi ma?",
+        "translation": "Do you know the meaning of this 选择?"
+      }
+    ]
+  },
+  {
+    "id": 552,
+    "character": "要求",
+    "pinyin": "yāoqiú",
+    "meaning": "Requirement",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用要求交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yāoqiú jiāoliú.",
+        "translation": "We often use 要求 (Requirement) in communication."
+      },
+      {
+        "chinese": "你知道这个要求的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yāoqiú de yìsi ma?",
+        "translation": "Do you know the meaning of this 要求?"
+      }
+    ]
+  },
+  {
+    "id": 553,
+    "character": "爷爷",
+    "pinyin": "yéye",
+    "meaning": "grandpa",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用爷爷交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yéye jiāoliú.",
+        "translation": "We often use 爷爷 (grandpa) in communication."
+      },
+      {
+        "chinese": "你知道这个爷爷的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yéye de yìsi ma?",
+        "translation": "Do you know the meaning of this 爷爷?"
+      }
+    ]
+  },
+  {
+    "id": 554,
+    "character": "一定",
+    "pinyin": "yídìng",
+    "meaning": "Certain",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 1,
+    "examples": [
+      {
+        "chinese": "我们经常用一定交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yídìng jiāoliú.",
+        "translation": "We often use 一定 (Certain) in communication."
+      },
+      {
+        "chinese": "你知道这个一定的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yídìng de yìsi ma?",
+        "translation": "Do you know the meaning of this 一定?"
+      }
+    ]
+  },
+  {
+    "id": 555,
+    "character": "一共",
+    "pinyin": "yígòng",
+    "meaning": "Altogether",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 1,
+    "examples": [
+      {
+        "chinese": "我们经常用一共交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yígòng jiāoliú.",
+        "translation": "We often use 一共 (Altogether) in communication."
+      },
+      {
+        "chinese": "你知道这个一共的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yígòng de yìsi ma?",
+        "translation": "Do you know the meaning of this 一共?"
+      }
+    ]
+  },
+  {
+    "id": 556,
+    "character": "一会儿",
+    "pinyin": "yíhuìr",
+    "meaning": "a while",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 1,
+    "examples": [
+      {
+        "chinese": "我们经常用一会儿交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yíhuìr jiāoliú.",
+        "translation": "We often use 一会儿 (a while) in communication."
+      },
+      {
+        "chinese": "你知道这个一会儿的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yíhuìr de yìsi ma?",
+        "translation": "Do you know the meaning of this 一会儿?"
+      }
+    ]
+  },
+  {
+    "id": 557,
+    "character": "一样",
+    "pinyin": "yíyàng",
+    "meaning": "equally",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 1,
+    "examples": [
+      {
+        "chinese": "我们经常用一样交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yíyàng jiāoliú.",
+        "translation": "We often use 一样 (equally) in communication."
+      },
+      {
+        "chinese": "你知道这个一样的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yíyàng de yìsi ma?",
+        "translation": "Do you know the meaning of this 一样?"
+      }
+    ]
+  },
+  {
+    "id": 558,
+    "character": "以前",
+    "pinyin": "yǐqián",
+    "meaning": "before",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用以前交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yǐqián jiāoliú.",
+        "translation": "We often use 以前 (before) in communication."
+      },
+      {
+        "chinese": "你知道这个以前的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yǐqián de yìsi ma?",
+        "translation": "Do you know the meaning of this 以前?"
+      }
+    ]
+  },
+  {
+    "id": 559,
+    "character": "一般",
+    "pinyin": "yìbān",
+    "meaning": "commonly",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 1,
+    "examples": [
+      {
+        "chinese": "我们经常用一般交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yìbān jiāoliú.",
+        "translation": "We often use 一般 (commonly) in communication."
+      },
+      {
+        "chinese": "你知道这个一般的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yìbān de yìsi ma?",
+        "translation": "Do you know the meaning of this 一般?"
+      }
+    ]
+  },
+  {
+    "id": 560,
+    "character": "一边",
+    "pinyin": "yìbiān",
+    "meaning": "One side",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 1,
+    "examples": [
+      {
+        "chinese": "我们经常用一边交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yìbiān jiāoliú.",
+        "translation": "We often use 一边 (One side) in communication."
+      },
+      {
+        "chinese": "你知道这个一边的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yìbiān de yìsi ma?",
+        "translation": "Do you know the meaning of this 一边?"
+      }
+    ]
+  },
+  {
+    "id": 561,
+    "character": "一直",
+    "pinyin": "yìzhí",
+    "meaning": "always",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 1,
+    "examples": [
+      {
+        "chinese": "我们经常用一直交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yìzhí jiāoliú.",
+        "translation": "We often use 一直 (always) in communication."
+      },
+      {
+        "chinese": "你知道这个一直的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yìzhí de yìsi ma?",
+        "translation": "Do you know the meaning of this 一直?"
+      }
+    ]
+  },
+  {
+    "id": 562,
+    "character": "音乐",
+    "pinyin": "yīnyuè",
+    "meaning": "Music",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用音乐交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yīnyuè jiāoliú.",
+        "translation": "We often use 音乐 (Music) in communication."
+      },
+      {
+        "chinese": "你知道这个音乐的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yīnyuè de yìsi ma?",
+        "translation": "Do you know the meaning of this 音乐?"
+      }
+    ]
+  },
+  {
+    "id": 563,
+    "character": "银行",
+    "pinyin": "yínháng",
+    "meaning": "Bank",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用银行交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yínháng jiāoliú.",
+        "translation": "We often use 银行 (Bank) in communication."
+      },
+      {
+        "chinese": "你知道这个银行的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yínháng de yìsi ma?",
+        "translation": "Do you know the meaning of this 银行?"
+      }
+    ]
+  },
+  {
+    "id": 564,
+    "character": "饮料",
+    "pinyin": "yǐnliào",
+    "meaning": "Drinks",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用饮料交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yǐnliào jiāoliú.",
+        "translation": "We often use 饮料 (Drinks) in communication."
+      },
+      {
+        "chinese": "你知道这个饮料的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yǐnliào de yìsi ma?",
+        "translation": "Do you know the meaning of this 饮料?"
+      }
+    ]
+  },
+  {
+    "id": 565,
+    "character": "应该",
+    "pinyin": "yīnggāi",
+    "meaning": "Should",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用应该交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yīnggāi jiāoliú.",
+        "translation": "We often use 应该 (Should) in communication."
+      },
+      {
+        "chinese": "你知道这个应该的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yīnggāi de yìsi ma?",
+        "translation": "Do you know the meaning of this 应该?"
+      }
+    ]
+  },
+  {
+    "id": 566,
+    "character": "影响",
+    "pinyin": "yǐngxiǎng",
+    "meaning": "Influence",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用影响交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yǐngxiǎng jiāoliú.",
+        "translation": "We often use 影响 (Influence) in communication."
+      },
+      {
+        "chinese": "你知道这个影响的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yǐngxiǎng de yìsi ma?",
+        "translation": "Do you know the meaning of this 影响?"
+      }
+    ]
+  },
+  {
+    "id": 567,
+    "character": "用",
+    "pinyin": "yòng",
+    "meaning": "use",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用用交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yòng jiāoliú.",
+        "translation": "We often use 用 (use) in communication."
+      },
+      {
+        "chinese": "你知道这个用的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yòng de yìsi ma?",
+        "translation": "Do you know the meaning of this 用?"
+      }
+    ]
+  },
+  {
+    "id": 568,
+    "character": "游戏",
+    "pinyin": "yóuxì",
+    "meaning": "Game",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用游戏交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yóuxì jiāoliú.",
+        "translation": "We often use 游戏 (Game) in communication."
+      },
+      {
+        "chinese": "你知道这个游戏的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yóuxì de yìsi ma?",
+        "translation": "Do you know the meaning of this 游戏?"
+      }
+    ]
+  },
+  {
+    "id": 569,
+    "character": "有名",
+    "pinyin": "yǒumíng",
+    "meaning": "Famous",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用有名交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yǒumíng jiāoliú.",
+        "translation": "We often use 有名 (Famous) in communication."
+      },
+      {
+        "chinese": "你知道这个有名的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yǒumíng de yìsi ma?",
+        "translation": "Do you know the meaning of this 有名?"
+      }
+    ]
+  },
+  {
+    "id": 570,
+    "character": "又",
+    "pinyin": "yòu",
+    "meaning": "again",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用又交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yòu jiāoliú.",
+        "translation": "We often use 又 (again) in communication."
+      },
+      {
+        "chinese": "你知道这个又的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yòu de yìsi ma?",
+        "translation": "Do you know the meaning of this 又?"
+      }
+    ]
+  },
+  {
+    "id": 571,
+    "character": "遇到",
+    "pinyin": "yùdào",
+    "meaning": "encounter",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用遇到交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yùdào jiāoliú.",
+        "translation": "We often use 遇到 (encounter) in communication."
+      },
+      {
+        "chinese": "你知道这个遇到的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yùdào de yìsi ma?",
+        "translation": "Do you know the meaning of this 遇到?"
+      }
+    ]
+  },
+  {
+    "id": 572,
+    "character": "元",
+    "pinyin": "yuán",
+    "meaning": "element; yuan",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用元交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yuán jiāoliú.",
+        "translation": "We often use 元 (element; yuan) in communication."
+      },
+      {
+        "chinese": "你知道这个元的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yuán de yìsi ma?",
+        "translation": "Do you know the meaning of this 元?"
+      }
+    ]
+  },
+  {
+    "id": 573,
+    "character": "愿意",
+    "pinyin": "yuànyì",
+    "meaning": "Be willing",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用愿意交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yuànyì jiāoliú.",
+        "translation": "We often use 愿意 (Be willing) in communication."
+      },
+      {
+        "chinese": "你知道这个愿意的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yuànyì de yìsi ma?",
+        "translation": "Do you know the meaning of this 愿意?"
+      }
+    ]
+  },
+  {
+    "id": 574,
+    "character": "月亮",
+    "pinyin": "yuèliang",
+    "meaning": "Moon",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用月亮交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yuèliang jiāoliú.",
+        "translation": "We often use 月亮 (Moon) in communication."
+      },
+      {
+        "chinese": "你知道这个月亮的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yuèliang de yìsi ma?",
+        "translation": "Do you know the meaning of this 月亮?"
+      }
+    ]
+  },
+  {
+    "id": 575,
+    "character": "越",
+    "pinyin": "yuè",
+    "meaning": "the more",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用越交流。",
+        "pinyin": "Wǒmen jīngcháng yòng yuè jiāoliú.",
+        "translation": "We often use 越 (the more) in communication."
+      },
+      {
+        "chinese": "你知道这个越的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège yuè de yìsi ma?",
+        "translation": "Do you know the meaning of this 越?"
+      }
+    ]
+  },
+  {
+    "id": 576,
+    "character": "站",
+    "pinyin": "zhàn",
+    "meaning": "station",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 10,
+    "examples": [
+      {
+        "chinese": "我们经常用站交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhàn jiāoliú.",
+        "translation": "We often use 站 (station) in communication."
+      },
+      {
+        "chinese": "你知道这个站的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 站?"
+      }
+    ]
+  },
+  {
+    "id": 577,
+    "character": "张",
+    "pinyin": "zhāng",
+    "meaning": "Zhang (surname)",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用张交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhāng jiāoliú.",
+        "translation": "We often use 张 (Zhang (surname)) in communication."
+      },
+      {
+        "chinese": "你知道这个张的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhāng de yìsi ma?",
+        "translation": "Do you know the meaning of this 张?"
+      }
+    ]
+  },
+  {
+    "id": 578,
+    "character": "长（动词）",
+    "pinyin": "zhǎng",
+    "meaning": "grow",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用长（动词）交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhǎng jiāoliú.",
+        "translation": "We often use 长（动词） (grow) in communication."
+      },
+      {
+        "chinese": "你知道这个长（动词）的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhǎng de yìsi ma?",
+        "translation": "Do you know the meaning of this 长（动词）?"
+      }
+    ]
+  },
+  {
+    "id": 579,
+    "character": "着急",
+    "pinyin": "zháojí",
+    "meaning": "Worry",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 11,
+    "examples": [
+      {
+        "chinese": "我们经常用着急交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zháojí jiāoliú.",
+        "translation": "We often use 着急 (Worry) in communication."
+      },
+      {
+        "chinese": "你知道这个着急的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zháojí de yìsi ma?",
+        "translation": "Do you know the meaning of this 着急?"
+      }
+    ]
+  },
+  {
+    "id": 580,
+    "character": "照顾",
+    "pinyin": "zhàogù",
+    "meaning": "look after",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们经常用照顾交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhàogù jiāoliú.",
+        "translation": "We often use 照顾 (look after) in communication."
+      },
+      {
+        "chinese": "你知道这个照顾的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhàogù de yìsi ma?",
+        "translation": "Do you know the meaning of this 照顾?"
+      }
+    ]
+  },
+  {
+    "id": 581,
+    "character": "照片",
+    "pinyin": "zhàopiàn",
+    "meaning": "Photo",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们经常用照片交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhàopiàn jiāoliú.",
+        "translation": "We often use 照片 (Photo) in communication."
+      },
+      {
+        "chinese": "你知道这个照片的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhàopiàn de yìsi ma?",
+        "translation": "Do you know the meaning of this 照片?"
+      }
+    ]
+  },
+  {
+    "id": 582,
+    "character": "照相机",
+    "pinyin": "zhàoxiàngjī",
+    "meaning": "Camera",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 13,
+    "examples": [
+      {
+        "chinese": "我们经常用照相机交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhàoxiàngjī jiāoliú.",
+        "translation": "We often use 照相机 (Camera) in communication."
+      },
+      {
+        "chinese": "你知道这个照相机的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhàoxiàngjī de yìsi ma?",
+        "translation": "Do you know the meaning of this 照相机?"
+      }
+    ]
+  },
+  {
+    "id": 583,
+    "character": "只（量词）",
+    "pinyin": "zhī",
+    "meaning": "(measure word)",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用只（量词）交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhī jiāoliú.",
+        "translation": "We often use 只（量词） ((measure word)) in communication."
+      },
+      {
+        "chinese": "你知道这个只（量词）的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhī de yìsi ma?",
+        "translation": "Do you know the meaning of this 只（量词）?"
+      }
+    ]
+  },
+  {
+    "id": 584,
+    "character": "只（副词）",
+    "pinyin": "zhǐ",
+    "meaning": "only",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用只（副词）交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhǐ jiāoliú.",
+        "translation": "We often use 只（副词） (only) in communication."
+      },
+      {
+        "chinese": "你知道这个只（副词）的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhǐ de yìsi ma?",
+        "translation": "Do you know the meaning of this 只（副词）?"
+      }
+    ]
+  },
+  {
+    "id": 585,
+    "character": "只有……才……",
+    "pinyin": "zhǐyǒu…cái…",
+    "meaning": "only if",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用只有……才……交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhǐyǒu…cái… jiāoliú.",
+        "translation": "We often use 只有……才…… (only if) in communication."
+      },
+      {
+        "chinese": "你知道这个只有……才……的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhǐyǒu…cái… de yìsi ma?",
+        "translation": "Do you know the meaning of this 只有……才……?"
+      }
+    ]
+  },
+  {
+    "id": 586,
+    "character": "中文",
+    "pinyin": "zhōngwén",
+    "meaning": "Chinese language; Chinese writing",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "你会写中文吗？",
+        "pinyin": "Nǐ huì xiě zhōngwén ma?",
+        "translation": "Can you write in Chinese?"
+      },
+      {
+        "chinese": "他的中文水平进步很快。",
+        "pinyin": "Tā de zhōngwén shuǐpíng jìnbù hěn kuài.",
+        "translation": "His Chinese proficiency has improved very rapidly."
+      }
+    ]
+  },
+  {
+    "id": 587,
+    "character": "中间",
+    "pinyin": "zhōngjiān",
+    "meaning": "Middle",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 4,
+    "examples": [
+      {
+        "chinese": "我们经常用中间交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhōngjiān jiāoliú.",
+        "translation": "We often use 中间 (Middle) in communication."
+      },
+      {
+        "chinese": "你知道这个中间的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhōngjiān de yìsi ma?",
+        "translation": "Do you know the meaning of this 中间?"
+      }
+    ]
+  },
+  {
+    "id": 588,
+    "character": "终于",
+    "pinyin": "zhōngyú",
+    "meaning": "finally",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用终于交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhōngyú jiāoliú.",
+        "translation": "We often use 终于 (finally) in communication."
+      },
+      {
+        "chinese": "你知道这个终于的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhōngyú de yìsi ma?",
+        "translation": "Do you know the meaning of this 终于?"
+      }
+    ]
+  },
+  {
+    "id": 589,
+    "character": "种",
+    "pinyin": "zhǒng",
+    "meaning": "species",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用种交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhǒng jiāoliú.",
+        "translation": "We often use 种 (species) in communication."
+      },
+      {
+        "chinese": "你知道这个种的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhǒng de yìsi ma?",
+        "translation": "Do you know the meaning of this 种?"
+      }
+    ]
+  },
+  {
+    "id": 590,
+    "character": "重要",
+    "pinyin": "zhòngyào",
+    "meaning": "important",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 9,
+    "examples": [
+      {
+        "chinese": "我们经常用重要交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhòngyào jiāoliú.",
+        "translation": "We often use 重要 (important) in communication."
+      },
+      {
+        "chinese": "你知道这个重要的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhòngyào de yìsi ma?",
+        "translation": "Do you know the meaning of this 重要?"
+      }
+    ]
+  },
+  {
+    "id": 591,
+    "character": "周末",
+    "pinyin": "zhōumò",
+    "meaning": "Weekend",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用周末交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhōumò jiāoliú.",
+        "translation": "We often use 周末 (Weekend) in communication."
+      },
+      {
+        "chinese": "你知道这个周末的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhōumò de yìsi ma?",
+        "translation": "Do you know the meaning of this 周末?"
+      }
+    ]
+  },
+  {
+    "id": 592,
+    "character": "主要",
+    "pinyin": "zhǔyào",
+    "meaning": "main",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 5,
+    "examples": [
+      {
+        "chinese": "我们经常用主要交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhǔyào jiāoliú.",
+        "translation": "We often use 主要 (main) in communication."
+      },
+      {
+        "chinese": "你知道这个主要的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhǔyào de yìsi ma?",
+        "translation": "Do you know the meaning of this 主要?"
+      }
+    ]
+  },
+  {
+    "id": 593,
+    "character": "注意",
+    "pinyin": "zhùyì",
+    "meaning": "Be careful",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用注意交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zhùyì jiāoliú.",
+        "translation": "We often use 注意 (Be careful) in communication."
+      },
+      {
+        "chinese": "你知道这个注意的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zhùyì de yìsi ma?",
+        "translation": "Do you know the meaning of this 注意?"
+      }
+    ]
+  },
+  {
+    "id": 594,
+    "character": "自己",
+    "pinyin": "zìjǐ",
+    "meaning": "Own, self",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用自己交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zìjǐ jiāoliú.",
+        "translation": "We often use 自己 (Own, self) in communication."
+      },
+      {
+        "chinese": "你知道这个自己的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zìjǐ de yìsi ma?",
+        "translation": "Do you know the meaning of this 自己?"
+      }
+    ]
+  },
+  {
+    "id": 595,
+    "character": "自行车",
+    "pinyin": "zìxíngchē",
+    "meaning": "Bicycle",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 6,
+    "examples": [
+      {
+        "chinese": "我们经常用自行车交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zìxíngchē jiāoliú.",
+        "translation": "We often use 自行车 (Bicycle) in communication."
+      },
+      {
+        "chinese": "你知道这个自行车的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zìxíngchē de yìsi ma?",
+        "translation": "Do you know the meaning of this 自行车?"
+      }
+    ]
+  },
+  {
+    "id": 596,
+    "character": "总是",
+    "pinyin": "zǒngshì",
+    "meaning": "always",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用总是交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zǒngshì jiāoliú.",
+        "translation": "We often use 总是 (always) in communication."
+      },
+      {
+        "chinese": "你知道这个总是的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zǒngshì de yìsi ma?",
+        "translation": "Do you know the meaning of this 总是?"
+      }
+    ]
+  },
+  {
+    "id": 597,
+    "character": "嘴",
+    "pinyin": "zuǐ",
+    "meaning": "mouth",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 8,
+    "examples": [
+      {
+        "chinese": "我们经常用嘴交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zuǐ jiāoliú.",
+        "translation": "We often use 嘴 (mouth) in communication."
+      },
+      {
+        "chinese": "你知道这个嘴的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zuǐ de yìsi ma?",
+        "translation": "Do you know the meaning of this 嘴?"
+      }
+    ]
+  },
+  {
+    "id": 598,
+    "character": "最后",
+    "pinyin": "zuìhòu",
+    "meaning": "Last",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用最后交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zuìhòu jiāoliú.",
+        "translation": "We often use 最后 (Last) in communication."
+      },
+      {
+        "chinese": "你知道这个最后的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zuìhòu de yìsi ma?",
+        "translation": "Do you know the meaning of this 最后?"
+      }
+    ]
+  },
+  {
+    "id": 599,
+    "character": "最近",
+    "pinyin": "zuìjìn",
+    "meaning": "lately",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 12,
+    "examples": [
+      {
+        "chinese": "我们经常用最近交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zuìjìn jiāoliú.",
+        "translation": "We often use 最近 (lately) in communication."
+      },
+      {
+        "chinese": "你知道这个最近的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zuìjìn de yìsi ma?",
+        "translation": "Do you know the meaning of this 最近?"
+      }
+    ]
+  },
+  {
+    "id": 600,
+    "character": "作业",
+    "pinyin": "zuòyè",
+    "meaning": "homework",
+    "category": "HSK 3 Standard",
+    "level": 3,
+    "strokes": 7,
+    "examples": [
+      {
+        "chinese": "我们经常用作业交流。",
+        "pinyin": "Wǒmen jīngcháng yòng zuòyè jiāoliú.",
+        "translation": "We often use 作业 (homework) in communication."
+      },
+      {
+        "chinese": "你知道这个作业的意思吗？",
+        "pinyin": "Nǐ zhīdào zhège zuòyè de yìsi ma?",
+        "translation": "Do you know the meaning of this 作业?"
+      }
+    ]
+  }
+]

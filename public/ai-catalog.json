@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agenticresourcediscovery.org/spec/v1/schema.json",
+  "name": "HSK Plus",
+  "description": "Free Comprehensive Chinese HSK 1, 2, and 3 Learning Platform and Encyclopedia",
+  "version": "1.0.0",
+  "url": "https://desihop.net",
+  "provider": {
+    "name": "HSK Plus Pedagogical Team",
+    "url": "https://desihop.net/about"
+  },
+  "capabilities": [
+    {
+      "id": "hsk-vocabulary",
+      "name": "HSK Vocabulary Encyclopedia",
+      "description": "600 official HSK 1-3 vocabulary entries with pinyin, audio, and example sentences",
+      "url": "https://desihop.net/hsk1/vocabulary"
+    },
+    {
+      "id": "hsk-mock-tests",
+      "name": "HSK Timed Mock Examinations",
+      "description": "33 authentic listening, reading, and writing mock exams with instant scoring",
+      "url": "https://desihop.net/mock-tests"
+    },
+    {
+      "id": "hsk-score-calculator",
+      "name": "HSK Scaled Score & Scholarship Calculator",
+      "description": "Official scaled scoring engine and scholarship qualification estimator",
+      "url": "https://desihop.net/score-calculator"
+    }
+  ]
+}

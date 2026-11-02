@@ -1,0 +1,37 @@
+# HSK Plus — Free HSK Learning Platform & Encyclopedia
+
+> [HSK Plus](https://desihop.net/) is a free, modern web platform and comprehensive encyclopedia for learning Mandarin Chinese aligned with the official Chinese Proficiency Test (HSK - 汉语水平考试), specifically covering HSK Level 1 (Beginner), HSK Level 2 (Elementary), and HSK Level 3 (Intermediate).
+
+## Core Capabilities & Features
+- [HSK 1 Portal](https://desihop.net/hsk1): Beginner Chinese foundation covering 150 vocabulary words, 15 lessons, 15 grammar patterns, 10 dialogues, character stroke studio, and 11 timed mock tests.
+- [HSK 2 Portal](https://desihop.net/hsk2): Elementary Chinese covering 150 vocabulary words, 15 lessons, 15 grammar patterns, 10 dialogues, character stroke studio, and 11 timed mock tests.
+- [HSK 3 Portal](https://desihop.net/hsk3): Intermediate Chinese covering 300 vocabulary words, 20 lessons, 20 grammar patterns, 10 dialogues, character stroke studio, and 11 timed mock tests.
+- [Timed Mock Examinations](https://desihop.net/mock-tests): 33 official-format practice tests with listening audio, reading, writing, and instant grading.
+- [HSK Score Calculator](https://desihop.net/score-calculator): Official scaled score and CSC scholarship eligibility calculator.
+- [Pedagogical Blog Guides](https://desihop.net/blogs): 20 comprehensive 1,000+ word guides on tones, pinyin, characters, and exam tactics.
+- [About HSK Plus](https://desihop.net/about): Pedagogical mission, curriculum alignment, and multi-platform comparison benchmark.
+
+## Direct Section Links
+- [HSK 1 Vocabulary Encyclopedia](https://desihop.net/hsk1/vocabulary): 150 official vocabulary words with pinyin, audio, and example sentences.
+- [HSK 1 Character Writing Lab](https://desihop.net/hsk1/practice): Hanzi stroke animations and Tian Zi Ge writing canvas.
+- [HSK 1 Standard Lessons](https://desihop.net/hsk1/lessons): 15 BLCUP Standard Course 1 textbook lessons.
+- [HSK 1 Sentence Patterns](https://desihop.net/hsk1/sentences): 15 foundational grammar structures.
+- [HSK 1 Dialogues](https://desihop.net/hsk1/dialogs): 10 conversational dialogues with native audio.
+- [HSK 1 Mock Tests](https://desihop.net/hsk1/tests): 11 timed mock exams.
+- [HSK 2 Vocabulary Encyclopedia](https://desihop.net/hsk2/vocabulary): 150 official vocabulary words with audio.
+- [HSK 2 Character Writing Lab](https://desihop.net/hsk2/practice): Hanzi stroke animations and writing canvas.
+- [HSK 2 Standard Lessons](https://desihop.net/hsk2/lessons): 15 BLCUP Standard Course 2 textbook lessons.
+- [HSK 2 Sentence Patterns](https://desihop.net/hsk2/sentences): 15 elementary grammar structures.
+- [HSK 2 Dialogues](https://desihop.net/hsk2/dialogs): 10 conversational dialogues with native audio.
+- [HSK 2 Mock Tests](https://desihop.net/hsk2/tests): 11 timed mock exams.
+- [HSK 3 Vocabulary Encyclopedia](https://desihop.net/hsk3/vocabulary): 300 official vocabulary words with audio.
+- [HSK 3 Character Writing Lab](https://desihop.net/hsk3/practice): Hanzi stroke animations and writing canvas.
+- [HSK 3 Standard Lessons](https://desihop.net/hsk3/lessons): 20 BLCUP Standard Course 3 textbook lessons.
+- [HSK 3 Sentence Patterns](https://desihop.net/hsk3/sentences): 20 intermediate grammar structures.
+- [HSK 3 Dialogues](https://desihop.net/hsk3/dialogs): 10 conversational dialogues with native audio.
+- [HSK 3 Mock Tests](https://desihop.net/hsk3/tests): 11 timed mock exams.
+
+## Contact & Policies
+- [Contact Support](https://desihop.net/contact)
+- [Privacy Policy](https://desihop.net/privacy-policy)
+- [Terms of Service](https://desihop.net/terms-of-service)

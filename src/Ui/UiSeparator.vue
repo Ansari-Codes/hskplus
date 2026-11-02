@@ -1,0 +1,17 @@
+<script setup lang="ts">
+withDefaults(defineProps<{
+  orientation?: 'horizontal' | 'vertical'
+  decorative?: boolean
+}>(), {
+  orientation: 'horizontal',
+  decorative: false,
+})
+</script>
+
+<template>
+  <div
+    :role="decorative ? 'none' : 'separator'"
+    :aria-orientation="decorative ? undefined : orientation"
+    :class="orientation === 'horizontal' ? 'h-px w-full bg-border' : 'h-full w-px bg-border'"
+  />
+</template>

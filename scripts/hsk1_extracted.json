@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "character": "我",
+    "pinyin": "wǒ",
+    "meaning": "I, me",
+    "category": "Personal Pron.",
+    "level": 1
+  },
+  {
+    "id": 2,
+    "character": "我们",
+    "pinyin": "wǒmen",
+    "meaning": "we, us (pl.)",
+    "category": "Personal Pron.",
+    "level": 1
+  },
+  {
+    "id": 3,
+    "character": "你",
+    "pinyin": "nǐ",
+    "meaning": "you",
+    "category": "Personal Pron.",
+    "level": 1
+  },
+  {
+    "id": 4,
+    "character": "他",
+    "pinyin": "tā",
+    "meaning": "he, him",
+    "category": "Personal Pron.",
+    "level": 1
+  },
+  {
+    "id": 5,
+    "character": "她",
+    "pinyin": "tā",
+    "meaning": "she, her",
+    "category": "Personal Pron.",
+    "level": 1
+  },
+  {
+    "id": 6,
+    "character": "这 (这儿)",
+    "pinyin": "zhè ( zhèr)",
+    "meaning": "this (here)",
+    "category": "Demonstrative Pron.",
+    "level": 1
+  },
+  {
+    "id": 7,
+    "character": "那 (那儿)",
+    "pinyin": "nà (nàr)",
+    "meaning": "that (there)",
+    "category": "Demonstrative Pron.",
+    "level": 1
+  },
+  {
+    "id": 8,
+    "character": "哪",
+    "pinyin": "nǎ",
+    "meaning": "which",
+    "category": "Interrogative Pron.",
+    "level": 1
+  },
+  {
+    "id": 9,
+    "character": "哪儿",
+    "pinyin": "nǎr",
+    "meaning": "where",
+    "category": "Interrogative Pron.",
+    "level": 1
+  },
+  {
+    "id": 10,
+    "character": "谁",
+    "pinyin": "shéi",
+    "meaning": "who",
+    "category": "Interrogative Pron.",
+    "level": 1
+  },
+  {
+    "id": 11,
+    "character": "什么",
+    "pinyin": "shénme",
+    "meaning": "what, why",
+    "category": "Interrogative Pron.",
+    "level": 1
+  },
+  {
+    "id": 12,
+    "character": "多少",
+    "pinyin": "duōshǎo",
+    "meaning": "how many, how",
+    "category": "Interrogative Pron.",
+    "level": 1
+  },
+  {
+    "id": 13,
+    "character": "几",
+    "pinyin": "jǐ",
+    "meaning": "a few, how many",
+    "category": "much",
+    "level": 1
+  },
+  {
+    "id": 14,
+    "character": "怎么",
+    "pinyin": "zěnme",
+    "meaning": "how",
+    "category": "much",
+    "level": 1
+  },
+  {
+    "id": 15,
+    "character": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "meaning": "how about",
+    "category": "much",
+    "level": 1
+  },
+  {
+    "id": 16,
+    "character": "一",
+    "pinyin": "yī",
+    "meaning": "one",
+    "category": "Numberal",
+    "level": 1
+  },
+  {
+    "id": 17,
+    "character": "二",
+    "pinyin": "èr",
+    "meaning": "two",
+    "category": "Numberal",
+    "level": 1
+  },
+  {
+    "id": 18,
+    "character": "三",
+    "pinyin": "sān",
+    "meaning": "three",
+    "category": "Numberal",
+    "level": 1
+  },
+  {
+    "id": 19,
+    "character": "四",
+    "pinyin": "sì",
+    "meaning": "four",
+    "category": "Numberal",
+    "level": 1
+  },
+  {
+    "id": 20,
+    "character": "五",
+    "pinyin": "wǔ",
+    "meaning": "five",
+    "category": "Numberal",
+    "level": 1
+  },
+  {
+    "id": 21,
+    "character": "六",
+    "pinyin": "liù",
+    "meaning": "six",
+    "category": "Numberal",
+    "level": 1
+  },
+  {
+    "id": 22,
+    "character": "七",
+    "pinyin": "qī",
+    "meaning": "seven",
+    "category": "Numberal",
+    "level": 1
+  },
+  {
+    "id": 23,
+    "character": "八",
+    "pinyin": "bā",
+    "meaning": "eight",
+    "category": "Numberal",
+    "level": 1
+  },
+  {
+    "id": 24,
+    "character": "九",
+    "pinyin": "jiǔ",
+    "meaning": "nine",
+    "category": "Numberal",
+    "level": 1
+  },
+  {
+    "id": 25,
+    "character": "十",
+    "pinyin": "shí",
+    "meaning": "ten",
+    "category": "Numberal",
+    "level": 1
+  },
+  {
+    "id": 26,
+    "character": "个",
+    "pinyin": "gè",
+    "meaning": "(for normal objects)",
+    "category": "Quantifier",
+    "level": 1
+  },
+  {
+    "id": 27,
+    "character": "岁",
+    "pinyin": "suì",
+    "meaning": "(for age)",
+    "category": "Quantifier",
+    "level": 1
+  },
+  {
+    "id": 28,
+    "character": "本",
+    "pinyin": "běn",
+    "meaning": "(for books)",
+    "category": "Quantifier",
+    "level": 1
+  },
+  {
+    "id": 29,
+    "character": "些",
+    "pinyin": "xiē",
+    "meaning": "some",
+    "category": "Quantifier",
+    "level": 1
+  },
+  {
+    "id": 30,
+    "character": "块",
+    "pinyin": "kuài",
+    "meaning": "piece, chunk",
+    "category": "Quantifier",
+    "level": 1
+  },
+  {
+    "id": 31,
+    "character": "不",
+    "pinyin": "bù",
+    "meaning": "no",
+    "category": "Adverb",
+    "level": 1
+  },
+  {
+    "id": 32,
+    "character": "没",
+    "pinyin": "méi",
+    "meaning": "no",
+    "category": "Adverb",
+    "level": 1
+  },
+  {
+    "id": 33,
+    "character": "很",
+    "pinyin": "hěn",
+    "meaning": "quite, very",
+    "category": "Adverb",
+    "level": 1
+  },
+  {
+    "id": 34,
+    "character": "太",
+    "pinyin": "tài",
+    "meaning": "too",
+    "category": "Adverb",
+    "level": 1
+  },
+  {
+    "id": 35,
+    "character": "都",
+    "pinyin": "dōu",
+    "meaning": "all",
+    "category": "Adverb",
+    "level": 1
+  },
+  {
+    "id": 36,
+    "character": "一点儿",
+    "pinyin": "yīdiǎnr",
+    "meaning": "a little bit",
+    "category": "Adverb",
+    "level": 1
+  },
+  {
+    "id": 37,
+    "character": "和",
+    "pinyin": "hé",
+    "meaning": "and",
+    "category": "Conjunction",
+    "level": 1
+  },
+  {
+    "id": 38,
+    "character": "在",
+    "pinyin": "zài",
+    "meaning": "in, at",
+    "category": "Preposition",
+    "level": 1
+  },
+  {
+    "id": 39,
+    "character": "的",
+    "pinyin": "de",
+    "meaning": "possessive or descriptive particle; structural particle indicating attribution",
+    "category": "Auxiliary",
+    "level": 1
+  },
+  {
+    "id": 40,
+    "character": "了",
+    "pinyin": "le",
+    "meaning": "aspect particle indicating completed action or change of situation",
+    "category": "Auxiliary",
+    "level": 1
+  },
+  {
+    "id": 41,
+    "character": "吗",
+    "pinyin": "ma",
+    "meaning": "question particle for yes-no questions",
+    "category": "Auxiliary",
+    "level": 1
+  },
+  {
+    "id": 42,
+    "character": "呢",
+    "pinyin": "ne",
+    "meaning": "modal particle for questions about location, follow-up, or ongoing state",
+    "category": "Auxiliary",
+    "level": 1
+  },
+  {
+    "id": 43,
+    "character": "喂",
+    "pinyin": "wèi",
+    "meaning": "hello",
+    "category": "Interjection",
+    "level": 1
+  },
+  {
+    "id": 44,
+    "character": "家",
+    "pinyin": "jiā",
+    "meaning": "home",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 45,
+    "character": "学校",
+    "pinyin": "xuéxiào",
+    "meaning": "school",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 46,
+    "character": "饭店",
+    "pinyin": "fàndiàn",
+    "meaning": "restaurant",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 47,
+    "character": "商店",
+    "pinyin": "shāngdiàn",
+    "meaning": "store",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 48,
+    "character": "医院",
+    "pinyin": "yīyuàn",
+    "meaning": "hospital",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 49,
+    "character": "中国",
+    "pinyin": "Zhōngguò",
+    "meaning": "China",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 50,
+    "character": "北京",
+    "pinyin": "Běijīng",
+    "meaning": "Beijing",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 51,
+    "character": "上",
+    "pinyin": "shàng",
+    "meaning": "up",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 52,
+    "character": "下",
+    "pinyin": "xià",
+    "meaning": "down",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 53,
+    "character": "前面",
+    "pinyin": "qiánmiàn",
+    "meaning": "front",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 54,
+    "character": "后面",
+    "pinyin": "hòumiàn",
+    "meaning": "behind",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 55,
+    "character": "里",
+    "pinyin": "lǐmiàn",
+    "meaning": "inside",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 56,
+    "character": "今天",
+    "pinyin": "jīntiān",
+    "meaning": "today",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 57,
+    "character": "明天",
+    "pinyin": "míngtiān",
+    "meaning": "tomorrow",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 58,
+    "character": "昨天",
+    "pinyin": "zuótiān",
+    "meaning": "yesterday",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 59,
+    "character": "上午",
+    "pinyin": "shàngwǔ",
+    "meaning": "morning",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 60,
+    "character": "中午",
+    "pinyin": "zhōngwǔ",
+    "meaning": "noon",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 61,
+    "character": "下午",
+    "pinyin": "xiàwǔ",
+    "meaning": "afternoon",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 62,
+    "character": "年",
+    "pinyin": "nián",
+    "meaning": "year",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 63,
+    "character": "月",
+    "pinyin": "yuè",
+    "meaning": "month",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 64,
+    "character": "号",
+    "pinyin": "hào",
+    "meaning": "number/date",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 65,
+    "character": "星期",
+    "pinyin": "xīngqī",
+    "meaning": "week",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 66,
+    "character": "点",
+    "pinyin": "diǎn",
+    "meaning": "o'clock",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 67,
+    "character": "分钟",
+    "pinyin": "fēnzhōng",
+    "meaning": "minute",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 68,
+    "character": "现在",
+    "pinyin": "xiànzài",
+    "meaning": "now",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 69,
+    "character": "时候",
+    "pinyin": "shíhou",
+    "meaning": "time",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 70,
+    "character": "爸爸",
+    "pinyin": "bàba",
+    "meaning": "father",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 71,
+    "character": "妈妈",
+    "pinyin": "māma",
+    "meaning": "mother",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 72,
+    "character": "儿子",
+    "pinyin": "érzi",
+    "meaning": "son",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 73,
+    "character": "女儿",
+    "pinyin": "nǚér",
+    "meaning": "daughter",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 74,
+    "character": "老师",
+    "pinyin": "lǎoshī",
+    "meaning": "teacher",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 75,
+    "character": "学生",
+    "pinyin": "xuéshēng",
+    "meaning": "student",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 76,
+    "character": "同学",
+    "pinyin": "tóngxué",
+    "meaning": "classmate",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 77,
+    "character": "朋友",
+    "pinyin": "péngyǒu",
+    "meaning": "friend",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 78,
+    "character": "医生",
+    "pinyin": "yīshēng",
+    "meaning": "doctor",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 79,
+    "character": "先生",
+    "pinyin": "xiānsheng",
+    "meaning": "sir",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 80,
+    "character": "小姐",
+    "pinyin": "xiǎojiě",
+    "meaning": "Miss",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 81,
+    "character": "衣服",
+    "pinyin": "yīfu",
+    "meaning": "cloth",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 82,
+    "character": "水",
+    "pinyin": "shuǐ",
+    "meaning": "water",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 83,
+    "character": "菜",
+    "pinyin": "cài",
+    "meaning": "dish",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 84,
+    "character": "米饭",
+    "pinyin": "mǐfàn",
+    "meaning": "rice",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 85,
+    "character": "水果",
+    "pinyin": "shuǐguǒ",
+    "meaning": "fruit",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 86,
+    "character": "苹果",
+    "pinyin": "píngguǒ",
+    "meaning": "apple",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 87,
+    "character": "茶",
+    "pinyin": "chá",
+    "meaning": "tea",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 88,
+    "character": "杯子",
+    "pinyin": "bēizi",
+    "meaning": "cup",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 89,
+    "character": "钱",
+    "pinyin": "qián",
+    "meaning": "money",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 90,
+    "character": "飞机",
+    "pinyin": "fēijī",
+    "meaning": "airplane",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 91,
+    "character": "出租车",
+    "pinyin": "chūzūchē",
+    "meaning": "taxi",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 92,
+    "character": "电视",
+    "pinyin": "diànshì",
+    "meaning": "television",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 93,
+    "character": "电脑",
+    "pinyin": "diànnǎo",
+    "meaning": "computer",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 94,
+    "character": "电影",
+    "pinyin": "diànyǐng",
+    "meaning": "movie",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 95,
+    "character": "天气",
+    "pinyin": "tiānqì",
+    "meaning": "weather",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 96,
+    "character": "猫",
+    "pinyin": "māo",
+    "meaning": "cat",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 97,
+    "character": "狗",
+    "pinyin": "gǒu",
+    "meaning": "dog",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 98,
+    "character": "东西",
+    "pinyin": "dōngxi",
+    "meaning": "thing",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 99,
+    "character": "人",
+    "pinyin": "rén",
+    "meaning": "person",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 100,
+    "character": "名字",
+    "pinyin": "míngzi",
+    "meaning": "name",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 101,
+    "character": "书",
+    "pinyin": "shū",
+    "meaning": "book",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 102,
+    "character": "汉语",
+    "pinyin": "hànyǔ",
+    "meaning": "mandarin Chinese",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 103,
+    "character": "字",
+    "pinyin": "zì",
+    "meaning": "character",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 104,
+    "character": "桌子",
+    "pinyin": "zhuōzi",
+    "meaning": "desk",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 105,
+    "character": "椅子",
+    "pinyin": "yǐzi",
+    "meaning": "chair",
+    "category": "Noun",
+    "level": 1
+  },
+  {
+    "id": 106,
+    "character": "谢谢",
+    "pinyin": "xièxie",
+    "meaning": "thank",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 107,
+    "character": "不客气",
+    "pinyin": "búkèqì",
+    "meaning": "you are welcome",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 108,
+    "character": "再见",
+    "pinyin": "zàijiàn",
+    "meaning": "good-bye",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 109,
+    "character": "请",
+    "pinyin": "qǐng",
+    "meaning": "please",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 110,
+    "character": "对不起",
+    "pinyin": "duìbùqǐ",
+    "meaning": "sorry",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 111,
+    "character": "没关系",
+    "pinyin": "méiguānxì",
+    "meaning": "It doesn't matter",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 112,
+    "character": "是",
+    "pinyin": "shì",
+    "meaning": "be (am, is, are)",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 113,
+    "character": "有",
+    "pinyin": "yǒu",
+    "meaning": "have",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 114,
+    "character": "看",
+    "pinyin": "kàn",
+    "meaning": "look",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 115,
+    "character": "听",
+    "pinyin": "tīng",
+    "meaning": "listen",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 116,
+    "character": "说",
+    "pinyin": "shuō",
+    "meaning": "speak",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 117,
+    "character": "读",
+    "pinyin": "dú",
+    "meaning": "read",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 118,
+    "character": "写",
+    "pinyin": "xiě",
+    "meaning": "write",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 119,
+    "character": "看见",
+    "pinyin": "kànjiàn",
+    "meaning": "see",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 120,
+    "character": "叫",
+    "pinyin": "jiào",
+    "meaning": "call",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 121,
+    "character": "来",
+    "pinyin": "lái",
+    "meaning": "come",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 122,
+    "character": "回",
+    "pinyin": "huí",
+    "meaning": "return",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 123,
+    "character": "去",
+    "pinyin": "qù",
+    "meaning": "go",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 124,
+    "character": "吃",
+    "pinyin": "chī",
+    "meaning": "eat",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 125,
+    "character": "喝",
+    "pinyin": "hē",
+    "meaning": "drink",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 126,
+    "character": "睡觉",
+    "pinyin": "shuìjiào",
+    "meaning": "sleep",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 127,
+    "character": "打电话",
+    "pinyin": "dǎdiànhuà",
+    "meaning": "make phone call",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 128,
+    "character": "做",
+    "pinyin": "zuò",
+    "meaning": "do",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 129,
+    "character": "买",
+    "pinyin": "mǎi",
+    "meaning": "buy",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 130,
+    "character": "开",
+    "pinyin": "kāi",
+    "meaning": "open",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 131,
+    "character": "坐",
+    "pinyin": "zuò",
+    "meaning": "sit",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 132,
+    "character": "住",
+    "pinyin": "zhù",
+    "meaning": "live",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 133,
+    "character": "学习",
+    "pinyin": "xuéxí",
+    "meaning": "study",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 134,
+    "character": "工作",
+    "pinyin": "gōngzuò",
+    "meaning": "work",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 135,
+    "character": "下雨",
+    "pinyin": "xiàyǔ",
+    "meaning": "rain",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 136,
+    "character": "爱",
+    "pinyin": "ài",
+    "meaning": "love",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 137,
+    "character": "喜欢",
+    "pinyin": "xǐhuān",
+    "meaning": "love, like",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 138,
+    "character": "想",
+    "pinyin": "xiǎng",
+    "meaning": "want",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 139,
+    "character": "认识",
+    "pinyin": "rènshi",
+    "meaning": "know",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 140,
+    "character": "会",
+    "pinyin": "huì",
+    "meaning": "can",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 141,
+    "character": "能",
+    "pinyin": "néng",
+    "meaning": "can, be able to",
+    "category": "Verb",
+    "level": 1
+  },
+  {
+    "id": 142,
+    "character": "好",
+    "pinyin": "hǎo",
+    "meaning": "good",
+    "category": "Adjective",
+    "level": 1
+  },
+  {
+    "id": 143,
+    "character": "大",
+    "pinyin": "dà",
+    "meaning": "big",
+    "category": "Adjective",
+    "level": 1
+  },
+  {
+    "id": 144,
+    "character": "小",
+    "pinyin": "xiǎo",
+    "meaning": "small",
+    "category": "Adjective",
+    "level": 1
+  },
+  {
+    "id": 145,
+    "character": "多",
+    "pinyin": "duō",
+    "meaning": "many, much",
+    "category": "Adjective",
+    "level": 1
+  },
+  {
+    "id": 146,
+    "character": "少",
+    "pinyin": "shǎo",
+    "meaning": "few, little",
+    "category": "Adjective",
+    "level": 1
+  },
+  {
+    "id": 147,
+    "character": "冷",
+    "pinyin": "lěng",
+    "meaning": "cold",
+    "category": "Adjective",
+    "level": 1
+  },
+  {
+    "id": 148,
+    "character": "热",
+    "pinyin": "rè",
+    "meaning": "hot",
+    "category": "Adjective",
+    "level": 1
+  },
+  {
+    "id": 149,
+    "character": "高兴",
+    "pinyin": "gāoxìng",
+    "meaning": "happy",
+    "category": "Adjective",
+    "level": 1
+  },
+  {
+    "id": 150,
+    "character": "漂亮",
+    "pinyin": "piàoliang",
+    "meaning": "beautiful",
+    "category": "Adjective",
+    "level": 1
+  }
+]

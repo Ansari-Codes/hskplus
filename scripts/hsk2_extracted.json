@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 151,
+    "level_id": 1,
+    "character": "您",
+    "pinyin": "nín",
+    "meaning": "you",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 152,
+    "level_id": 2,
+    "character": "它",
+    "pinyin": "tā",
+    "meaning": "it",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 153,
+    "level_id": 3,
+    "character": "大家",
+    "pinyin": "dàjiā",
+    "meaning": "everyone",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 154,
+    "level_id": 4,
+    "character": "每",
+    "pinyin": "měi",
+    "meaning": "every, each",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 155,
+    "level_id": 5,
+    "character": "为什么",
+    "pinyin": "wèishénme",
+    "meaning": "why",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 156,
+    "level_id": 6,
+    "character": "零",
+    "pinyin": "líng",
+    "meaning": "zero",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 157,
+    "level_id": 7,
+    "character": "两",
+    "pinyin": "liǎng",
+    "meaning": "two",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 158,
+    "level_id": 8,
+    "character": "百",
+    "pinyin": "bǎi",
+    "meaning": "hundred",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 159,
+    "level_id": 9,
+    "character": "千",
+    "pinyin": "qiān",
+    "meaning": "thousand",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 160,
+    "level_id": 10,
+    "character": "第一",
+    "pinyin": "dìyī",
+    "meaning": "first",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 161,
+    "level_id": 11,
+    "character": "次",
+    "pinyin": "cì",
+    "meaning": "times",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 162,
+    "level_id": 12,
+    "character": "件",
+    "pinyin": "jiàn",
+    "meaning": "piece",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 163,
+    "level_id": 13,
+    "character": "别",
+    "pinyin": "bié",
+    "meaning": "do not",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 164,
+    "level_id": 14,
+    "character": "非常",
+    "pinyin": "fēicháng",
+    "meaning": "very",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 165,
+    "level_id": 15,
+    "character": "也",
+    "pinyin": "yě",
+    "meaning": "also",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 166,
+    "level_id": 16,
+    "character": "还",
+    "pinyin": "hái",
+    "meaning": "still",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 167,
+    "level_id": 17,
+    "character": "最",
+    "pinyin": "zuì",
+    "meaning": "the most",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 168,
+    "level_id": 18,
+    "character": "真",
+    "pinyin": "zhēn",
+    "meaning": "really",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 169,
+    "level_id": 19,
+    "character": "正在",
+    "pinyin": "zhèngzài",
+    "meaning": "be being",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 170,
+    "level_id": 20,
+    "character": "已经",
+    "pinyin": "yǐjīng",
+    "meaning": "already",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 171,
+    "level_id": 21,
+    "character": "一起",
+    "pinyin": "yìqǐ",
+    "meaning": "together",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 172,
+    "level_id": 22,
+    "character": "再",
+    "pinyin": "zài",
+    "meaning": "again",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 173,
+    "level_id": 23,
+    "character": "就",
+    "pinyin": "jiǜ",
+    "meaning": "at once",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 174,
+    "level_id": 24,
+    "character": "因为……所以……",
+    "pinyin": "yīnwèi...suǒyǐ…",
+    "meaning": "conjunction: because... therefore...",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 175,
+    "level_id": 25,
+    "character": "虽然……但是……",
+    "pinyin": "suīrán…dànshì…",
+    "meaning": "conjunction: although... but...",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 176,
+    "level_id": 26,
+    "character": "从",
+    "pinyin": "cóng",
+    "meaning": "from",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 177,
+    "level_id": 27,
+    "character": "比",
+    "pinyin": "bǐ",
+    "meaning": "comparing to",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 178,
+    "level_id": 28,
+    "character": "往",
+    "pinyin": "wǎng",
+    "meaning": "toward, to",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 179,
+    "level_id": 29,
+    "character": "离",
+    "pinyin": "lí",
+    "meaning": "indicate the distance",
+    "category": "General",
+    "level": 2
+  },
+  {
+    "id": 180,
+    "level_id": 30,
+    "character": "得",
+    "pinyin": "de",
+    "meaning": "structural particle placed after a verb to describe the manner or degree",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 181,
+    "level_id": 31,
+    "character": "着",
+    "pinyin": "zhe",
+    "meaning": "aspect particle indicating an ongoing action or continuous state",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 182,
+    "level_id": 32,
+    "character": "过",
+    "pinyin": "guò",
+    "meaning": "aspect particle indicating past experience (have done)",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 183,
+    "level_id": 33,
+    "character": "吧",
+    "pinyin": "ba",
+    "meaning": "modal particle for suggestion, polite command, or consent",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 184,
+    "level_id": 34,
+    "character": "机场",
+    "pinyin": "jīchǎng",
+    "meaning": "airport",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 185,
+    "level_id": 35,
+    "character": "教室",
+    "pinyin": "jiàoshì",
+    "meaning": "classroom",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 186,
+    "level_id": 36,
+    "character": "房间",
+    "pinyin": "fángjiān",
+    "meaning": "room",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 187,
+    "level_id": 37,
+    "character": "路",
+    "pinyin": "lù",
+    "meaning": "road",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 188,
+    "level_id": 38,
+    "character": "左边",
+    "pinyin": "zuǒbiān",
+    "meaning": "left",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 189,
+    "level_id": 39,
+    "character": "右边",
+    "pinyin": "yòubiān",
+    "meaning": "right",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 190,
+    "level_id": 40,
+    "character": "外",
+    "pinyin": "wài",
+    "meaning": "outside",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 191,
+    "level_id": 41,
+    "character": "旁边",
+    "pinyin": "pángbiān",
+    "meaning": "side",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 192,
+    "level_id": 42,
+    "character": "一下",
+    "pinyin": "yīxià",
+    "meaning": "in a short while",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 193,
+    "level_id": 43,
+    "character": "早上",
+    "pinyin": "zǎoshàng",
+    "meaning": "morning",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 194,
+    "level_id": 44,
+    "character": "晚上",
+    "pinyin": "wǎnshàng",
+    "meaning": "night",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 195,
+    "level_id": 45,
+    "character": "小时",
+    "pinyin": "xiǎoshí",
+    "meaning": "hour",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 196,
+    "level_id": 46,
+    "character": "时间",
+    "pinyin": "shíjiān",
+    "meaning": "time",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 197,
+    "level_id": 47,
+    "character": "去年",
+    "pinyin": "qùnián",
+    "meaning": "last year",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 198,
+    "level_id": 48,
+    "character": "日",
+    "pinyin": "rì",
+    "meaning": "date",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 199,
+    "level_id": 49,
+    "character": "生日",
+    "pinyin": "shēngrì",
+    "meaning": "birthday",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 200,
+    "level_id": 50,
+    "character": "哥哥",
+    "pinyin": "gēge",
+    "meaning": "older brother",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 201,
+    "level_id": 51,
+    "character": "姐姐",
+    "pinyin": "jiějie",
+    "meaning": "older sister",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 202,
+    "level_id": 52,
+    "character": "弟弟",
+    "pinyin": "dìdi",
+    "meaning": "younger brother",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 203,
+    "level_id": 53,
+    "character": "妹妹",
+    "pinyin": "mèimei",
+    "meaning": "younger sister",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 204,
+    "level_id": 54,
+    "character": "丈夫",
+    "pinyin": "zhàngfu",
+    "meaning": "husband",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 205,
+    "level_id": 55,
+    "character": "妻子",
+    "pinyin": "qīzi",
+    "meaning": "wife",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 206,
+    "level_id": 56,
+    "character": "孩子",
+    "pinyin": "háizi",
+    "meaning": "child",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 207,
+    "level_id": 57,
+    "character": "男人",
+    "pinyin": "nánrén",
+    "meaning": "man",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 208,
+    "level_id": 58,
+    "character": "女人",
+    "pinyin": "nǚrén",
+    "meaning": "woman",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 209,
+    "level_id": 59,
+    "character": "服务员",
+    "pinyin": "fúwùyuán",
+    "meaning": "waiter",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 210,
+    "level_id": 60,
+    "character": "鱼",
+    "pinyin": "yú",
+    "meaning": "fish",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 211,
+    "level_id": 61,
+    "character": "羊肉",
+    "pinyin": "yángròu",
+    "meaning": "mutton",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 212,
+    "level_id": 62,
+    "character": "牛奶",
+    "pinyin": "niúnǎi",
+    "meaning": "milk",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 213,
+    "level_id": 63,
+    "character": "鸡蛋",
+    "pinyin": "jīdàn",
+    "meaning": "egg",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 214,
+    "level_id": 64,
+    "character": "西瓜",
+    "pinyin": "xīguā",
+    "meaning": "watermelon",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 215,
+    "level_id": 65,
+    "character": "咖啡",
+    "pinyin": "kāfēi",
+    "meaning": "coffee",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 216,
+    "level_id": 66,
+    "character": "雪",
+    "pinyin": "xuě",
+    "meaning": "snow",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 217,
+    "level_id": 67,
+    "character": "药",
+    "pinyin": "yào",
+    "meaning": "medicine",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 218,
+    "level_id": 68,
+    "character": "手机",
+    "pinyin": "shǒujī",
+    "meaning": "cellphone",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 219,
+    "level_id": 69,
+    "character": "手表",
+    "pinyin": "shǒubiǎo",
+    "meaning": "watch",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 220,
+    "level_id": 70,
+    "character": "眼睛",
+    "pinyin": "yǎnjīng",
+    "meaning": "eye",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 221,
+    "level_id": 71,
+    "character": "身体",
+    "pinyin": "shēntǐ",
+    "meaning": "body",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 222,
+    "level_id": 72,
+    "character": "公共汽车",
+    "pinyin": "gōnggòngqìchē",
+    "meaning": "bus",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 223,
+    "level_id": 73,
+    "character": "报纸",
+    "pinyin": "bàozhǐ",
+    "meaning": "newspaper",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 224,
+    "level_id": 74,
+    "character": "门",
+    "pinyin": "mén",
+    "meaning": "door",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 225,
+    "level_id": 75,
+    "character": "题",
+    "pinyin": "tí",
+    "meaning": "topic, item",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 226,
+    "level_id": 76,
+    "character": "课",
+    "pinyin": "kè",
+    "meaning": "lesson",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 227,
+    "level_id": 77,
+    "character": "姓",
+    "pinyin": "xìng",
+    "meaning": "surname",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 228,
+    "level_id": 78,
+    "character": "问题",
+    "pinyin": "wèntí",
+    "meaning": "question",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 229,
+    "level_id": 79,
+    "character": "事情",
+    "pinyin": "shìqing",
+    "meaning": "matter",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 230,
+    "level_id": 80,
+    "character": "考试",
+    "pinyin": "kǎoshì",
+    "meaning": "exam",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 231,
+    "level_id": 81,
+    "character": "票",
+    "pinyin": "piào",
+    "meaning": "ticket",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 232,
+    "level_id": 82,
+    "character": "意思",
+    "pinyin": "yìsi",
+    "meaning": "meaning",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 233,
+    "level_id": 83,
+    "character": "颜色",
+    "pinyin": "yánsè",
+    "meaning": "color",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 234,
+    "level_id": 84,
+    "character": "铅笔",
+    "pinyin": "qiánbǐ",
+    "meaning": "pencil",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 235,
+    "level_id": 85,
+    "character": "面条",
+    "pinyin": "miàntiáo",
+    "meaning": "noodle",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 236,
+    "level_id": 86,
+    "character": "火车站",
+    "pinyin": "huǒchēzhàn",
+    "meaning": "train station",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 237,
+    "level_id": 87,
+    "character": "公司",
+    "pinyin": "gōngsī",
+    "meaning": "company",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 238,
+    "level_id": 88,
+    "character": "宾馆",
+    "pinyin": "bīngguǎn",
+    "meaning": "hotel",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 239,
+    "level_id": 89,
+    "character": "说话",
+    "pinyin": "shuōhuà",
+    "meaning": "talk",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 240,
+    "level_id": 90,
+    "character": "卖",
+    "pinyin": "mài",
+    "meaning": "sell",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 241,
+    "level_id": 91,
+    "character": "问",
+    "pinyin": "wèn",
+    "meaning": "ask",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 242,
+    "level_id": 92,
+    "character": "走",
+    "pinyin": "zǒu",
+    "meaning": "walk",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 243,
+    "level_id": 93,
+    "character": "进",
+    "pinyin": "jìn",
+    "meaning": "enter",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 244,
+    "level_id": 94,
+    "character": "出",
+    "pinyin": "chū",
+    "meaning": "come",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 245,
+    "level_id": 95,
+    "character": "跑步",
+    "pinyin": "pǎobù",
+    "meaning": "run",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 246,
+    "level_id": 96,
+    "character": "到",
+    "pinyin": "dào",
+    "meaning": "arrive",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 247,
+    "level_id": 97,
+    "character": "穿",
+    "pinyin": "chuān",
+    "meaning": "wear",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 248,
+    "level_id": 98,
+    "character": "洗",
+    "pinyin": "xǐ",
+    "meaning": "wash",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 249,
+    "level_id": 99,
+    "character": "给",
+    "pinyin": "gěi",
+    "meaning": "give",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 250,
+    "level_id": 100,
+    "character": "找",
+    "pinyin": "zhǎo",
+    "meaning": "find",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 251,
+    "level_id": 101,
+    "character": "懂",
+    "pinyin": "dǒng",
+    "meaning": "understand",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 252,
+    "level_id": 102,
+    "character": "笑",
+    "pinyin": "xiào",
+    "meaning": "smile",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 253,
+    "level_id": 103,
+    "character": "告诉",
+    "pinyin": "gàosù",
+    "meaning": "tell",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 254,
+    "level_id": 104,
+    "character": "准备",
+    "pinyin": "zhǔnbèi",
+    "meaning": "prepare",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 255,
+    "level_id": 105,
+    "character": "开始",
+    "pinyin": "kāishǐ",
+    "meaning": "begin",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 256,
+    "level_id": 106,
+    "character": "介绍",
+    "pinyin": "jièshào",
+    "meaning": "introduce",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 257,
+    "level_id": 107,
+    "character": "帮助",
+    "pinyin": "bāngzhù",
+    "meaning": "help",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 258,
+    "level_id": 108,
+    "character": "玩",
+    "pinyin": "wán",
+    "meaning": "play",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 259,
+    "level_id": 109,
+    "character": "送",
+    "pinyin": "sòng",
+    "meaning": "present",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 260,
+    "level_id": 110,
+    "character": "等",
+    "pinyin": "děng",
+    "meaning": "wait",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 261,
+    "level_id": 111,
+    "character": "让",
+    "pinyin": "ràng",
+    "meaning": "let",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 262,
+    "level_id": 112,
+    "character": "起床",
+    "pinyin": "qǐchuáng",
+    "meaning": "get up",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 263,
+    "level_id": 113,
+    "character": "唱歌",
+    "pinyin": "chànggē",
+    "meaning": "sing",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 264,
+    "level_id": 114,
+    "character": "跳舞",
+    "pinyin": "tiàowǔ",
+    "meaning": "dance",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 265,
+    "level_id": 115,
+    "character": "旅游",
+    "pinyin": "lǚyóu",
+    "meaning": "travel",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 266,
+    "level_id": 116,
+    "character": "上班",
+    "pinyin": "shàngbān",
+    "meaning": "be on duty",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 267,
+    "level_id": 117,
+    "character": "生病",
+    "pinyin": "shēngbìng",
+    "meaning": "get ill, get sick",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 268,
+    "level_id": 118,
+    "character": "休息",
+    "pinyin": "xiūxi",
+    "meaning": "rest",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 269,
+    "level_id": 119,
+    "character": "运动",
+    "pinyin": "yùndòng",
+    "meaning": "exercise",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 270,
+    "level_id": 120,
+    "character": "游泳",
+    "pinyin": "yóuyǒng",
+    "meaning": "swim",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 271,
+    "level_id": 121,
+    "character": "踢足球",
+    "pinyin": "tīzúqiú",
+    "meaning": "play footbal",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 272,
+    "level_id": 122,
+    "character": "打篮球",
+    "pinyin": "dǎlánqiú",
+    "meaning": "play basketball",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 273,
+    "level_id": 123,
+    "character": "完",
+    "pinyin": "wán",
+    "meaning": "finish",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 274,
+    "level_id": 124,
+    "character": "觉得",
+    "pinyin": "juédé",
+    "meaning": "think",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 275,
+    "level_id": 125,
+    "character": "知道",
+    "pinyin": "zhīdao",
+    "meaning": "know",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 276,
+    "level_id": 126,
+    "character": "希望",
+    "pinyin": "xīwàng",
+    "meaning": "hope",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 277,
+    "level_id": 127,
+    "character": "可以",
+    "pinyin": "kěyǐ",
+    "meaning": "can",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 278,
+    "level_id": 128,
+    "character": "要",
+    "pinyin": "yào",
+    "meaning": "want",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 279,
+    "level_id": 129,
+    "character": "可能",
+    "pinyin": "kěnéng",
+    "meaning": "may",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 280,
+    "level_id": 130,
+    "character": "高",
+    "pinyin": "gāo",
+    "meaning": "tall",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 281,
+    "level_id": 131,
+    "character": "红",
+    "pinyin": "hóng",
+    "meaning": "red",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 282,
+    "level_id": 132,
+    "character": "白",
+    "pinyin": "bái",
+    "meaning": "white",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 283,
+    "level_id": 133,
+    "character": "黑",
+    "pinyin": "hēi",
+    "meaning": "black",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 284,
+    "level_id": 134,
+    "character": "忙",
+    "pinyin": "máng",
+    "meaning": "busy",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 285,
+    "level_id": 135,
+    "character": "快",
+    "pinyin": "kuài",
+    "meaning": "fast",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 286,
+    "level_id": 136,
+    "character": "慢",
+    "pinyin": "màn",
+    "meaning": "slow",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 287,
+    "level_id": 137,
+    "character": "远",
+    "pinyin": "yuǎn",
+    "meaning": "far",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 288,
+    "level_id": 138,
+    "character": "近",
+    "pinyin": "jìn",
+    "meaning": "close",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 289,
+    "level_id": 139,
+    "character": "好吃",
+    "pinyin": "hǎochī",
+    "meaning": "delicious",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 290,
+    "level_id": 140,
+    "character": "累",
+    "pinyin": "lèi",
+    "meaning": "tired",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 291,
+    "level_id": 141,
+    "character": "长",
+    "pinyin": "cháng",
+    "meaning": "long",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 292,
+    "level_id": 142,
+    "character": "新",
+    "pinyin": "xīn",
+    "meaning": "new",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 293,
+    "level_id": 143,
+    "character": "贵",
+    "pinyin": "guì",
+    "meaning": "expensive",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 294,
+    "level_id": 144,
+    "character": "便宜",
+    "pinyin": "piányi",
+    "meaning": "cheap",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 295,
+    "level_id": 145,
+    "character": "晴",
+    "pinyin": "qíng",
+    "meaning": "fine",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 296,
+    "level_id": 146,
+    "character": "阴",
+    "pinyin": "yīn",
+    "meaning": "cloudy",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 297,
+    "level_id": 147,
+    "character": "错",
+    "pinyin": "cuò",
+    "meaning": "wrong",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 298,
+    "level_id": 148,
+    "character": "快乐",
+    "pinyin": "kuàilè",
+    "meaning": "happy",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 299,
+    "level_id": 149,
+    "character": "对",
+    "pinyin": "duì",
+    "meaning": "to",
+    "category": "between two objects",
+    "level": 2
+  },
+  {
+    "id": 300,
+    "level_id": 150,
+    "character": "对",
+    "pinyin": "duì",
+    "meaning": "right",
+    "category": "between two objects",
+    "level": 2
+  }
+]
