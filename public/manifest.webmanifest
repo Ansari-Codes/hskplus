@@ -1,0 +1,31 @@
+{
+  "name": "HSK Plus — Free Chinese Learning Academy",
+  "short_name": "HSK Plus",
+  "description": "100% Free comprehensive Chinese learning platform. Vocabulary, BLCUP standard lessons, confusing words, character stroke animation, and timed mock exams.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#c23314",
+  "orientation": "any",
+  "categories": ["education", "books", "reference"],
+  "icons": [
+    {
+      "src": "/hskplus-logo.png",
+      "sizes": "150x150",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/hskplus-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

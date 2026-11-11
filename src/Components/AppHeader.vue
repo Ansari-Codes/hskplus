@@ -280,7 +280,52 @@ onBeforeUnmount(() => {
               </div>
             </RouterLink>
 
-            <!-- 3: Score Calculator -->
+            <!-- 3: Pinyin & Tone Soundboard -->
+            <RouterLink
+              to="/pinyin"
+              class="flex items-center gap-3 rounded-xl p-2 hover:bg-muted transition-colors group"
+              @click="closeAllMenus"
+            >
+              <span class="flex size-8 shrink-0 items-center justify-center rounded-lg bg-indigo-500/10 text-indigo-700 dark:text-indigo-400 group-hover:scale-105 transition-transform">
+                <span class="text-xs font-black">āá</span>
+              </span>
+              <div class="min-w-0">
+                <div class="text-xs font-bold text-foreground">Pinyin Soundboard & Tones</div>
+                <div class="text-[11px] text-muted-foreground truncate">4 tones, 21 initials, 24 finals & audio</div>
+              </div>
+            </RouterLink>
+
+            <!-- 4: Confusing Words -->
+            <RouterLink
+              to="/compare"
+              class="flex items-center gap-3 rounded-xl p-2 hover:bg-muted transition-colors group"
+              @click="closeAllMenus"
+            >
+              <span class="flex size-8 shrink-0 items-center justify-center rounded-lg bg-rose-500/10 text-rose-700 dark:text-rose-400 group-hover:scale-105 transition-transform">
+                <span class="text-xs font-black">⚖️</span>
+              </span>
+              <div class="min-w-0">
+                <div class="text-xs font-bold text-foreground">15 Confusing Word Guides</div>
+                <div class="text-[11px] text-muted-foreground truncate">不 vs 没, 二 vs 两, 的/得/地 rules</div>
+              </div>
+            </RouterLink>
+
+            <!-- 5: Chinese Radicals Directory -->
+            <RouterLink
+              to="/radicals"
+              class="flex items-center gap-3 rounded-xl p-2 hover:bg-muted transition-colors group"
+              @click="closeAllMenus"
+            >
+              <span class="flex size-8 shrink-0 items-center justify-center rounded-lg bg-amber-500/10 text-amber-700 dark:text-amber-400 group-hover:scale-105 transition-transform">
+                <span class="text-xs font-black">氵</span>
+              </span>
+              <div class="min-w-0">
+                <div class="text-xs font-bold text-foreground">Chinese Radicals (部首)</div>
+                <div class="text-[11px] text-muted-foreground truncate">25+ essential radicals, origins & vocab</div>
+              </div>
+            </RouterLink>
+
+            <!-- 6: Score Calculator -->
             <RouterLink
               to="/score-calculator"
               class="flex items-center gap-3 rounded-xl p-2 hover:bg-muted transition-colors group"
@@ -298,7 +343,7 @@ onBeforeUnmount(() => {
               </div>
             </RouterLink>
 
-            <!-- 4: Standard Material Downloads -->
+            <!-- 7: Standard Material Downloads -->
             <RouterLink
               to="/downloads"
               class="flex items-center gap-3 rounded-xl p-2 hover:bg-muted transition-colors group"
@@ -514,6 +559,61 @@ onBeforeUnmount(() => {
               </svg>
             </span>
             <span>Score Calculator</span>
+          </RouterLink>
+
+          <RouterLink
+            to="/pinyin"
+            class="flex items-center gap-3 rounded-xl px-3 py-2 text-foreground hover:bg-muted"
+            @click="closeAllMenus"
+          >
+            <span class="flex size-7 shrink-0 items-center justify-center rounded-lg bg-indigo-500/10 text-indigo-700 dark:text-indigo-400 font-bold text-xs">
+              ā
+            </span>
+            <span>Pinyin Soundboard & Tones</span>
+          </RouterLink>
+
+          <RouterLink
+            to="/compare"
+            class="flex items-center gap-3 rounded-xl px-3 py-2 text-foreground hover:bg-muted"
+            @click="closeAllMenus"
+          >
+            <span class="flex size-7 shrink-0 items-center justify-center rounded-lg bg-rose-500/10 text-rose-700 dark:text-rose-400 font-bold text-xs">
+              ⚖️
+            </span>
+            <span>15 Confusing Word Guides</span>
+          </RouterLink>
+
+          <RouterLink
+            to="/radicals"
+            class="flex items-center gap-3 rounded-xl px-3 py-2 text-foreground hover:bg-muted"
+            @click="closeAllMenus"
+          >
+            <span class="flex size-7 shrink-0 items-center justify-center rounded-lg bg-amber-500/10 text-amber-700 dark:text-amber-400 font-bold text-xs font-serif">
+              氵
+            </span>
+            <span>Chinese Radicals (部首)</span>
+          </RouterLink>
+
+          <RouterLink
+            to="/hsk-intro"
+            class="flex items-center gap-3 rounded-xl px-3 py-2 text-foreground hover:bg-muted"
+            @click="closeAllMenus"
+          >
+            <span class="flex size-7 shrink-0 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 font-bold text-xs">
+              🚀
+            </span>
+            <span>HSK Starter Lesson</span>
+          </RouterLink>
+
+          <RouterLink
+            to="/english-speakers-guide"
+            class="flex items-center gap-3 rounded-xl px-3 py-2 text-foreground hover:bg-muted"
+            @click="closeAllMenus"
+          >
+            <span class="flex size-7 shrink-0 items-center justify-center rounded-lg bg-purple-500/10 text-purple-700 dark:text-purple-400 font-bold text-xs">
+              🇬🇧
+            </span>
+            <span>HSK for English Speakers</span>
           </RouterLink>
 
           <RouterLink

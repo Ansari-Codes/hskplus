@@ -47,6 +47,47 @@ const routes: RouteRecordRaw[] = [
     component: () => import('./Pages/Downloads/Index.vue'),
   },
 
+  // Confusing Words & Grammar Comparisons
+  {
+    path: '/compare',
+    name: 'compare-list',
+    component: () => import('./Pages/Compare/Index.vue'),
+  },
+  {
+    path: '/compare/:slug',
+    name: 'compare-detail',
+    component: () => import('./Pages/Compare/Detail.vue'),
+  },
+
+  // Chinese Radicals (部首) Directory
+  {
+    path: '/radicals',
+    name: 'radicals',
+    component: () => import('./Pages/Radicals/Index.vue'),
+  },
+
+  // Pinyin Soundboard & Tone Trainer
+  {
+    path: '/pinyin',
+    alias: ['/pinyin-trainer', '/pronunciation'],
+    name: 'pinyin',
+    component: () => import('./Pages/Pinyin/Index.vue'),
+  },
+
+  // Beginner Quick-Start Intro Lesson
+  {
+    path: '/hsk-intro',
+    name: 'hsk-intro',
+    component: () => import('./Pages/Intro/Index.vue'),
+  },
+
+  // HSK for English Speakers Structural Blueprint
+  {
+    path: '/english-speakers-guide',
+    name: 'english-speakers-guide',
+    component: () => import('./Pages/Guides/EnglishSpeakersGuide.vue'),
+  },
+
   // Blogs Pages
   {
     path: '/blogs',

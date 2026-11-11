@@ -259,4 +259,68 @@
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
+  <url>
+    <loc>https://desihop.net/blogs/mandarin-writing-system</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://desihop.net/blogs/evolution-of-hsk-3-standard</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://desihop.net/blogs/spaced-repetition-mandarin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://desihop.net/blogs/mandarin-false-friends</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Academy Features & Interactive Portals -->
+  <url>
+    <loc>https://desihop.net/compare</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://desihop.net/radicals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://desihop.net/pinyin</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://desihop.net/hsk-intro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://desihop.net/english-speakers-guide</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 15 Confusing Word Guides -->
+  <url><loc>https://desihop.net/compare/bu-vs-mei</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/er-vs-liang</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/de-de-de</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/hui-vs-neng-vs-keyi</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/kan-vs-jian-vs-kanjian</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/ting-vs-tingjian</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/zai-vs-you</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/he-vs-gen-vs-haiyou</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/xiang-vs-yao</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/zhidao-vs-renshi</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/bang-vs-bangzhu-vs-bangmang</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/yiqian-vs-congqian</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/gang-vs-gangcai</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/you-vs-zai</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://desihop.net/compare/duoshao-vs-ji</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
 </urlset>

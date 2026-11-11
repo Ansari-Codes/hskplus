@@ -7,8 +7,13 @@
 - [HSK 2 Portal](https://desihop.net/hsk2): Elementary Chinese covering 150 vocabulary words, 15 lessons, 15 grammar patterns, 10 dialogues, character stroke studio, and 11 timed mock tests.
 - [HSK 3 Portal](https://desihop.net/hsk3): Intermediate Chinese covering 300 vocabulary words, 20 lessons, 20 grammar patterns, 10 dialogues, character stroke studio, and 11 timed mock tests.
 - [Timed Mock Examinations](https://desihop.net/mock-tests): 33 official-format practice tests with listening audio, reading, writing, and instant grading.
+- [15 Confusing Word Guides](https://desihop.net/compare): In-depth side-by-side matrices and interactive drills (不 vs 没, 二 vs 两, 的 vs 得 vs 地, 会/能/可以).
+- [Chinese Radicals Directory](https://desihop.net/radicals): 25+ essential semantic roots, stroke counts, pictographic origins, and vocabulary breakdowns.
+- [Pinyin Soundboard & Tone Trainer](https://desihop.net/pinyin): Complete phonetic chart (21 initials, 24 finals), 5 tones audio, and ear-training quiz game.
+- [HSK Starter Lesson](https://desihop.net/hsk-intro): 15-minute quick onboarding covering the 4 tones, 5 survival phrases, and self-assessment test.
+- [HSK for English Speakers](https://desihop.net/english-speakers-guide): Structural blueprint explaining zero verb conjugations, time-before-verb word order, and false friends.
 - [HSK Score Calculator](https://desihop.net/score-calculator): Official scaled score and CSC scholarship eligibility calculator.
-- [Pedagogical Blog Guides](https://desihop.net/blogs): 20 comprehensive 1,000+ word guides on tones, pinyin, characters, and exam tactics.
+- [Pedagogical Blog Masterclasses](https://desihop.net/blogs): 24 comprehensive 1,000+ word guides on character history, tones, stroke laws, and exam tactics.
 - [About HSK Plus](https://desihop.net/about): Pedagogical mission, curriculum alignment, and multi-platform comparison benchmark.
 - [Official Curriculum Downloads](https://desihop.net/downloads): Authentic BLCUP textbooks, Hanban vocabulary checklists, and mock test audio packages.
 
