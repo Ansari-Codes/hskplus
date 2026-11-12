@@ -104,22 +104,50 @@ function openPractice(character: string) {
   })
 }
 
-// Update page title, meta description & canonical URL dynamically for each word
-watch(
-  [selectedEntry, level],
-  ([entry, lvl]) => {
-    if (!entry) return
-    document.title = `${entry.character} (${entry.pinyin}) - HSK ${lvl} Vocabulary | Meaning, Origin & Stroke Practice - HSK Plus`
+function getShortMeaning(meaning: string, maxLen = 22): string {
+  if (!meaning) return ''
+  const primary = meaning.split(/[,;/]/)[0].trim()
+  if (primary.length <= maxLen) return primary
+  return primary.slice(0, maxLen - 1).trim() + '…'
+}
 
-    const desc = `Master the HSK ${lvl} word "${entry.character}" (${entry.pinyin}): "${entry.meaning}". Includes native speech audio, character origin & radicals, stroke order animations, and example sentences.`
-    let metaDesc = document.querySelector('meta[name="description"]')
-    if (metaDesc) {
-      metaDesc.setAttribute('content', desc)
+// Update page title, meta description, keywords & canonical URL dynamically
+watch(
+  [selectedEntry, level, () => route.params.char, () => route.query.char],
+  ([entry, lvl, paramChar, queryChar]) => {
+    const isWordSpecific = !!(paramChar || queryChar)
+
+    // Overview Vocabulary List Page
+    if (!isWordSpecific || !entry) {
+      const vocabCount = lvl === 3 ? 300 : 150
+      document.title = `HSK ${lvl} Vocabulary List (All ${vocabCount} Words) + Audio, PDF & Flashcards | HSK Plus`
+
+      const desc = `Complete official HSK ${lvl} vocabulary list with all ${vocabCount} words. Includes native audio pronunciation, pinyin, English definitions, stroke counts, and example sentences.`
+      let metaDesc = document.querySelector('meta[name="description"]')
+      if (metaDesc) metaDesc.setAttribute('content', desc)
+
+      let canonical = document.querySelector('link[rel="canonical"]')
+      if (canonical) canonical.setAttribute('href', `https://desihop.net/hsk${lvl}/vocabulary`)
+
+      let metaKw = document.querySelector('meta[name="keywords"]')
+      if (metaKw) metaKw.setAttribute('content', `HSK ${lvl} vocabulary list, HSK ${lvl} words, learn chinese HSK ${lvl}, HSK ${lvl} audio, HSK ${lvl} pdf, HSK flashcards`)
+      return
     }
 
+    // Specific Word Detail Page
+    const shortMeaning = getShortMeaning(entry.meaning)
+    document.title = `${entry.character} (${entry.pinyin}) Meaning "${shortMeaning}" | HSK ${lvl} Stroke Order & Audio`
+
+    const desc = `What does ${entry.character} (${entry.pinyin}) mean in Chinese? Definition: "${entry.meaning}". Practice interactive stroke order (${entry.strokes || ''} strokes), listen to native audio, and read HSK ${lvl} example sentences.`
+    let metaDesc = document.querySelector('meta[name="description"]')
+    if (metaDesc) metaDesc.setAttribute('content', desc)
+
     let canonical = document.querySelector('link[rel="canonical"]')
-    if (canonical) {
-      canonical.setAttribute('href', `https://desihop.net/hsk${lvl}/vocabulary/${encodeURIComponent(entry.character)}`)
+    if (canonical) canonical.setAttribute('href', `https://desihop.net/hsk${lvl}/vocabulary/${encodeURIComponent(entry.character)}`)
+
+    let metaKw = document.querySelector('meta[name="keywords"]')
+    if (metaKw) {
+      metaKw.setAttribute('content', `${entry.character}, ${entry.pinyin}, ${entry.meaning}, ${entry.character} meaning, ${entry.character} stroke order, ${entry.character} chinese, HSK ${lvl} vocabulary, learn chinese`)
     }
   },
   { immediate: true }

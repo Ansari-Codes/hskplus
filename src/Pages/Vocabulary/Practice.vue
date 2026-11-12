@@ -95,6 +95,27 @@ const currentCharacter = computed(() => {
   return entryCharacters.value[characterIndex.value] ?? entryCharacters.value[0]
 })
 
+// Dynamic SEO updates
+watch(
+  [entry, level, currentCharacter],
+  ([val, lvl, curChar]) => {
+    if (!val) return
+    const char = curChar || val.character
+    document.title = `Write ${char} (${val.pinyin}) Stroke Order Studio | HSK ${lvl} Practice — HSK Plus`
+
+    const desc = `Practice writing Chinese character ${char} (${val.pinyin}, "${val.meaning}") with step-by-step stroke animations and AI scoring on Tian Zi Ge grid.`
+    let metaDesc = document.querySelector('meta[name="description"]')
+    if (metaDesc) metaDesc.setAttribute('content', desc)
+
+    let canonical = document.querySelector('link[rel="canonical"]')
+    if (canonical) canonical.setAttribute('href', `https://desihop.net/hsk${lvl}/practice?char=${encodeURIComponent(char)}`)
+
+    let metaKw = document.querySelector('meta[name="keywords"]')
+    if (metaKw) metaKw.setAttribute('content', `${char}, ${val.pinyin}, ${char} stroke order, write ${char}, chinese character practice, HSK ${lvl}`)
+  },
+  { immediate: true }
+)
+
 const currentIndex = computed(() => {
   return entries.value.findIndex(e => e.character === entry.value?.character)
 })

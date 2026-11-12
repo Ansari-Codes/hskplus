@@ -58,6 +58,13 @@ function escapeAttr(str) {
     .replace(/>/g, '&gt;');
 }
 
+function getShortMeaning(meaning, maxLen = 22) {
+  if (!meaning) return '';
+  const primary = meaning.split(/[,;/]/)[0].trim();
+  if (primary.length <= maxLen) return primary;
+  return primary.slice(0, maxLen - 1).trim() + '…';
+}
+
 function generateHtml(meta) {
   let html = templateHtml;
 
@@ -69,6 +76,11 @@ function generateHtml(meta) {
 
   // Meta Description
   html = html.replace(/<meta\s+[^>]*?name=["']description["'][^>]*>/i, `<meta name="description" content="${escapeAttr(meta.description)}" />`);
+
+  // Meta Keywords
+  if (meta.keywords) {
+    html = html.replace(/<meta\s+[^>]*?name=["']keywords["'][^>]*>/i, `<meta name="keywords" content="${escapeAttr(meta.keywords)}" />`);
+  }
 
   // OpenGraph Tags
   html = html.replace(/<meta\s+[^>]*?property=["']og:title["'][^>]*>/i, `<meta property="og:title" content="${escapeAttr(meta.title)}" />`);
@@ -124,6 +136,7 @@ const corePages = [
     title: 'HSK Plus — Free HSK 1, 2 & 3 Learning Platform & Encyclopedia',
     description: '100% free comprehensive Chinese Mandarin learning encyclopedia for HSK 1, 2, and 3. Includes 600 official vocabulary words with native audio, 50 BLCUP Standard Course lessons, 50 sentence patterns, 30 dialogues, 33 timed mock exams, stroke order animation, AI calligraphy canvas scoring, and score calculator.',
     canonical: 'https://desihop.net/',
+    keywords: 'HSK, HSK 1, HSK 2, HSK 3, Chinese vocabulary, learn Mandarin Chinese, HSK mock test, HSK lessons, HSK grammar patterns, Hanzi writer, Chinese stroke order, Tian Zi Ge, HSK score calculator, CSC scholarship, Chinese proficiency test',
     crumb: 'Home',
     summaryHtml: `
       <h1>HSK Plus — The Complete Online School for HSK Mastery</h1>
@@ -135,6 +148,7 @@ const corePages = [
     title: 'About HSK Plus — Free Chinese Learning Platform Mission & Team',
     description: 'Learn about the mission, pedagogical methodology, and open curriculum behind HSK Plus. Dedicated to democratizing Chinese language education worldwide.',
     canonical: 'https://desihop.net/about',
+    keywords: 'about HSK Plus, learn Chinese free, HSK curriculum, Chinese language academy',
     crumb: 'About',
     summaryHtml: `
       <h1>About HSK Plus</h1>
@@ -146,6 +160,7 @@ const corePages = [
     title: 'Contact HSK Plus — Support, Feedback & Academic Inquiries',
     description: 'Get in touch with the HSK Plus editorial and technical team for curriculum questions, feature requests, or partnership inquiries.',
     canonical: 'https://desihop.net/contact',
+    keywords: 'contact HSK Plus, feedback, Chinese learning support',
     crumb: 'Contact',
     summaryHtml: `
       <h1>Contact HSK Plus</h1>
@@ -158,6 +173,7 @@ const corePages = [
     title: 'Privacy Policy — HSK Plus',
     description: 'Privacy policy and data protection disclosures for HSK Plus. Zero personal tracking and 100% local study progress storage.',
     canonical: 'https://desihop.net/privacy-policy',
+    keywords: 'privacy policy, HSK Plus privacy, local storage',
     crumb: 'Privacy Policy',
     summaryHtml: `
       <h1>Privacy Policy</h1>
@@ -170,6 +186,7 @@ const corePages = [
     title: 'Terms of Service — HSK Plus',
     description: 'Terms and conditions for utilizing HSK Plus study materials, mock tests, and curriculum tools.',
     canonical: 'https://desihop.net/terms-of-service',
+    keywords: 'terms of service, HSK Plus terms',
     crumb: 'Terms of Service',
     summaryHtml: `
       <h1>Terms of Service</h1>
@@ -181,6 +198,7 @@ const corePages = [
     title: 'Official HSK Score Calculator & Pass Predictor (HSK 1, 2, 3) — HSK Plus',
     description: 'Calculate your official HSK 1, 2, and 3 exam scores instantly. Check passing thresholds, section weights, and percentile readiness.',
     canonical: 'https://desihop.net/score-calculator',
+    keywords: 'HSK score calculator, HSK passing score, HSK 1 score, HSK 2 score, HSK 3 score, calculate HSK marks',
     crumb: 'Score Calculator',
     summaryHtml: `
       <h1>Official HSK Exam Score Calculator</h1>
@@ -192,6 +210,7 @@ const corePages = [
     title: 'Download Official HSK Course Materials (PDFs & Audio) — HSK Plus',
     description: 'Direct download links for official BLCUP Standard Course textbooks, workbooks, teacher guides, vocabulary sheets, and listening MP3 audio.',
     canonical: 'https://desihop.net/downloads',
+    keywords: 'download HSK textbook, HSK 1 pdf, HSK 2 pdf, HSK 3 pdf, HSK standard course audio mp3, HSK vocabulary sheet',
     crumb: 'Downloads',
     summaryHtml: `
       <h1>Official Standard Course Material Downloads</h1>
@@ -203,6 +222,7 @@ const corePages = [
     title: '33 Official Timed HSK Mock Tests (HSK 1, 2, 3) — HSK Plus',
     description: 'Practice with 33 realistic HSK mock examinations with countdown timers, authentic listening audio tracks, reading sections, and instant auto-grading.',
     canonical: 'https://desihop.net/mock-tests',
+    keywords: 'HSK mock tests, timed HSK practice, free HSK online test, HSK 1 exam test, HSK 2 test, HSK 3 test',
     crumb: 'Mock Tests',
     summaryHtml: `
       <h1>33 Official Timed HSK Mock Examinations</h1>
@@ -214,6 +234,7 @@ const corePages = [
     title: 'Chinese Learning Blogs & Masterclasses (24 In-Depth Guides) — HSK Plus',
     description: '24 longform educational guides covering Mandarin grammar rules, stroke order, radical memorization, exam strategies, and scholarship guides.',
     canonical: 'https://desihop.net/blogs',
+    keywords: 'chinese learning blog, HSK study guides, mandarin grammar masterclasses, how to pass HSK',
     crumb: 'Blogs',
     summaryHtml: `
       <h1>Chinese Language Blogs & Masterclasses</h1>
@@ -225,6 +246,7 @@ const corePages = [
     title: 'Confusing Words Lab: 15 Essential Chinese Comparisons — HSK Plus',
     description: 'Master the nuances of confusing Chinese word pairs and triplets: 不 vs 没, 二 vs 两, 的 vs 得 vs 地, 会 vs 能 vs 可以, and more.',
     canonical: 'https://desihop.net/compare',
+    keywords: 'confusing chinese words, bu vs mei, er vs liang, de de de, hui vs neng vs keyi, chinese grammar comparisons',
     crumb: 'Confusing Words',
     summaryHtml: `
       <h1>Confusing Words & Grammar Comparison Lab</h1>
@@ -236,6 +258,7 @@ const corePages = [
     title: 'Chinese Radicals Directory (部首): 45+ Essential Semantic Roots — HSK Plus',
     description: 'Comprehensive reference of 45+ essential Chinese character radicals categorized by semantic domain with stroke counts, origins, and vocabulary.',
     canonical: 'https://desihop.net/radicals',
+    keywords: 'chinese radicals, 部首, kangxi radicals, radical list with meanings, learn chinese characters',
     crumb: 'Radicals',
     summaryHtml: `
       <h1>Chinese Radicals (部首) Encyclopedia</h1>
@@ -248,6 +271,7 @@ const corePages = [
     title: 'Interactive Pinyin & 4 Tones Soundboard with Audio — HSK Plus',
     description: 'Master Mandarin pronunciation with our interactive soundboard: 21 initials, 24 finals, tone pitch contours, tone sandhi laws, and ear trainer.',
     canonical: 'https://desihop.net/pinyin',
+    keywords: 'pinyin soundboard, mandarin tones, chinese pronunciation with audio, 4 tones chart, learn pinyin',
     crumb: 'Pinyin Soundboard',
     summaryHtml: `
       <h1>Interactive Pinyin & Four Tones Soundboard</h1>
@@ -259,6 +283,7 @@ const corePages = [
     title: '15-Minute HSK Starter Lesson for Complete Beginners — HSK Plus',
     description: 'Your first 15 minutes of Mandarin Chinese: learn the 4 tones, 5 survival phrases, and test yourself with an interactive onboarding quiz.',
     canonical: 'https://desihop.net/hsk-intro',
+    keywords: 'beginner chinese, HSK starter lesson, first chinese lesson, learn mandarin free',
     crumb: 'Starter Lesson',
     summaryHtml: `
       <h1>15-Minute HSK Quick Starter Lesson</h1>
@@ -270,6 +295,7 @@ const corePages = [
     title: 'HSK for English Speakers: 7 Core Mindset Shifts — HSK Plus',
     description: 'The architectural blueprint for native English speakers learning Chinese: zero verb conjugations, time-before-verb word order, and aspect particles.',
     canonical: 'https://desihop.net/english-speakers-guide',
+    keywords: 'chinese for english speakers, learn chinese grammar, mandarin for foreigners, HSK english guide',
     crumb: 'English Speakers Guide',
     summaryHtml: `
       <h1>HSK Guide for Native English Speakers</h1>
@@ -296,24 +322,27 @@ corePages.forEach(p => {
   const vocabCount = lvl === 3 ? 300 : 150;
   const lessonsCount = lvl === 3 ? 20 : 15;
   const patternsCount = lvl === 3 ? 20 : 15;
+  const cumulativeWords = lvl === 1 ? 150 : lvl === 2 ? 300 : 600;
 
   const levelModules = [
     {
       path: `/hsk${lvl}`,
-      title: `HSK ${lvl} Learning Hub: Complete Syllabus & Study Academy — HSK Plus`,
-      description: `Complete free preparation academy for HSK ${lvl}. Includes ${vocabCount} official vocabulary words, ${lessonsCount} standard lessons, ${patternsCount} sentence patterns, dialogues, and timed mock tests.`,
+      title: `HSK ${lvl} Learning Hub: Complete Free Preparation Academy (${cumulativeWords} Words, Lessons & Tests) | HSK Plus`,
+      description: `Master HSK ${lvl} with ${cumulativeWords} official vocabulary words with speech audio, ${lessonsCount} Standard Course lessons, ${patternsCount} grammar patterns, 10 dialogues, and 11 timed mock exams.`,
       canonical: `https://desihop.net/hsk${lvl}`,
+      keywords: `HSK ${lvl}, HSK ${lvl} hub, learn chinese HSK ${lvl}, HSK ${lvl} syllabus, HSK ${lvl} preparation`,
       crumb: `HSK ${lvl} Hub`,
       summaryHtml: `
         <h1>HSK ${lvl} Complete Learning Hub</h1>
-        <p>Comprehensive preparation portal for HSK ${lvl}. Master all ${vocabCount} official vocabulary words, standard textbook lessons, core grammar patterns, dialogues, and timed exams.</p>
+        <p>Comprehensive preparation portal for HSK ${lvl}. Master all ${cumulativeWords} official vocabulary words, standard textbook lessons, core grammar patterns, dialogues, and timed exams.</p>
       `
     },
     {
       path: `/hsk${lvl}/vocabulary`,
-      title: `HSK ${lvl} Official Vocabulary List (${vocabCount} Words with Audio) — HSK Plus`,
-      description: `Browse and master all ${vocabCount} official HSK ${lvl} vocabulary words with native pronunciation, pinyin, English definitions, stroke counts, and example sentences.`,
+      title: `HSK ${lvl} Vocabulary List (All ${vocabCount} Words) + Audio, PDF & Flashcards | HSK Plus`,
+      description: `Complete official HSK ${lvl} vocabulary list with all ${vocabCount} words. Includes native audio pronunciation, pinyin, English definitions, stroke counts, and example sentences.`,
       canonical: `https://desihop.net/hsk${lvl}/vocabulary`,
+      keywords: `HSK ${lvl} vocabulary list, HSK ${lvl} words, learn chinese HSK ${lvl}, HSK ${lvl} audio, HSK ${lvl} pdf, HSK flashcards`,
       crumb: `HSK ${lvl} Vocabulary`,
       summaryHtml: `
         <h1>HSK ${lvl} Official Vocabulary Encyclopedia</h1>
@@ -322,9 +351,10 @@ corePages.forEach(p => {
     },
     {
       path: `/hsk${lvl}/practice`,
-      title: `HSK ${lvl} Hanzi Writing Studio & AI Stroke Order Lab — HSK Plus`,
-      description: `Interactive Tian Zi Ge calligraphy canvas for HSK ${lvl}. Animate stroke sequences, write freehand with stylus/mouse, and receive automated stroke scoring.`,
+      title: `HSK ${lvl} Chinese Character Stroke Order Studio | Tian Zi Ge Writing Lab — HSK Plus`,
+      description: `Master HSK ${lvl} Chinese character stroke order with step-by-step stroke animations, stroke order quiz mode, and freehand Tian Zi Ge calligraphy canvas scoring.`,
       canonical: `https://desihop.net/hsk${lvl}/practice`,
+      keywords: `HSK ${lvl} stroke order, chinese handwriting, Tian Zi Ge, write chinese characters HSK ${lvl}`,
       crumb: `HSK ${lvl} Writing Studio`,
       summaryHtml: `
         <h1>HSK ${lvl} Tian Zi Ge Hanzi Writing Studio</h1>
@@ -334,9 +364,10 @@ corePages.forEach(p => {
     {
       path: `/hsk${lvl}/lessons`,
       aliases: [`/hsk${lvl}/lesson`],
-      title: `HSK ${lvl} Standard Course Lessons (${lessonsCount} Textbooks Lessons) — HSK Plus`,
+      title: `HSK ${lvl} Standard Course Lessons (${lessonsCount} Lessons with Audio & Grammar) — HSK Plus`,
       description: `Structured standard textbook curriculum for HSK ${lvl} covering core vocabulary, grammar explanations, dialogue texts, and comprehension exercises.`,
       canonical: `https://desihop.net/hsk${lvl}/lessons`,
+      keywords: `HSK ${lvl} lessons, standard course HSK ${lvl}, BLCUP HSK ${lvl}, learn chinese lessons`,
       crumb: `HSK ${lvl} Lessons`,
       summaryHtml: `
         <h1>HSK ${lvl} Standard Course Textbook Lessons</h1>
@@ -346,9 +377,10 @@ corePages.forEach(p => {
     {
       path: `/hsk${lvl}/sentences`,
       aliases: [`/hsk${lvl}/sentence`],
-      title: `HSK ${lvl} Grammar Sentence Patterns (${patternsCount} Formulas) — HSK Plus`,
-      description: `The complete grammatical blueprint for HSK ${lvl}. Pattern formulas, structural rules, detailed usage guidelines, and audio examples.`,
+      title: `HSK ${lvl} Grammar Sentence Patterns (${patternsCount} Formulas & Audio Examples) — HSK Plus`,
+      description: `The complete grammatical blueprint for HSK ${lvl}. ${patternsCount} core sentence pattern formulas, structural rules, detailed usage guidelines, and audio examples.`,
       canonical: `https://desihop.net/hsk${lvl}/sentences`,
+      keywords: `HSK ${lvl} grammar, chinese sentence structure, HSK ${lvl} patterns, mandarin grammar rules`,
       crumb: `HSK ${lvl} Sentence Patterns`,
       summaryHtml: `
         <h1>HSK ${lvl} Sentence Patterns & Grammar Blueprint</h1>
@@ -358,9 +390,10 @@ corePages.forEach(p => {
     {
       path: `/hsk${lvl}/dialogs`,
       aliases: [`/hsk${lvl}/dialog`],
-      title: `HSK ${lvl} Dialogue Scenarios (Everyday Chinese Conversations) — HSK Plus`,
-      description: `Authentic conversational exchanges for HSK ${lvl}: introductions, shopping, dining, travel, and campus life with line-by-line audio.`,
+      title: `HSK ${lvl} Dialogue Scenarios: Everyday Chinese Audio Conversations — HSK Plus`,
+      description: `Authentic conversational exchanges for HSK ${lvl}: introductions, shopping, dining, travel, and campus life with line-by-line native speech audio.`,
       canonical: `https://desihop.net/hsk${lvl}/dialogs`,
+      keywords: `HSK ${lvl} dialogues, conversational chinese, everyday mandarin conversations, HSK dialogue audio`,
       crumb: `HSK ${lvl} Dialogues`,
       summaryHtml: `
         <h1>HSK ${lvl} Situational Dialogues & Conversations</h1>
@@ -370,9 +403,10 @@ corePages.forEach(p => {
     {
       path: `/hsk${lvl}/tests`,
       aliases: [`/hsk${lvl}/test`],
-      title: `HSK ${lvl} Timed Mock Exams with Audio & Grading — HSK Plus`,
+      title: `Free HSK ${lvl} Mock Test Online | Real Exam Timer & Instant Score — HSK Plus`,
       description: `Simulate the real HSK ${lvl} exam under timed constraints. Official listening audio, reading comprehension, and instant grading.`,
       canonical: `https://desihop.net/hsk${lvl}/tests`,
+      keywords: `HSK ${lvl} mock test, free HSK ${lvl} practice exam, timed HSK test, HSK ${lvl} online test with audio`,
       crumb: `HSK ${lvl} Mock Tests`,
       summaryHtml: `
         <h1>HSK ${lvl} Official Timed Mock Tests</h1>
@@ -402,6 +436,7 @@ blogsData.forEach(blog => {
     title: `${blog.title} — HSK Plus`,
     description: blog.excerpt,
     canonical: `https://desihop.net/blogs/${blog.slug}`,
+    keywords: `${blog.title}, learn chinese, HSK study guide, ${blog.category}`,
     crumb: `Blog: ${blog.title}`,
     summaryHtml: `
       <h1>${escapeHtml(blog.title)}</h1>
@@ -417,11 +452,18 @@ blogsData.forEach(blog => {
 
 // 4. Confusing Word Guides (15 guides)
 compData.forEach(comp => {
+  const pairTitle = comp.title.split(':')[0].trim();
+  const title = `${pairTitle}: Key Differences, Grammar Rules & Quiz | HSK Plus`;
+  const description = `Confused by ${pairTitle} in Chinese? Learn the exact grammar rules, side-by-side example sentences, common mistakes, and take a quick interactive quiz.`;
+  const canonical = `https://desihop.net/compare/${comp.slug}`;
+  const keywords = `${comp.words.map(w => w.hanzi).join(', ')}, ${comp.words.map(w => w.pinyin).join(', ')}, ${pairTitle}, chinese grammar difference, ${comp.level} grammar, confusing words chinese`;
+
   routesToPrerender.push({
     path: `/compare/${comp.slug}`,
-    title: `${comp.title} | HSK Plus Confusing Words Guide`,
-    description: comp.summary,
-    canonical: `https://desihop.net/compare/${comp.slug}`,
+    title,
+    description,
+    canonical,
+    keywords,
     crumb: `Comparison: ${comp.shortTitle}`,
     summaryHtml: `
       <h1>${escapeHtml(comp.title)}</h1>
@@ -450,18 +492,22 @@ vocabData.forEach(word => {
   seenWordKeys.add(key);
 
   const encodedChar = encodeURIComponent(word.character);
-  const title = `${word.character} (${word.pinyin}) - HSK ${word.level} Vocabulary | Meaning, Origin & Stroke Practice - HSK Plus`;
-  const description = `Master the HSK ${word.level} Chinese word "${word.character}" (${word.pinyin}) meaning "${word.meaning}". Includes native speech audio, character origin & radicals, stroke order animations, and example sentences.`;
+  const shortMeaning = getShortMeaning(word.meaning);
+
+  // High-CTR Title & Description Formulas
+  const title = `${word.character} (${word.pinyin}) Meaning "${shortMeaning}" | HSK ${word.level} Stroke Order & Audio`;
+  const description = `What does ${word.character} (${word.pinyin}) mean in Chinese? Definition: "${word.meaning}". Practice interactive stroke order (${word.strokes || ''} strokes), listen to native audio, and read HSK ${word.level} example sentences.`;
   const canonical = `https://desihop.net/hsk${word.level}/vocabulary/${encodedChar}`;
+  const keywords = `${word.character}, ${word.pinyin}, ${word.meaning}, ${word.character} meaning, ${word.character} stroke order, ${word.character} chinese, HSK ${word.level} vocabulary, learn chinese`;
 
   const examplesHtml = word.examples && word.examples.length
     ? `
-      <div style="margin-top: 1rem;">
+      <div style="margin-top: 1.5rem;">
         <h3>Example Sentences</h3>
         <ul>
           ${word.examples.map(ex => `
-            <li style="margin-bottom: 0.5rem;">
-              <div style="font-size: 1.125rem; font-weight: bold;">${escapeHtml(ex.chinese)}</div>
+            <li style="margin-bottom: 0.75rem;">
+              <div style="font-size: 1.125rem; font-weight: bold; color: #111827;">${escapeHtml(ex.chinese)}</div>
               <div style="color: #c23314; font-size: 0.875rem;">${escapeHtml(ex.pinyin)}</div>
               <div style="color: #4b5563; font-size: 0.875rem;">${escapeHtml(ex.translation)}</div>
             </li>
@@ -471,62 +517,92 @@ vocabData.forEach(word => {
     `
     : '';
 
+  // Semantic <h1> block directly front-loading Character, Pinyin, Meaning, and HSK Level
   const summaryHtml = `
-    <div style="display: flex; align-items: baseline; gap: 1rem; margin-bottom: 1rem;">
-      <span style="font-size: 3.5rem; font-weight: 900; color: #111827; font-family: serif;">${escapeHtml(word.character)}</span>
-      <div>
-        <div style="font-size: 1.5rem; color: #c23314; font-weight: bold;">${escapeHtml(word.pinyin)}</div>
-        <div style="font-size: 1.125rem; color: #4b5563;">${escapeHtml(word.meaning)}</div>
-      </div>
+    <h1 style="font-size: 2.25rem; font-weight: 900; color: #111827; margin-bottom: 0.75rem;">
+      ${escapeHtml(word.character)} (${escapeHtml(word.pinyin)}) &mdash; Meaning: ${escapeHtml(word.meaning)} (HSK ${word.level} Vocabulary)
+    </h1>
+    <div style="font-size: 3.5rem; font-weight: 900; color: #c23314; font-family: serif; margin-bottom: 0.5rem;">
+      ${escapeHtml(word.character)}
     </div>
+    <div style="font-size: 1.5rem; color: #c23314; font-weight: bold; margin-bottom: 0.25rem;">${escapeHtml(word.pinyin)}</div>
+    <div style="font-size: 1.125rem; color: #4b5563; margin-bottom: 1rem;"><strong>Definition:</strong> ${escapeHtml(word.meaning)}</div>
     <div style="margin-bottom: 1rem; font-size: 0.875rem; color: #6b7280;">
       <span><strong>Level:</strong> HSK ${word.level}</span> &bull;
       <span><strong>Category:</strong> ${escapeHtml(word.category)}</span> &bull;
       <span><strong>Stroke Count:</strong> ${word.strokes}</span>
     </div>
-    <p>Practice writing <strong>${escapeHtml(word.character)}</strong> with stroke animations and native audio pronunciation on HSK Plus.</p>
+    <p>Practice writing <strong>${escapeHtml(word.character)}</strong> with stroke animations, character anatomy & mnemonics, and native audio pronunciation on HSK Plus.</p>
     ${examplesHtml}
   `;
 
-  // Pre-render the primary canonical route: /hskX/vocabulary/<encodedChar>
+  // 1. Primary canonical route: /hskX/vocabulary/<encodedChar>
   routesToPrerender.push({
     path: `/hsk${word.level}/vocabulary/${encodedChar}`,
     rawChar: word.character,
     title,
     description,
     canonical,
+    keywords,
     crumb: `HSK ${word.level} Vocabulary &gt; ${word.character}`,
     summaryHtml
   });
 
-  // Also pre-render /hskX/vocabulary/<rawChar> so both encoded and decoded directories exist physically
+  // 2. Physical UTF-8 directory: /hskX/vocabulary/<rawChar> (strictly pointing canonical to primary encoded URL)
   if (encodedChar !== word.character) {
     routesToPrerender.push({
       path: `/hsk${word.level}/vocabulary/${word.character}`,
       title,
       description,
       canonical,
+      keywords,
       crumb: `HSK ${word.level} Vocabulary &gt; ${word.character}`,
       summaryHtml
     });
   }
 
-  // Pre-render /word/<char> convenience deep-link
+  // 3. Convenience alias: /word/<encodedChar> (canonical points to primary /hskX/vocabulary/<encodedChar>)
   routesToPrerender.push({
     path: `/word/${encodedChar}`,
     title,
     description,
-    canonical: `https://desihop.net/word/${encodedChar}`,
+    canonical,
+    keywords,
     crumb: `Word &gt; ${word.character}`,
     summaryHtml
   });
+
+  // 4. Convenience alias: /word/<rawChar> (canonical points to primary /hskX/vocabulary/<encodedChar>)
   if (encodedChar !== word.character) {
     routesToPrerender.push({
       path: `/word/${word.character}`,
       title,
       description,
-      canonical: `https://desihop.net/word/${encodedChar}`,
+      canonical,
+      keywords,
       crumb: `Word &gt; ${word.character}`,
+      summaryHtml
+    });
+  }
+
+  // 5. Convenience alias: /hskX/word/<encodedChar>
+  routesToPrerender.push({
+    path: `/hsk${word.level}/word/${encodedChar}`,
+    title,
+    description,
+    canonical,
+    keywords,
+    crumb: `HSK ${word.level} Word &gt; ${word.character}`,
+    summaryHtml
+  });
+  if (encodedChar !== word.character) {
+    routesToPrerender.push({
+      path: `/hsk${word.level}/word/${word.character}`,
+      title,
+      description,
+      canonical,
+      keywords,
+      crumb: `HSK ${word.level} Word &gt; ${word.character}`,
       summaryHtml
     });
   }

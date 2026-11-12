@@ -17,14 +17,23 @@ watch(
   item,
   (val) => {
     if (!val) return
-    document.title = `${val.title} | HSK Plus Confusing Words Guide`
+    const pairTitle = val.title.split(':')[0].trim()
+    document.title = `${pairTitle}: Key Differences, Grammar Rules & Quiz | HSK Plus`
+
+    const desc = `Confused by ${pairTitle} in Chinese? Learn the exact grammar rules, side-by-side example sentences, common mistakes, and take a quick interactive quiz.`
     let metaDesc = document.querySelector('meta[name="description"]')
     if (metaDesc) {
-      metaDesc.setAttribute('content', val.summary)
+      metaDesc.setAttribute('content', desc)
     }
+
     let canonical = document.querySelector('link[rel="canonical"]')
     if (canonical) {
       canonical.setAttribute('href', `https://desihop.net/compare/${val.slug}`)
+    }
+
+    let metaKw = document.querySelector('meta[name="keywords"]')
+    if (metaKw) {
+      metaKw.setAttribute('content', `${val.words.map(w => w.hanzi).join(', ')}, ${val.words.map(w => w.pinyin).join(', ')}, ${pairTitle}, chinese grammar difference, ${val.level} grammar, confusing words chinese`)
     }
   },
   { immediate: true }
