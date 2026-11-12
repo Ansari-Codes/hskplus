@@ -333,11 +333,18 @@ const faqs = [
                   <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Full Pinyin</span>
                 </div>
               </div>
-              <RouterLink to="/hsk1" class="mt-5 block">
-                <UiButton class="w-full" variant="outline" size="sm">
-                  Enter HSK 1 Hub →
-                </UiButton>
-              </RouterLink>
+              <div class="mt-5 flex gap-2">
+                <RouterLink to="/hsk1" class="flex-1">
+                  <UiButton class="w-full" variant="outline" size="sm">
+                    HSK 1 Hub →
+                  </UiButton>
+                </RouterLink>
+                <RouterLink to="/hsk1/vocabulary" class="flex-1">
+                  <UiButton class="w-full" variant="secondary" size="sm">
+                    150 Vocab
+                  </UiButton>
+                </RouterLink>
+              </div>
             </div>
 
             <!-- Level 2 Card -->
@@ -357,11 +364,18 @@ const faqs = [
                   <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Pinyin Support</span>
                 </div>
               </div>
-              <RouterLink to="/hsk2" class="mt-5 block">
-                <UiButton class="w-full" variant="outline" size="sm">
-                  Enter HSK 2 Hub →
-                </UiButton>
-              </RouterLink>
+              <div class="mt-5 flex gap-2">
+                <RouterLink to="/hsk2" class="flex-1">
+                  <UiButton class="w-full" variant="outline" size="sm">
+                    HSK 2 Hub →
+                  </UiButton>
+                </RouterLink>
+                <RouterLink to="/hsk2/vocabulary" class="flex-1">
+                  <UiButton class="w-full" variant="secondary" size="sm">
+                    300 Vocab
+                  </UiButton>
+                </RouterLink>
+              </div>
             </div>
 
             <!-- Level 3 Card -->
@@ -381,11 +395,18 @@ const faqs = [
                   <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Hanzi Only</span>
                 </div>
               </div>
-              <RouterLink to="/hsk3" class="mt-5 block">
-                <UiButton class="w-full" variant="outline" size="sm">
-                  Enter HSK 3 Hub →
-                </UiButton>
-              </RouterLink>
+              <div class="mt-5 flex gap-2">
+                <RouterLink to="/hsk3" class="flex-1">
+                  <UiButton class="w-full" variant="outline" size="sm">
+                    HSK 3 Hub →
+                  </UiButton>
+                </RouterLink>
+                <RouterLink to="/hsk3/vocabulary" class="flex-1">
+                  <UiButton class="w-full" variant="secondary" size="sm">
+                    600 Vocab
+                  </UiButton>
+                </RouterLink>
+              </div>
             </div>
           </div>
         </div>
@@ -753,8 +774,13 @@ const faqs = [
                 Enter HSK 1 Portal →
               </UiButton>
             </RouterLink>
-            <RouterLink to="/hsk1/practice">
+            <RouterLink to="/hsk1/vocabulary">
               <UiButton variant="outline">
+                150 Vocab
+              </UiButton>
+            </RouterLink>
+            <RouterLink to="/hsk1/practice">
+              <UiButton variant="secondary">
                 Writing Lab
               </UiButton>
             </RouterLink>
@@ -789,8 +815,13 @@ const faqs = [
                 Enter HSK 2 Portal →
               </UiButton>
             </RouterLink>
-            <RouterLink to="/hsk2/practice">
+            <RouterLink to="/hsk2/vocabulary">
               <UiButton variant="outline">
+                300 Vocab
+              </UiButton>
+            </RouterLink>
+            <RouterLink to="/hsk2/practice">
+              <UiButton variant="secondary">
                 Writing Lab
               </UiButton>
             </RouterLink>
@@ -823,8 +854,11 @@ const faqs = [
             <RouterLink to="/hsk3" class="flex-1">
               <UiButton class="w-full">Enter HSK 3 Portal →</UiButton>
             </RouterLink>
+            <RouterLink to="/hsk3/vocabulary">
+              <UiButton variant="outline">600 Vocab</UiButton>
+            </RouterLink>
             <RouterLink to="/hsk3/practice">
-              <UiButton variant="outline">Writing Lab</UiButton>
+              <UiButton variant="secondary">Writing Lab</UiButton>
             </RouterLink>
           </div>
         </div>

@@ -130,20 +130,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 6,
     "character": "这 (这儿)",
     "pinyin": "zhè ( zhèr)",
-    "meaning": "this (here)",
+    "meaning": "this, here (demonstrative pronoun)",
     "category": "Demonstrative Pron.",
     "level": 1,
     "strokes": 7,
     "examples": [
       {
-        "chinese": "这是我的书。",
-        "pinyin": "zhè shì wǒ de shū.",
-        "translation": "This is my book."
+        "chinese": "这是我最好的朋友。",
+        "pinyin": "zhè shì wǒ zuì hǎo de péngyou.",
+        "translation": "This is my best friend."
       },
       {
-        "chinese": "这儿有很多人。",
-        "pinyin": "zhèr yǒu hěn duō rén.",
-        "translation": "There are many people here."
+        "chinese": "这儿的风景真漂亮。",
+        "pinyin": "zhèr de fēngjǐng zhēn piàoliang.",
+        "translation": "The scenery here is really beautiful."
       }
     ]
   },
@@ -235,20 +235,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 11,
     "character": "什么",
     "pinyin": "shénme",
-    "meaning": "what, why",
+    "meaning": "what, why (interrogative pronoun)",
     "category": "Interrogative Pron.",
     "level": 1,
     "strokes": 4,
     "examples": [
       {
-        "chinese": "你叫什么名字？",
-        "pinyin": "nǐ jiào shénme míngzi?",
-        "translation": "What is your name?"
+        "chinese": "你在找什么东西？",
+        "pinyin": "nǐ zài zhǎo shénme dōngxi?",
+        "translation": "What are you looking for?"
       },
       {
-        "chinese": "这是什么东西？",
-        "pinyin": "zhè shì shénme dōngxi?",
-        "translation": "What is this thing?"
+        "chinese": "今天中午吃什么？",
+        "pinyin": "jīntiān zhōngwǔ chī shénme?",
+        "translation": "What are we eating for lunch today?"
       }
     ]
   },
@@ -346,14 +346,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 1,
     "examples": [
       {
-        "chinese": "我喜欢一。",
-        "pinyin": "wǒ xǐhuan yī.",
-        "translation": "I like one."
+        "chinese": "我有一个哥哥。",
+        "pinyin": "wǒ yǒu yí gè gēge.",
+        "translation": "I have an older brother."
       },
       {
-        "chinese": "这是一。",
-        "pinyin": "zhè shì yī.",
-        "translation": "This is one."
+        "chinese": "请给我一杯水。",
+        "pinyin": "qǐng gěi wǒ yì bēi shuǐ.",
+        "translation": "Please give me a cup of water."
       }
     ]
   },
@@ -367,14 +367,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 2,
     "examples": [
       {
-        "chinese": "我喜欢二。",
-        "pinyin": "wǒ xǐhuan èr.",
-        "translation": "I like two."
+        "chinese": "星期二我们有汉语课。",
+        "pinyin": "xīngqī'èr wǒmen yǒu hànyǔ kè.",
+        "translation": "We have Chinese class on Tuesday."
       },
       {
-        "chinese": "这是二。",
-        "pinyin": "zhè shì èr.",
-        "translation": "This is two."
+        "chinese": "这里的苹果两块二一斤。",
+        "pinyin": "zhèlǐ de píngguǒ liǎng kuài èr yì jīn.",
+        "translation": "Apples here are two yuan and twenty cents per jin."
       }
     ]
   },
@@ -388,14 +388,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 3,
     "examples": [
       {
-        "chinese": "我喜欢三。",
-        "pinyin": "wǒ xǐhuan sān.",
-        "translation": "I like three."
+        "chinese": "桌子上有三本书。",
+        "pinyin": "zhuōzi shang yǒu sān běn shū.",
+        "translation": "There are three books on the table."
       },
       {
-        "chinese": "这是三。",
-        "pinyin": "zhè shì sān.",
-        "translation": "This is three."
+        "chinese": "三月的天气很舒服。",
+        "pinyin": "sānyuè de tiānqì hěn shūfu.",
+        "translation": "The weather in March is very comfortable."
       }
     ]
   },
@@ -409,14 +409,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 5,
     "examples": [
       {
-        "chinese": "我喜欢四。",
-        "pinyin": "wǒ xǐhuan sì.",
-        "translation": "I like four."
+        "chinese": "我家有四口人。",
+        "pinyin": "wǒ jiā yǒu sì kǒu rén.",
+        "translation": "There are four people in my family."
       },
       {
-        "chinese": "这是四。",
-        "pinyin": "zhè shì sì.",
-        "translation": "This is four."
+        "chinese": "他今年四岁了。",
+        "pinyin": "tā jīnnián sì suì le.",
+        "translation": "He is four years old this year."
       }
     ]
   },
@@ -430,14 +430,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢五。",
-        "pinyin": "wǒ xǐhuan wǔ.",
-        "translation": "I like five."
+        "chinese": "现在是下午五点。",
+        "pinyin": "xiànzài shì xiàwǔ wǔ diǎn.",
+        "translation": "It is five o'clock in the afternoon now."
       },
       {
-        "chinese": "这是五。",
-        "pinyin": "zhè shì wǔ.",
-        "translation": "This is five."
+        "chinese": "我买了五个苹果。",
+        "pinyin": "wǒ mǎi le wǔ gè píngguǒ.",
+        "translation": "I bought five apples."
       }
     ]
   },
@@ -451,14 +451,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢六。",
-        "pinyin": "wǒ xǐhuan liù.",
-        "translation": "I like six."
+        "chinese": "星期六下午我们去踢足球。",
+        "pinyin": "xīngqīliù xiàwǔ wǒmen qù tī zúqiú.",
+        "translation": "We are going to play soccer on Saturday afternoon."
       },
       {
-        "chinese": "这是六。",
-        "pinyin": "zhè shì liù.",
-        "translation": "This is six."
+        "chinese": "他住在六号楼。",
+        "pinyin": "tā zhù zài liù hào lóu.",
+        "translation": "He lives in building number six."
       }
     ]
   },
@@ -472,14 +472,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 2,
     "examples": [
       {
-        "chinese": "我喜欢七。",
-        "pinyin": "wǒ xǐhuan qī.",
-        "translation": "I like seven."
+        "chinese": "一个星期有七天。",
+        "pinyin": "yí gè xīngqī yǒu qī tiān.",
+        "translation": "There are seven days in a week."
       },
       {
-        "chinese": "这是七。",
-        "pinyin": "zhè shì qī.",
-        "translation": "This is seven."
+        "chinese": "我早上七点起床。",
+        "pinyin": "wǒ zǎoshang qī diǎn qǐchuáng.",
+        "translation": "I get up at seven in the morning."
       }
     ]
   },
@@ -493,14 +493,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 2,
     "examples": [
       {
-        "chinese": "我喜欢八。",
-        "pinyin": "wǒ xǐhuan bā.",
-        "translation": "I like eight."
+        "chinese": "我们八点开始上课。",
+        "pinyin": "wǒmen bā diǎn kāishǐ shàngkè.",
+        "translation": "We start class at eight o'clock."
       },
       {
-        "chinese": "这是八。",
-        "pinyin": "zhè shì bā.",
-        "translation": "This is eight."
+        "chinese": "他在中国住了八个月。",
+        "pinyin": "tā zài zhōngguó zhù le bā gè yuè.",
+        "translation": "He lived in China for eight months."
       }
     ]
   },
@@ -514,14 +514,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 2,
     "examples": [
       {
-        "chinese": "我喜欢九。",
-        "pinyin": "wǒ xǐhuan jiǔ.",
-        "translation": "I like nine."
+        "chinese": "今天是九月九号。",
+        "pinyin": "jīntiān shì jiǔ yuè jiǔ hào.",
+        "translation": "Today is September ninth."
       },
       {
-        "chinese": "这是九。",
-        "pinyin": "zhè shì jiǔ.",
-        "translation": "This is nine."
+        "chinese": "这件衣服九十块钱。",
+        "pinyin": "zhè jiàn yīfu jiǔshí kuài qián.",
+        "translation": "This piece of clothing costs ninety yuan."
       }
     ]
   },
@@ -535,14 +535,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 2,
     "examples": [
       {
-        "chinese": "我喜欢十。",
-        "pinyin": "wǒ xǐhuan shí.",
-        "translation": "I like ten."
+        "chinese": "还有十分钟就下课了。",
+        "pinyin": "hái yǒu shí fēnzhōng jiù xiàkè le.",
+        "translation": "Class finishes in ten minutes."
       },
       {
-        "chinese": "这是十。",
-        "pinyin": "zhè shì shí.",
-        "translation": "This is ten."
+        "chinese": "他已经学了十年汉语了。",
+        "pinyin": "tā yǐjīng xué le shí nián hànyǔ le.",
+        "translation": "He has been learning Chinese for ten years."
       }
     ]
   },
@@ -550,20 +550,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 26,
     "character": "个",
     "pinyin": "gè",
-    "meaning": "(for normal objects)",
+    "meaning": "general measure word for people and objects",
     "category": "Quantifier",
     "level": 1,
     "strokes": 3,
     "examples": [
       {
-        "chinese": "我喜欢个。",
-        "pinyin": "wǒ xǐhuan gè.",
-        "translation": "I like (for normal objects)."
+        "chinese": "我想买一个新杯子。",
+        "pinyin": "wǒ xiǎng mǎi yí gè xīn bēizi.",
+        "translation": "I want to buy a new cup."
       },
       {
-        "chinese": "这是个。",
-        "pinyin": "zhè shì gè.",
-        "translation": "This is (for normal objects)."
+        "chinese": "那个学生学习很认真。",
+        "pinyin": "nà gè xuésheng xuéxí hěn rènzhēn.",
+        "translation": "That student studies very diligently."
       }
     ]
   },
@@ -571,20 +571,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 27,
     "character": "岁",
     "pinyin": "suì",
-    "meaning": "(for age)",
+    "meaning": "years of age (measure word)",
     "category": "Quantifier",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢岁。",
-        "pinyin": "wǒ xǐhuan suì.",
-        "translation": "I like (for age)."
+        "chinese": "李老师的女儿今年五岁。",
+        "pinyin": "lǐ lǎoshī de nǚ'ér jīnnián wǔ suì.",
+        "translation": "Teacher Li's daughter is five years old this year."
       },
       {
-        "chinese": "这是岁。",
-        "pinyin": "zhè shì suì.",
-        "translation": "This is (for age)."
+        "chinese": "你几岁了？",
+        "pinyin": "nǐ jǐ suì le?",
+        "translation": "How old are you?"
       }
     ]
   },
@@ -592,20 +592,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 28,
     "character": "本",
     "pinyin": "běn",
-    "meaning": "(for books)",
+    "meaning": "measure word for books, notebooks, bound volumes",
     "category": "Quantifier",
     "level": 1,
     "strokes": 5,
     "examples": [
       {
-        "chinese": "我喜欢本。",
-        "pinyin": "wǒ xǐhuan běn.",
-        "translation": "I like (for books)."
+        "chinese": "这本书非常有意思。",
+        "pinyin": "zhè běn shū fēicháng yǒu yìsi.",
+        "translation": "This book is very interesting."
       },
       {
-        "chinese": "这是本。",
-        "pinyin": "zhè shì běn.",
-        "translation": "This is (for books)."
+        "chinese": "我借了两本汉语书。",
+        "pinyin": "wǒ jiè le liǎng běn hànyǔ shū.",
+        "translation": "I borrowed two Chinese books."
       }
     ]
   },
@@ -613,20 +613,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 29,
     "character": "些",
     "pinyin": "xiē",
-    "meaning": "some",
+    "meaning": "some, a few (plural measure word)",
     "category": "Quantifier",
     "level": 1,
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢些。",
-        "pinyin": "wǒ xǐhuan xiē.",
-        "translation": "I like some."
+        "chinese": "这些水果都是新鲜的。",
+        "pinyin": "zhèxiē shuǐguǒ dōu shì xīnxian de.",
+        "translation": "These fruits are all fresh."
       },
       {
-        "chinese": "这是些。",
-        "pinyin": "zhè shì xiē.",
-        "translation": "This is some."
+        "chinese": "他买了一些好吃的菜。",
+        "pinyin": "tā mǎi le yìxiē hǎochī de cài.",
+        "translation": "He bought some delicious food."
       }
     ]
   },
@@ -634,20 +634,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 30,
     "character": "块",
     "pinyin": "kuài",
-    "meaning": "piece, chunk",
+    "meaning": "piece, chunk; colloquial unit for Chinese yuan",
     "category": "Quantifier",
     "level": 1,
     "strokes": 7,
     "examples": [
       {
-        "chinese": "我喜欢块。",
-        "pinyin": "wǒ xǐhuan kuài.",
-        "translation": "I like piece, chunk."
+        "chinese": "这杯咖啡十五块钱。",
+        "pinyin": "zhè bēi kāfēi shíwǔ kuài qián.",
+        "translation": "This cup of coffee is fifteen yuan."
       },
       {
-        "chinese": "这是块。",
-        "pinyin": "zhè shì kuài.",
-        "translation": "This is piece, chunk."
+        "chinese": "请给我一块西瓜。",
+        "pinyin": "qǐng gěi wǒ yí kuài xīguā.",
+        "translation": "Please give me a slice of watermelon."
       }
     ]
   },
@@ -655,20 +655,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 31,
     "character": "不",
     "pinyin": "bù",
-    "meaning": "no",
+    "meaning": "no, not (negation adverb)",
     "category": "Adverb",
     "level": 1,
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢不。",
-        "pinyin": "wǒ xǐhuan bù.",
-        "translation": "I like no."
+        "chinese": "我今天不喝咖啡。",
+        "pinyin": "wǒ jīntiān bù hē kāfēi.",
+        "translation": "I am not drinking coffee today."
       },
       {
-        "chinese": "这是不。",
-        "pinyin": "zhè shì bù.",
-        "translation": "This is no."
+        "chinese": "他不是老师，他是学生。",
+        "pinyin": "tā bú shì lǎoshī, tā shì xuésheng.",
+        "translation": "He is not a teacher, he is a student."
       }
     ]
   },
@@ -676,20 +676,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 32,
     "character": "没",
     "pinyin": "méi",
-    "meaning": "no",
+    "meaning": "not, have not (past/possession negation)",
     "category": "Adverb",
     "level": 1,
     "strokes": 7,
     "examples": [
       {
-        "chinese": "我喜欢没。",
-        "pinyin": "wǒ xǐhuan méi.",
-        "translation": "I like no."
+        "chinese": "我昨天没去学校。",
+        "pinyin": "wǒ zuótiān méi qù xuéxiào.",
+        "translation": "I did not go to school yesterday."
       },
       {
-        "chinese": "这是没。",
-        "pinyin": "zhè shì méi.",
-        "translation": "This is no."
+        "chinese": "我没有带手机。",
+        "pinyin": "wǒ méiyǒu dài shǒujī.",
+        "translation": "I do not have my cell phone with me."
       }
     ]
   },
@@ -697,20 +697,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 33,
     "character": "很",
     "pinyin": "hěn",
-    "meaning": "quite, very",
+    "meaning": "very, quite (degree adverb)",
     "category": "Adverb",
     "level": 1,
     "strokes": 9,
     "examples": [
       {
-        "chinese": "我喜欢很。",
-        "pinyin": "wǒ xǐhuan hěn.",
-        "translation": "I like quite, very."
+        "chinese": "今天的天气很好。",
+        "pinyin": "jīntiān de tiānqì hěn hǎo.",
+        "translation": "The weather is very good today."
       },
       {
-        "chinese": "这是很。",
-        "pinyin": "zhè shì hěn.",
-        "translation": "This is quite, very."
+        "chinese": "他汉语说得很流利。",
+        "pinyin": "tā hànyǔ shuō de hěn liúlì.",
+        "translation": "He speaks Chinese very fluently."
       }
     ]
   },
@@ -718,20 +718,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 34,
     "character": "太",
     "pinyin": "tài",
-    "meaning": "too",
+    "meaning": "too, excessively (degree adverb)",
     "category": "Adverb",
     "level": 1,
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢太。",
-        "pinyin": "wǒ xǐhuan tài.",
-        "translation": "I like too."
+        "chinese": "太谢谢你了！",
+        "pinyin": "tài xièxie nǐ le!",
+        "translation": "Thank you so much!"
       },
       {
-        "chinese": "这是太。",
-        "pinyin": "zhè shì tài.",
-        "translation": "This is too."
+        "chinese": "这个菜太辣了，我吃不了。",
+        "pinyin": "zhè gè cài tài là le, wǒ chī bu liǎo.",
+        "translation": "This dish is too spicy, I can't eat it."
       }
     ]
   },
@@ -739,20 +739,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 35,
     "character": "都",
     "pinyin": "dōu",
-    "meaning": "all",
+    "meaning": "all, both (inclusive adverb)",
     "category": "Adverb",
     "level": 1,
     "strokes": 10,
     "examples": [
       {
-        "chinese": "我喜欢都。",
-        "pinyin": "wǒ xǐhuan dōu.",
-        "translation": "I like all."
+        "chinese": "我们都是留学生。",
+        "pinyin": "wǒmen dōu shì liúxuéshēng.",
+        "translation": "We are all international students."
       },
       {
-        "chinese": "这是都。",
-        "pinyin": "zhè shì dōu.",
-        "translation": "This is all."
+        "chinese": "这些书我都喜欢看。",
+        "pinyin": "zhèxiē shū wǒ dōu xǐhuan kàn.",
+        "translation": "I like reading all of these books."
       }
     ]
   },
@@ -760,20 +760,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 36,
     "character": "一点儿",
     "pinyin": "yīdiǎnr",
-    "meaning": "a little bit",
+    "meaning": "a little bit, slightly",
     "category": "Adverb",
     "level": 1,
     "strokes": 1,
     "examples": [
       {
-        "chinese": "我喜欢一点儿。",
-        "pinyin": "wǒ xǐhuan yīdiǎnr.",
-        "translation": "I like a little bit."
+        "chinese": "我会说一点儿汉语。",
+        "pinyin": "wǒ huì shuō yìdiǎnr hànyǔ.",
+        "translation": "I can speak a little bit of Chinese."
       },
       {
-        "chinese": "这是一点儿。",
-        "pinyin": "zhè shì yīdiǎnr.",
-        "translation": "This is a little bit."
+        "chinese": "我想喝一点儿热茶。",
+        "pinyin": "wǒ xiǎng hē yìdiǎnr rè chá.",
+        "translation": "I want to drink a little bit of hot tea."
       }
     ]
   },
@@ -781,20 +781,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 37,
     "character": "和",
     "pinyin": "hé",
-    "meaning": "and",
+    "meaning": "and, with (conjunction linking nouns/pronouns)",
     "category": "Conjunction",
     "level": 1,
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢和。",
-        "pinyin": "wǒ xǐhuan hé.",
-        "translation": "I like and."
+        "chinese": "爸爸和妈妈都在家。",
+        "pinyin": "bàba hé māma dōu zài jiā.",
+        "translation": "Dad and mom are both at home."
       },
       {
-        "chinese": "这是和。",
-        "pinyin": "zhè shì hé.",
-        "translation": "This is and."
+        "chinese": "我和朋友一起去中国旅游。",
+        "pinyin": "wǒ hé péngyou yìqǐ qù zhōngguó lǚyóu.",
+        "translation": "My friend and I are traveling to China together."
       }
     ]
   },
@@ -802,20 +802,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 38,
     "character": "在",
     "pinyin": "zài",
-    "meaning": "in, at",
+    "meaning": "at, in, on (preposition indicating location or action in progress)",
     "category": "Preposition",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢在。",
-        "pinyin": "wǒ xǐhuan zài.",
-        "translation": "I like in, at."
+        "chinese": "他在图书馆看书。",
+        "pinyin": "tā zài túshūguǎn kàn shū.",
+        "translation": "He is reading a book at the library."
       },
       {
-        "chinese": "这是在。",
-        "pinyin": "zhè shì zài.",
-        "translation": "This is in, at."
+        "chinese": "妈妈正在做饭呢。",
+        "pinyin": "māma zhèngzài zuò fàn ne.",
+        "translation": "Mom is cooking meals right now."
       }
     ]
   },
@@ -823,20 +823,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 39,
     "character": "的",
     "pinyin": "de",
-    "meaning": "possessive or descriptive particle; structural particle indicating attribution",
+    "meaning": "possessive or descriptive particle ('s); structural particle indicating attribution",
     "category": "Auxiliary",
     "level": 1,
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢的。",
-        "pinyin": "wǒ xǐhuan de.",
-        "translation": "I like possessive or descriptive particle; structural particle indicating attribution."
+        "chinese": "这是我新买的衣服。",
+        "pinyin": "zhè shì wǒ xīn mǎi de yīfu.",
+        "translation": "These are the new clothes I bought."
       },
       {
-        "chinese": "这是的。",
-        "pinyin": "zhè shì de.",
-        "translation": "This is possessive or descriptive particle; structural particle indicating attribution."
+        "chinese": "汉语书是王老师的。",
+        "pinyin": "hànyǔ shū shì wáng lǎoshī de.",
+        "translation": "The Chinese book belongs to Teacher Wang."
       }
     ]
   },
@@ -844,20 +844,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 40,
     "character": "了",
     "pinyin": "le",
-    "meaning": "aspect particle indicating completed action or change of situation",
+    "meaning": "aspect particle indicating completed action or change of state",
     "category": "Auxiliary",
     "level": 1,
     "strokes": 2,
     "examples": [
       {
-        "chinese": "我喜欢了。",
-        "pinyin": "wǒ xǐhuan le.",
-        "translation": "I like aspect particle indicating completed action or change of situation."
+        "chinese": "下雨了，带上雨伞吧。",
+        "pinyin": "xià yǔ le, dài shang yǔsǎn ba.",
+        "translation": "It started raining, take an umbrella with you."
       },
       {
-        "chinese": "这是了。",
-        "pinyin": "zhè shì le.",
-        "translation": "This is aspect particle indicating completed action or change of situation."
+        "chinese": "我已经吃过晚饭了。",
+        "pinyin": "wǒ yǐjīng chī guo wǎnfàn le.",
+        "translation": "I have already eaten dinner."
       }
     ]
   },
@@ -871,14 +871,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢吗。",
-        "pinyin": "wǒ xǐhuan ma.",
-        "translation": "I like question particle for yes-no questions."
+        "chinese": "你是北京人吗？",
+        "pinyin": "nǐ shì běijīng rén ma?",
+        "translation": "Are you from Beijing?"
       },
       {
-        "chinese": "这是吗。",
-        "pinyin": "zhè shì ma.",
-        "translation": "This is question particle for yes-no questions."
+        "chinese": "明天你能来我家吗？",
+        "pinyin": "míngtiān nǐ néng lái wǒ jiā ma?",
+        "translation": "Can you come to my home tomorrow?"
       }
     ]
   },
@@ -886,20 +886,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 42,
     "character": "呢",
     "pinyin": "ne",
-    "meaning": "modal particle for questions about location, follow-up, or ongoing state",
+    "meaning": "modal particle for follow-up questions ('how about...?') or ongoing state",
     "category": "Auxiliary",
     "level": 1,
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢呢。",
-        "pinyin": "wǒ xǐhuan ne.",
-        "translation": "I like modal particle for questions about location, follow-up, or ongoing state."
+        "chinese": "我是学生，你呢？",
+        "pinyin": "wǒ shì xuésheng, nǐ ne?",
+        "translation": "I am a student, what about you?"
       },
       {
-        "chinese": "这是呢。",
-        "pinyin": "zhè shì ne.",
-        "translation": "This is modal particle for questions about location, follow-up, or ongoing state."
+        "chinese": "我的钥匙在哪里呢？",
+        "pinyin": "wǒ de yàoshi zài nǎlǐ ne?",
+        "translation": "Where on earth are my keys?"
       }
     ]
   },
@@ -907,20 +907,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 43,
     "character": "喂",
     "pinyin": "wèi",
-    "meaning": "hello",
+    "meaning": "hello (used on phone calls); hey",
     "category": "Interjection",
     "level": 1,
     "strokes": 12,
     "examples": [
       {
-        "chinese": "我喜欢喂。",
-        "pinyin": "wǒ xǐhuan wèi.",
-        "translation": "I like hello."
+        "chinese": "喂，请问张老师在吗？",
+        "pinyin": "wèi, qǐngwèn zhāng lǎoshī zài ma?",
+        "translation": "Hello, is Teacher Zhang there please?"
       },
       {
-        "chinese": "这是喂。",
-        "pinyin": "zhè shì wèi.",
-        "translation": "This is hello."
+        "chinese": "喂，你听到我说话了吗？",
+        "pinyin": "wèi, nǐ tīngdào wǒ shuōhuà le ma?",
+        "translation": "Hello, can you hear me speaking?"
       }
     ]
   },
@@ -928,20 +928,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 44,
     "character": "家",
     "pinyin": "jiā",
-    "meaning": "home",
+    "meaning": "home, family, household",
     "category": "Noun",
     "level": 1,
     "strokes": 10,
     "examples": [
       {
-        "chinese": "我喜欢家。",
-        "pinyin": "wǒ xǐhuan jiā.",
-        "translation": "I like home."
+        "chinese": "欢迎来我家玩儿。",
+        "pinyin": "huānyíng lái wǒ jiā wánr.",
+        "translation": "Welcome to hang out at my home."
       },
       {
-        "chinese": "这是家。",
-        "pinyin": "zhè shì jiā.",
-        "translation": "This is home."
+        "chinese": "他家离学校很近。",
+        "pinyin": "tā jiā lí xuéxiào hěn jìn.",
+        "translation": "His home is very close to school."
       }
     ]
   },
@@ -955,14 +955,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 10,
     "examples": [
       {
-        "chinese": "我喜欢学校。",
-        "pinyin": "wǒ xǐhuan xuéxiào.",
-        "translation": "I like school."
+        "chinese": "我们学校很大很漂亮。",
+        "pinyin": "wǒmen xuéxiào hěn dà hěn piàoliang.",
+        "translation": "Our school is very large and beautiful."
       },
       {
-        "chinese": "这是学校。",
-        "pinyin": "zhè shì xuéxiào.",
-        "translation": "This is school."
+        "chinese": "他每天早上走路上学校。",
+        "pinyin": "tā měitiān zǎoshang zǒulù shàng xuéxiào.",
+        "translation": "He walks to school every morning."
       }
     ]
   },
@@ -970,20 +970,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 46,
     "character": "饭店",
     "pinyin": "fàndiàn",
-    "meaning": "restaurant",
+    "meaning": "restaurant, hotel",
     "category": "Noun",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢饭店。",
-        "pinyin": "wǒ xǐhuan fàndiàn.",
-        "translation": "I like restaurant."
+        "chinese": "这家饭店的菜味道很好。",
+        "pinyin": "zhè jiā fàndiàn de cài wèidao hěn hǎo.",
+        "translation": "The dishes at this restaurant taste very good."
       },
       {
-        "chinese": "这是饭店。",
-        "pinyin": "zhè shì fàndiàn.",
-        "translation": "This is restaurant."
+        "chinese": "我们去饭店吃午饭吧。",
+        "pinyin": "wǒmen qù fàndiàn chī wǔfàn ba.",
+        "translation": "Let's go to the restaurant for lunch."
       }
     ]
   },
@@ -991,20 +991,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 47,
     "character": "商店",
     "pinyin": "shāngdiàn",
-    "meaning": "store",
+    "meaning": "store, shop",
     "category": "Noun",
     "level": 1,
     "strokes": 11,
     "examples": [
       {
-        "chinese": "我喜欢商店。",
-        "pinyin": "wǒ xǐhuan shāngdiàn.",
-        "translation": "I like store."
+        "chinese": "商店里有很多人在买东西。",
+        "pinyin": "shāngdiàn li yǒu hěn duō rén zài mǎi dōngxi.",
+        "translation": "There are many people shopping in the store."
       },
       {
-        "chinese": "这是商店。",
-        "pinyin": "zhè shì shāngdiàn.",
-        "translation": "This is store."
+        "chinese": "学校旁边有一家小商店。",
+        "pinyin": "xuéxiào pángbiān yǒu yì jiā xiǎo shāngdiàn.",
+        "translation": "There is a small store next to the school."
       }
     ]
   },
@@ -1018,14 +1018,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 9,
     "examples": [
       {
-        "chinese": "我喜欢医院。",
-        "pinyin": "wǒ xǐhuan yīyuàn.",
-        "translation": "I like hospital."
+        "chinese": "他生病了，需要去医院。",
+        "pinyin": "tā shēngbìng le, xūyào qù yīyuàn.",
+        "translation": "He is ill and needs to go to the hospital."
       },
       {
-        "chinese": "这是医院。",
-        "pinyin": "zhè shì yīyuàn.",
-        "translation": "This is hospital."
+        "chinese": "姐姐在市中心的一家医院工作。",
+        "pinyin": "jiějie zài shìzhōngxīn de yì jiā yīyuàn gōngzuò.",
+        "translation": "My older sister works in a hospital in the city center."
       }
     ]
   },
@@ -1039,14 +1039,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢中国。",
-        "pinyin": "wǒ xǐhuan Zhōngguò.",
-        "translation": "I like China."
+        "chinese": "我想去中国学习汉语。",
+        "pinyin": "wǒ xiǎng qù zhōngguó xuéxí hànyǔ.",
+        "translation": "I want to go to China to study Chinese."
       },
       {
-        "chinese": "这是中国。",
-        "pinyin": "zhè shì Zhōngguò.",
-        "translation": "This is China."
+        "chinese": "中国是一个历史悠久的国家。",
+        "pinyin": "zhōngguó shì yí gè lìshǐ yōujiǔ de guójiā.",
+        "translation": "China is a country with a long history."
       }
     ]
   },
@@ -1060,14 +1060,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 5,
     "examples": [
       {
-        "chinese": "我喜欢北京。",
-        "pinyin": "wǒ xǐhuan Běijīng.",
-        "translation": "I like Beijing."
+        "chinese": "我坐飞机去了北京。",
+        "pinyin": "wǒ zuò fēijī qù le běijīng.",
+        "translation": "I flew to Beijing by plane."
       },
       {
-        "chinese": "这是北京。",
-        "pinyin": "zhè shì Běijīng.",
-        "translation": "This is Beijing."
+        "chinese": "北京的秋天非常美丽。",
+        "pinyin": "běijīng de qiūtiān fēicháng měilì.",
+        "translation": "Autumn in Beijing is exceptionally beautiful."
       }
     ]
   },
@@ -1075,20 +1075,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 51,
     "character": "上",
     "pinyin": "shàng",
-    "meaning": "up",
+    "meaning": "up, on, above, go up",
     "category": "Noun",
     "level": 1,
     "strokes": 3,
     "examples": [
       {
-        "chinese": "我喜欢上。",
-        "pinyin": "wǒ xǐhuan shàng.",
-        "translation": "I like up."
+        "chinese": "书在桌子上面。",
+        "pinyin": "shū zài zhuōzi shàngmian.",
+        "translation": "The book is on top of the desk."
       },
       {
-        "chinese": "这是上。",
-        "pinyin": "zhè shì shàng.",
-        "translation": "This is up."
+        "chinese": "我们九点开始上课。",
+        "pinyin": "wǒmen jiǔ diǎn kāishǐ shàngkè.",
+        "translation": "We start class at nine o'clock."
       }
     ]
   },
@@ -1096,20 +1096,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 52,
     "character": "下",
     "pinyin": "xià",
-    "meaning": "down",
+    "meaning": "below, under, descend",
     "category": "Noun",
     "level": 1,
     "strokes": 3,
     "examples": [
       {
-        "chinese": "我喜欢下。",
-        "pinyin": "wǒ xǐhuan xià.",
-        "translation": "I like down."
+        "chinese": "树下有一只小猫。",
+        "pinyin": "shù xià yǒu yì zhī xiǎo māo.",
+        "translation": "There is a kitten under the tree."
       },
       {
-        "chinese": "这是下。",
-        "pinyin": "zhè shì xià.",
-        "translation": "This is down."
+        "chinese": "外面正在下雨。",
+        "pinyin": "wàimiàn zhèngzài xià yǔ.",
+        "translation": "It is raining outside right now."
       }
     ]
   },
@@ -1117,20 +1117,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 53,
     "character": "前面",
     "pinyin": "qiánmiàn",
-    "meaning": "front",
+    "meaning": "in front, ahead",
     "category": "Noun",
     "level": 1,
     "strokes": 9,
     "examples": [
       {
-        "chinese": "我喜欢前面。",
-        "pinyin": "wǒ xǐhuan qiánmiàn.",
-        "translation": "I like front."
+        "chinese": "我在银行前面等你。",
+        "pinyin": "wǒ zài yínháng qiánmiàn děng nǐ.",
+        "translation": "I am waiting for you in front of the bank."
       },
       {
-        "chinese": "这是前面。",
-        "pinyin": "zhè shì qiánmiàn.",
-        "translation": "This is front."
+        "chinese": "坐在前面的那个人是王老师。",
+        "pinyin": "zuò zài qiánmiàn de nà gè rén shì wáng lǎoshī.",
+        "translation": "The person sitting in front is Teacher Wang."
       }
     ]
   },
@@ -1138,20 +1138,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 54,
     "character": "后面",
     "pinyin": "hòumiàn",
-    "meaning": "behind",
+    "meaning": "behind, rear, back",
     "category": "Noun",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢后面。",
-        "pinyin": "wǒ xǐhuan hòumiàn.",
-        "translation": "I like behind."
+        "chinese": "学校后面有一个大公园。",
+        "pinyin": "xuéxiào hòumiàn yǒu yí gè dà gōngyuán.",
+        "translation": "There is a big park behind the school."
       },
       {
-        "chinese": "这是后面。",
-        "pinyin": "zhè shì hòumiàn.",
-        "translation": "This is behind."
+        "chinese": "他坐在我后面。",
+        "pinyin": "tā zuò zài wǒ hòumiàn.",
+        "translation": "He sits behind me."
       }
     ]
   },
@@ -1159,20 +1159,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 55,
     "character": "里",
     "pinyin": "lǐmiàn",
-    "meaning": "inside",
+    "meaning": "inside, interior",
     "category": "Noun",
     "level": 1,
     "strokes": 7,
     "examples": [
       {
-        "chinese": "我喜欢里。",
-        "pinyin": "wǒ xǐhuan lǐmiàn.",
-        "translation": "I like inside."
+        "chinese": "书包里有很多书和本子。",
+        "pinyin": "shūbāo lǐ yǒu hěn duō shū hé běnzi.",
+        "translation": "There are many books and notebooks in the backpack."
       },
       {
-        "chinese": "这是里。",
-        "pinyin": "zhè shì lǐmiàn.",
-        "translation": "This is inside."
+        "chinese": "屋子里很暖和。",
+        "pinyin": "wūzi lǐ hěn nuǎnhuo.",
+        "translation": "It is very warm inside the room."
       }
     ]
   },
@@ -1186,14 +1186,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢今天。",
-        "pinyin": "wǒ xǐhuan jīntiān.",
-        "translation": "I like today."
+        "chinese": "今天是我的生日。",
+        "pinyin": "jīntiān shì wǒ de shēngrì.",
+        "translation": "Today is my birthday."
       },
       {
-        "chinese": "这是今天。",
-        "pinyin": "zhè shì jīntiān.",
-        "translation": "This is today."
+        "chinese": "今天天气晴朗。",
+        "pinyin": "jīntiān tiānqì qínglǎng.",
+        "translation": "The weather is clear and sunny today."
       }
     ]
   },
@@ -1207,14 +1207,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢明天。",
-        "pinyin": "wǒ xǐhuan míngtiān.",
-        "translation": "I like tomorrow."
+        "chinese": "明天你有空吗？",
+        "pinyin": "míngtiān nǐ yǒu kòng ma?",
+        "translation": "Do you have free time tomorrow?"
       },
       {
-        "chinese": "这是明天。",
-        "pinyin": "zhè shì míngtiān.",
-        "translation": "This is tomorrow."
+        "chinese": "我们明天一起去踢球。",
+        "pinyin": "wǒmen míngtiān yìqǐ qù tī qiú.",
+        "translation": "We will play football together tomorrow."
       }
     ]
   },
@@ -1228,14 +1228,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 9,
     "examples": [
       {
-        "chinese": "我喜欢昨天。",
-        "pinyin": "wǒ xǐhuan zuótiān.",
-        "translation": "I like yesterday."
+        "chinese": "我昨天晚上看了一部电影。",
+        "pinyin": "wǒ zuótiān wǎnshang kàn le yí bù diànyǐng.",
+        "translation": "I watched a movie yesterday evening."
       },
       {
-        "chinese": "这是昨天。",
-        "pinyin": "zhè shì zuótiān.",
-        "translation": "This is yesterday."
+        "chinese": "昨天的考试不太难。",
+        "pinyin": "zuótiān de kǎoshì bú tài nán.",
+        "translation": "Yesterday's test was not too difficult."
       }
     ]
   },
@@ -1243,20 +1243,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 59,
     "character": "上午",
     "pinyin": "shàngwǔ",
-    "meaning": "morning",
+    "meaning": "morning, forenoon",
     "category": "Noun",
     "level": 1,
     "strokes": 3,
     "examples": [
       {
-        "chinese": "我喜欢上午。",
-        "pinyin": "wǒ xǐhuan shàngwǔ.",
-        "translation": "I like morning."
+        "chinese": "我上午在办公室工作。",
+        "pinyin": "wǒ shàngwǔ zài bàngōngshì gōngzuò.",
+        "translation": "I work in the office in the morning."
       },
       {
-        "chinese": "这是上午。",
-        "pinyin": "zhè shì shàngwǔ.",
-        "translation": "This is morning."
+        "chinese": "每天上午十点有一场报告。",
+        "pinyin": "měitiān shàngwǔ shí diǎn yǒu yì chǎng bàogào.",
+        "translation": "There is a presentation at ten o'clock every morning."
       }
     ]
   },
@@ -1264,20 +1264,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 60,
     "character": "中午",
     "pinyin": "zhōngwǔ",
-    "meaning": "noon",
+    "meaning": "noon, midday",
     "category": "Noun",
     "level": 1,
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢中午。",
-        "pinyin": "wǒ xǐhuan zhōngwǔ.",
-        "translation": "I like noon."
+        "chinese": "中午我们一起吃米饭吧。",
+        "pinyin": "zhōngwǔ wǒmen yìqǐ chī mǐfàn ba.",
+        "translation": "Let's eat rice together at noon."
       },
       {
-        "chinese": "这是中午。",
-        "pinyin": "zhè shì zhōngwǔ.",
-        "translation": "This is noon."
+        "chinese": "他习惯中午睡一会儿。",
+        "pinyin": "tā xíguàn zhōngwǔ shuì yíhuìr.",
+        "translation": "He is used to taking a short nap at noon."
       }
     ]
   },
@@ -1291,14 +1291,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 3,
     "examples": [
       {
-        "chinese": "我喜欢下午。",
-        "pinyin": "wǒ xǐhuan xiàwǔ.",
-        "translation": "I like afternoon."
+        "chinese": "下午我有两节中文课。",
+        "pinyin": "xiàwǔ wǒ yǒu liǎng jié zhōngwén kè.",
+        "translation": "I have two Chinese classes this afternoon."
       },
       {
-        "chinese": "这是下午。",
-        "pinyin": "zhè shì xiàwǔ.",
-        "translation": "This is afternoon."
+        "chinese": "今天下午两点开会。",
+        "pinyin": "jīntiān xiàwǔ liǎng diǎn kāi huì.",
+        "translation": "The meeting is at two o'clock this afternoon."
       }
     ]
   },
@@ -1312,14 +1312,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢年。",
-        "pinyin": "wǒ xǐhuan nián.",
-        "translation": "I like year."
+        "chinese": "他在中国工作了三年。",
+        "pinyin": "tā zài zhōngguó gōngzuò le sān nián.",
+        "translation": "He worked in China for three years."
       },
       {
-        "chinese": "这是年。",
-        "pinyin": "zhè shì nián.",
-        "translation": "This is year."
+        "chinese": "祝你新年快乐！",
+        "pinyin": "zhù nǐ xīnnián kuàilè!",
+        "translation": "Wish you a happy New Year!"
       }
     ]
   },
@@ -1327,20 +1327,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 63,
     "character": "月",
     "pinyin": "yuè",
-    "meaning": "month",
+    "meaning": "month, moon",
     "category": "Noun",
     "level": 1,
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢月。",
-        "pinyin": "wǒ xǐhuan yuè.",
-        "translation": "I like month."
+        "chinese": "一年有十二个月。",
+        "pinyin": "yì nián yǒu shí'èr gè yuè.",
+        "translation": "A year has twelve months."
       },
       {
-        "chinese": "这是月。",
-        "pinyin": "zhè shì yuè.",
-        "translation": "This is month."
+        "chinese": "这个月我非常忙。",
+        "pinyin": "zhè gè yuè wǒ fēicháng máng.",
+        "translation": "I am exceptionally busy this month."
       }
     ]
   },
@@ -1348,20 +1348,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 64,
     "character": "号",
     "pinyin": "hào",
-    "meaning": "number/date",
+    "meaning": "date; number",
     "category": "Noun",
     "level": 1,
     "strokes": 5,
     "examples": [
       {
-        "chinese": "我喜欢号。",
-        "pinyin": "wǒ xǐhuan hào.",
-        "translation": "I like number/date."
+        "chinese": "今天是几月几号？",
+        "pinyin": "jīntiān shì jǐ yuè jǐ hào?",
+        "translation": "What is the date today?"
       },
       {
-        "chinese": "这是号。",
-        "pinyin": "zhè shì hào.",
-        "translation": "This is number/date."
+        "chinese": "他住在三号房间。",
+        "pinyin": "tā zhù zài sān hào fángjiān.",
+        "translation": "He lives in room number three."
       }
     ]
   },
@@ -1375,14 +1375,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 9,
     "examples": [
       {
-        "chinese": "我喜欢星期。",
-        "pinyin": "wǒ xǐhuan xīngqī.",
-        "translation": "I like week."
+        "chinese": "一个星期有七天。",
+        "pinyin": "yí gè xīngqī yǒu qī tiān.",
+        "translation": "There are seven days in a week."
       },
       {
-        "chinese": "这是星期。",
-        "pinyin": "zhè shì xīngqī.",
-        "translation": "This is week."
+        "chinese": "下个星期我们有考试。",
+        "pinyin": "xià gè xīngqī wǒmen yǒu kǎoshì.",
+        "translation": "We have an exam next week."
       }
     ]
   },
@@ -1390,20 +1390,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 66,
     "character": "点",
     "pinyin": "diǎn",
-    "meaning": "o'clock",
+    "meaning": "o'clock; dot, point",
     "category": "Noun",
     "level": 1,
     "strokes": 9,
     "examples": [
       {
-        "chinese": "我喜欢点。",
-        "pinyin": "wǒ xǐhuan diǎn.",
-        "translation": "I like o'clock."
+        "chinese": "现在几点了？",
+        "pinyin": "xiànzài jǐ diǎn le?",
+        "translation": "What time is it now?"
       },
       {
-        "chinese": "这是点。",
-        "pinyin": "zhè shì diǎn.",
-        "translation": "This is o'clock."
+        "chinese": "我们早上八点出发。",
+        "pinyin": "wǒmen zǎoshang bā diǎn chūfā.",
+        "translation": "We depart at eight o'clock in the morning."
       }
     ]
   },
@@ -1417,14 +1417,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢分钟。",
-        "pinyin": "wǒ xǐhuan fēnzhōng.",
-        "translation": "I like minute."
+        "chinese": "请等我十分钟。",
+        "pinyin": "qǐng děng wǒ shí fēnzhōng.",
+        "translation": "Please wait for me for ten minutes."
       },
       {
-        "chinese": "这是分钟。",
-        "pinyin": "zhè shì fēnzhōng.",
-        "translation": "This is minute."
+        "chinese": "走过去只要五分钟。",
+        "pinyin": "zǒu guòqù zhǐ yào wǔ fēnzhōng.",
+        "translation": "It only takes five minutes to walk there."
       }
     ]
   },
@@ -1432,20 +1432,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 68,
     "character": "现在",
     "pinyin": "xiànzài",
-    "meaning": "now",
+    "meaning": "now, at present",
     "category": "Noun",
     "level": 1,
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢现在。",
-        "pinyin": "wǒ xǐhuan xiànzài.",
-        "translation": "I like now."
+        "chinese": "你现在想去哪儿？",
+        "pinyin": "nǐ xiànzài xiǎng qù nǎr?",
+        "translation": "Where do you want to go right now?"
       },
       {
-        "chinese": "这是现在。",
-        "pinyin": "zhè shì xiànzài.",
-        "translation": "This is now."
+        "chinese": "现在已经是晚上十点了。",
+        "pinyin": "xiànzài yǐjīng shì wǎnshang shí diǎn le.",
+        "translation": "It is already ten o'clock at night now."
       }
     ]
   },
@@ -1453,20 +1453,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 69,
     "character": "时候",
     "pinyin": "shíhou",
-    "meaning": "time",
+    "meaning": "time, moment (shíhou)",
     "category": "Noun",
     "level": 1,
     "strokes": 10,
     "examples": [
       {
-        "chinese": "我喜欢时候。",
-        "pinyin": "wǒ xǐhuan shíhou.",
-        "translation": "I like time."
+        "chinese": "我小的时候喜欢游泳。",
+        "pinyin": "wǒ xiǎo de shíhou xǐhuan yóuyǒng.",
+        "translation": "When I was young, I liked swimming."
       },
       {
-        "chinese": "这是时候。",
-        "pinyin": "zhè shì shíhou.",
-        "translation": "This is time."
+        "chinese": "你什么时候来北京？",
+        "pinyin": "nǐ shénme shíhou lái běijīng?",
+        "translation": "When are you coming to Beijing?"
       }
     ]
   },
@@ -1474,20 +1474,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 70,
     "character": "爸爸",
     "pinyin": "bàba",
-    "meaning": "father",
+    "meaning": "father, dad",
     "category": "Noun",
     "level": 1,
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢爸爸。",
-        "pinyin": "wǒ xǐhuan bàba.",
-        "translation": "I like father."
+        "chinese": "我爸爸是一名医生。",
+        "pinyin": "wǒ bàba shì yì míng yīshēng.",
+        "translation": "My father is a doctor."
       },
       {
-        "chinese": "这是爸爸。",
-        "pinyin": "zhè shì bàba.",
-        "translation": "This is father."
+        "chinese": "爸爸每天早上去跑步。",
+        "pinyin": "bàba měitiān zǎoshang qù pǎobù.",
+        "translation": "Dad goes running every morning."
       }
     ]
   },
@@ -1495,20 +1495,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 71,
     "character": "妈妈",
     "pinyin": "māma",
-    "meaning": "mother",
+    "meaning": "mother, mom",
     "category": "Noun",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢妈妈。",
-        "pinyin": "wǒ xǐhuan māma.",
-        "translation": "I like mother."
+        "chinese": "我妈妈做的菜最好吃。",
+        "pinyin": "wǒ māma zuò de cài zuì hǎochī.",
+        "translation": "The dishes my mom makes are the most delicious."
       },
       {
-        "chinese": "这是妈妈。",
-        "pinyin": "zhè shì māma.",
-        "translation": "This is mother."
+        "chinese": "妈妈今天很高兴。",
+        "pinyin": "māma jīntiān hěn gāoxìng.",
+        "translation": "Mom is very happy today."
       }
     ]
   },
@@ -1522,14 +1522,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 5,
     "examples": [
       {
-        "chinese": "我喜欢儿子。",
-        "pinyin": "wǒ xǐhuan érzi.",
-        "translation": "I like son."
+        "chinese": "他的儿子今年三岁了。",
+        "pinyin": "tā de érzi jīnnián sān suì le.",
+        "translation": "His son is three years old this year."
       },
       {
-        "chinese": "这是儿子。",
-        "pinyin": "zhè shì érzi.",
-        "translation": "This is son."
+        "chinese": "儿子正在做作业呢。",
+        "pinyin": "érzi zhèngzài zuò zuòyè ne.",
+        "translation": "The son is doing his homework right now."
       }
     ]
   },
@@ -1543,14 +1543,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 3,
     "examples": [
       {
-        "chinese": "我喜欢女儿。",
-        "pinyin": "wǒ xǐhuan nǚér.",
-        "translation": "I like daughter."
+        "chinese": "张老师的女儿很聪明。",
+        "pinyin": "zhāng lǎoshī de nǚ'ér hěn cōngming.",
+        "translation": "Teacher Zhang's daughter is very smart."
       },
       {
-        "chinese": "这是女儿。",
-        "pinyin": "zhè shì nǚér.",
-        "translation": "This is daughter."
+        "chinese": "他有两个可爱的女儿。",
+        "pinyin": "tā yǒu liǎng gè kě'ài de nǚ'ér.",
+        "translation": "He has two lovely daughters."
       }
     ]
   },
@@ -1564,14 +1564,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢老师。",
-        "pinyin": "wǒ xǐhuan lǎoshī.",
-        "translation": "I like teacher."
+        "chinese": "李老师教我们汉语口语。",
+        "pinyin": "lǐ lǎoshī jiāo wǒmen hànyǔ kǒuyǔ.",
+        "translation": "Teacher Li teaches us spoken Chinese."
       },
       {
-        "chinese": "这是老师。",
-        "pinyin": "zhè shì lǎoshī.",
-        "translation": "This is teacher."
+        "chinese": "老师好！",
+        "pinyin": "lǎoshī hǎo!",
+        "translation": "Hello, teacher!"
       }
     ]
   },
@@ -1585,14 +1585,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢学生。",
-        "pinyin": "wǒ xǐhuan xuéshēng.",
-        "translation": "I like student."
+        "chinese": "学校里有一千名学生。",
+        "pinyin": "xuéxiào lǐ yǒu yì qiān míng xuésheng.",
+        "translation": "There are one thousand students in the school."
       },
       {
-        "chinese": "这是学生。",
-        "pinyin": "zhè shì xuéshēng.",
-        "translation": "This is student."
+        "chinese": "他是一个很努力的学生。",
+        "pinyin": "tā shì yí gè hěn nǔlì de xuésheng.",
+        "translation": "He is a very hardworking student."
       }
     ]
   },
@@ -1606,14 +1606,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢同学。",
-        "pinyin": "wǒ xǐhuan tóngxué.",
-        "translation": "I like classmate."
+        "chinese": "这是我的大学同学。",
+        "pinyin": "zhè shì wǒ de dàxué tóngxué.",
+        "translation": "This is my college classmate."
       },
       {
-        "chinese": "这是同学。",
-        "pinyin": "zhè shì tóngxué.",
-        "translation": "This is classmate."
+        "chinese": "同学们一起在教室做练习。",
+        "pinyin": "tóngxuémén yìqǐ zài jiàoshì zuò liànxí.",
+        "translation": "Classmates are doing exercises together in the classroom."
       }
     ]
   },
@@ -1627,14 +1627,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢朋友。",
-        "pinyin": "wǒ xǐhuan péngyǒu.",
-        "translation": "I like friend."
+        "chinese": "他是我最好的朋友。",
+        "pinyin": "tā shì wǒ zuì hǎo de péngyou.",
+        "translation": "He is my best friend."
       },
       {
-        "chinese": "这是朋友。",
-        "pinyin": "zhè shì péngyǒu.",
-        "translation": "This is friend."
+        "chinese": "周末我和朋友一起去公园。",
+        "pinyin": "zhōumò wǒ hé péngyou yìqǐ qù gōngyuán.",
+        "translation": "On weekends I go to the park with my friends."
       }
     ]
   },
@@ -1642,20 +1642,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 78,
     "character": "医生",
     "pinyin": "yīshēng",
-    "meaning": "doctor",
+    "meaning": "doctor, physician",
     "category": "Noun",
     "level": 1,
     "strokes": 7,
     "examples": [
       {
-        "chinese": "我喜欢医生。",
-        "pinyin": "wǒ xǐhuan yīshēng.",
-        "translation": "I like doctor."
+        "chinese": "医生建议我多喝水多休息。",
+        "pinyin": "yīshēng jiànyì wǒ duō hē shuǐ duō xiūxi.",
+        "translation": "The doctor advised me to drink more water and rest more."
       },
       {
-        "chinese": "这是医生。",
-        "pinyin": "zhè shì yīshēng.",
-        "translation": "This is doctor."
+        "chinese": "他长大以后想当医生。",
+        "pinyin": "tā zhǎngdà yǐhòu xiǎng dāng yīshēng.",
+        "translation": "He wants to become a doctor when he grows up."
       }
     ]
   },
@@ -1663,20 +1663,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 79,
     "character": "先生",
     "pinyin": "xiānsheng",
-    "meaning": "sir",
+    "meaning": "sir, mister (Mr.), gentleman",
     "category": "Noun",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢先生。",
-        "pinyin": "wǒ xǐhuan xiānsheng.",
-        "translation": "I like sir."
+        "chinese": "王先生今天不在办公室。",
+        "pinyin": "wáng xiānsheng jīntiān bú zài bàngōngshì.",
+        "translation": "Mr. Wang is not in the office today."
       },
       {
-        "chinese": "这是先生。",
-        "pinyin": "zhè shì xiānsheng.",
-        "translation": "This is sir."
+        "chinese": "这位先生，请问您找谁？",
+        "pinyin": "zhè wèi xiānsheng, qǐngwèn nín zhǎo shéi?",
+        "translation": "Excuse me sir, whom are you looking for?"
       }
     ]
   },
@@ -1684,20 +1684,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 80,
     "character": "小姐",
     "pinyin": "xiǎojiě",
-    "meaning": "Miss",
+    "meaning": "Miss, young lady",
     "category": "Noun",
     "level": 1,
     "strokes": 3,
     "examples": [
       {
-        "chinese": "我喜欢小姐。",
-        "pinyin": "wǒ xǐhuan xiǎojiě.",
-        "translation": "I like Miss."
+        "chinese": "李小姐正在看书。",
+        "pinyin": "lǐ xiǎojiě zhèngzài kàn shū.",
+        "translation": "Miss Li is reading a book right now."
       },
       {
-        "chinese": "这是小姐。",
-        "pinyin": "zhè shì xiǎojiě.",
-        "translation": "This is Miss."
+        "chinese": "服务员小姐，请结账。",
+        "pinyin": "fúwùyuán xiǎojiě, qǐng jiézhàng.",
+        "translation": "Waitress miss, check please."
       }
     ]
   },
@@ -1705,20 +1705,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 81,
     "character": "衣服",
     "pinyin": "yīfu",
-    "meaning": "cloth",
+    "meaning": "clothing, clothes",
     "category": "Noun",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢衣服。",
-        "pinyin": "wǒ xǐhuan yīfu.",
-        "translation": "I like cloth."
+        "chinese": "这件衣服既漂亮又保暖。",
+        "pinyin": "zhè jiàn yīfu jì piàoliang yòu bǎonuǎn.",
+        "translation": "This piece of clothing is both beautiful and warm."
       },
       {
-        "chinese": "这是衣服。",
-        "pinyin": "zhè shì yīfu.",
-        "translation": "This is cloth."
+        "chinese": "他去商店买了两件新衣服。",
+        "pinyin": "tā qù shāngdiàn mǎi le liǎng jiàn xīn yīfu.",
+        "translation": "He went to the store and bought two new pieces of clothing."
       }
     ]
   },
@@ -1732,14 +1732,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢水。",
-        "pinyin": "wǒ xǐhuan shuǐ.",
-        "translation": "I like water."
+        "chinese": "运动后要多喝温水。",
+        "pinyin": "yùndòng hòu yào duō hē wēn shuǐ.",
+        "translation": "Drink more warm water after exercising."
       },
       {
-        "chinese": "这是水。",
-        "pinyin": "zhè shì shuǐ.",
-        "translation": "This is water."
+        "chinese": "桌子上有一杯白开水。",
+        "pinyin": "zhuōzi shang yǒu yì bēi báikāishuǐ.",
+        "translation": "There is a cup of boiled water on the desk."
       }
     ]
   },
@@ -1747,20 +1747,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 83,
     "character": "菜",
     "pinyin": "cài",
-    "meaning": "dish",
+    "meaning": "dish, cuisine, vegetable",
     "category": "Noun",
     "level": 1,
     "strokes": 11,
     "examples": [
       {
-        "chinese": "我喜欢菜。",
-        "pinyin": "wǒ xǐhuan cài.",
-        "translation": "I like dish."
+        "chinese": "妈妈今天做了很多好吃的菜。",
+        "pinyin": "māma jīntiān zuò le hěn duō hǎochī de cài.",
+        "translation": "Mom cooked many delicious dishes today."
       },
       {
-        "chinese": "这是菜。",
-        "pinyin": "zhè shì cài.",
-        "translation": "This is dish."
+        "chinese": "你最喜欢吃什么中国菜？",
+        "pinyin": "nǐ zuì xǐhuan chī shénme zhōngguó cài?",
+        "translation": "What is your favorite Chinese dish?"
       }
     ]
   },
@@ -1768,20 +1768,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 84,
     "character": "米饭",
     "pinyin": "mǐfàn",
-    "meaning": "rice",
+    "meaning": "cooked rice",
     "category": "Noun",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢米饭。",
-        "pinyin": "wǒ xǐhuan mǐfàn.",
-        "translation": "I like rice."
+        "chinese": "服务员，请来一碗热米饭。",
+        "pinyin": "fúwùyuán, qǐng lái yì wǎn rè mǐfàn.",
+        "translation": "Waiter, please bring a bowl of hot rice."
       },
       {
-        "chinese": "这是米饭。",
-        "pinyin": "zhè shì mǐfàn.",
-        "translation": "This is rice."
+        "chinese": "中国南方人喜欢吃米饭。",
+        "pinyin": "zhōngguó nánfāng rén xǐhuan chī mǐfàn.",
+        "translation": "People in southern China like eating rice."
       }
     ]
   },
@@ -1795,14 +1795,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢水果。",
-        "pinyin": "wǒ xǐhuan shuǐguǒ.",
-        "translation": "I like fruit."
+        "chinese": "多吃新鲜水果对身体好。",
+        "pinyin": "duō chī xīnxian shuǐguǒ duì shēntǐ hǎo.",
+        "translation": "Eating more fresh fruit is good for your health."
       },
       {
-        "chinese": "这是水果。",
-        "pinyin": "zhè shì shuǐguǒ.",
-        "translation": "This is fruit."
+        "chinese": "桌子上摆着各种各样的水果。",
+        "pinyin": "zhuōzi shang bǎi zhe gèzhǒng gèyàng de shuǐguǒ.",
+        "translation": "All kinds of fruit are laid out on the table."
       }
     ]
   },
@@ -1816,14 +1816,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢苹果。",
-        "pinyin": "wǒ xǐhuan píngguǒ.",
-        "translation": "I like apple."
+        "chinese": "我每天早晨吃一个红苹果。",
+        "pinyin": "wǒ měitiān zǎochén chī yí gè hóng píngguǒ.",
+        "translation": "I eat a red apple every morning."
       },
       {
-        "chinese": "这是苹果。",
-        "pinyin": "zhè shì píngguǒ.",
-        "translation": "This is apple."
+        "chinese": "这些苹果又甜又脆。",
+        "pinyin": "zhèxiē píngguǒ yòu tián yòu cuì.",
+        "translation": "These apples are both sweet and crisp."
       }
     ]
   },
@@ -1837,14 +1837,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 9,
     "examples": [
       {
-        "chinese": "我喜欢茶。",
-        "pinyin": "wǒ xǐhuan chá.",
-        "translation": "I like tea."
+        "chinese": "中国人喜欢喝热茶。",
+        "pinyin": "zhōngguó rén xǐhuan hē rè chá.",
+        "translation": "Chinese people like drinking hot tea."
       },
       {
-        "chinese": "这是茶。",
-        "pinyin": "zhè shì chá.",
-        "translation": "This is tea."
+        "chinese": "请坐，喝一杯绿茶吧。",
+        "pinyin": "qǐng zuò, hē yì bēi lǜchá ba.",
+        "translation": "Please sit down and have a cup of green tea."
       }
     ]
   },
@@ -1852,20 +1852,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 88,
     "character": "杯子",
     "pinyin": "bēizi",
-    "meaning": "cup",
+    "meaning": "cup, glass",
     "category": "Noun",
     "level": 1,
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢杯子。",
-        "pinyin": "wǒ xǐhuan bēizi.",
-        "translation": "I like cup."
+        "chinese": "这个玻璃杯子非常精致。",
+        "pinyin": "zhè gè bōli bēizi fēicháng jīngzhì.",
+        "translation": "This glass cup is very exquisite."
       },
       {
-        "chinese": "这是杯子。",
-        "pinyin": "zhè shì bēizi.",
-        "translation": "This is cup."
+        "chinese": "杯子里倒满了热牛奶。",
+        "pinyin": "bēizi lǐ dào mǎn le rè niúnǎi.",
+        "translation": "The cup was filled with hot milk."
       }
     ]
   },
@@ -1873,20 +1873,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 89,
     "character": "钱",
     "pinyin": "qián",
-    "meaning": "money",
+    "meaning": "money, currency",
     "category": "Noun",
     "level": 1,
     "strokes": 10,
     "examples": [
       {
-        "chinese": "我喜欢钱。",
-        "pinyin": "wǒ xǐhuan qián.",
-        "translation": "I like money."
+        "chinese": "请问这本书多少钱？",
+        "pinyin": "qǐngwèn zhè běn shū duōshao qián?",
+        "translation": "Excuse me, how much money is this book?"
       },
       {
-        "chinese": "这是钱。",
-        "pinyin": "zhè shì qián.",
-        "translation": "This is money."
+        "chinese": "他钱包里没有很多零钱。",
+        "pinyin": "tā qiánbāo lǐ méiyǒu hěn duō língqián.",
+        "translation": "He does not have much small change in his wallet."
       }
     ]
   },
@@ -1900,14 +1900,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢飞机。",
-        "pinyin": "wǒ xǐhuan fēijī.",
-        "translation": "I like airplane."
+        "chinese": "我们坐下午三点的飞机去上海。",
+        "pinyin": "wǒmen zuò xiàwǔ sān diǎn de fēijī qù shànghǎi.",
+        "translation": "We take the 3 PM flight to Shanghai."
       },
       {
-        "chinese": "这是飞机。",
-        "pinyin": "zhè shì fēijī.",
-        "translation": "This is airplane."
+        "chinese": "飞机正在天空中飞行。",
+        "pinyin": "fēijī zhèngzài tiānkōng zhōng fēixíng.",
+        "translation": "The airplane is flying in the sky right now."
       }
     ]
   },
@@ -1915,20 +1915,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 91,
     "character": "出租车",
     "pinyin": "chūzūchē",
-    "meaning": "taxi",
+    "meaning": "taxi, cab",
     "category": "Noun",
     "level": 1,
     "strokes": 5,
     "examples": [
       {
-        "chinese": "我喜欢出租车。",
-        "pinyin": "wǒ xǐhuan chūzūchē.",
-        "translation": "I like taxi."
+        "chinese": "路上堵车，我们打出租车去吧。",
+        "pinyin": "lùshang dǔchē, wǒmen dǎ chūzūchē qù ba.",
+        "translation": "Traffic is heavy, let's take a taxi."
       },
       {
-        "chinese": "这是出租车。",
-        "pinyin": "zhè shì chūzūchē.",
-        "translation": "This is taxi."
+        "chinese": "出租车司机对北京的路很熟悉。",
+        "pinyin": "chūzūchē sījī duì běijīng de lù hěn shúxi.",
+        "translation": "The taxi driver is very familiar with the roads of Beijing."
       }
     ]
   },
@@ -1936,20 +1936,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 92,
     "character": "电视",
     "pinyin": "diànshì",
-    "meaning": "television",
+    "meaning": "television, TV",
     "category": "Noun",
     "level": 1,
     "strokes": 10,
     "examples": [
       {
-        "chinese": "我喜欢电视。",
-        "pinyin": "wǒ xǐhuan diànshì.",
-        "translation": "I like television."
+        "chinese": "爷爷每天晚上看新闻电视节目。",
+        "pinyin": "yéye měitiān wǎnshang kàn xīnwén diànshì jiémù.",
+        "translation": "Grandpa watches television news programs every evening."
       },
       {
-        "chinese": "这是电视。",
-        "pinyin": "zhè shì diànshì.",
-        "translation": "This is television."
+        "chinese": "别看电视了，快去做作业吧。",
+        "pinyin": "bié kàn diànshì le, kuài qù zuò zuòyè ba.",
+        "translation": "Stop watching TV, go do your homework quickly."
       }
     ]
   },
@@ -1963,14 +1963,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 5,
     "examples": [
       {
-        "chinese": "我喜欢电脑。",
-        "pinyin": "wǒ xǐhuan diànnǎo.",
-        "translation": "I like computer."
+        "chinese": "我用笔记本电脑写汉语作业。",
+        "pinyin": "wǒ yòng bǐjìběn diànnǎo xiě hànyǔ zuòyè.",
+        "translation": "I write my Chinese homework using a laptop."
       },
       {
-        "chinese": "这是电脑。",
-        "pinyin": "zhè shì diànnǎo.",
-        "translation": "This is computer."
+        "chinese": "这台新电脑运行速度非常快。",
+        "pinyin": "zhè tái xīn diànnǎo yùnxíng sùdù fēicháng kuài.",
+        "translation": "This new computer runs very fast."
       }
     ]
   },
@@ -1978,20 +1978,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 94,
     "character": "电影",
     "pinyin": "diànyǐng",
-    "meaning": "movie",
+    "meaning": "movie, film",
     "category": "Noun",
     "level": 1,
     "strokes": 5,
     "examples": [
       {
-        "chinese": "我喜欢电影。",
-        "pinyin": "wǒ xǐhuan diànyǐng.",
-        "translation": "I like movie."
+        "chinese": "周末我想去看一场中国电影。",
+        "pinyin": "zhōumò wǒ xiǎng qù kàn yì chǎng zhōngguó diànyǐng.",
+        "translation": "This weekend I want to go watch a Chinese movie."
       },
       {
-        "chinese": "这是电影。",
-        "pinyin": "zhè shì diànyǐng.",
-        "translation": "This is movie."
+        "chinese": "这部电影的故事非常感人。",
+        "pinyin": "zhè bù diànyǐng de gùshi fēicháng gǎnrén.",
+        "translation": "The story of this movie is very touching."
       }
     ]
   },
@@ -2005,14 +2005,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢天气。",
-        "pinyin": "wǒ xǐhuan tiānqì.",
-        "translation": "I like weather."
+        "chinese": "今天的北京天气非常晴朗舒适。",
+        "pinyin": "jīntiān de běijīng tiānqì fēicháng qínglǎng shūshì.",
+        "translation": "Today's weather in Beijing is very clear and comfortable."
       },
       {
-        "chinese": "这是天气。",
-        "pinyin": "zhè shì tiānqì.",
-        "translation": "This is weather."
+        "chinese": "明天天气怎么样？会下雨吗？",
+        "pinyin": "míngtiān tiānqì zěnmeyàng? huì xià yǔ ma?",
+        "translation": "How will the weather be tomorrow? Will it rain?"
       }
     ]
   },
@@ -2026,14 +2026,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 11,
     "examples": [
       {
-        "chinese": "我喜欢猫。",
-        "pinyin": "wǒ xǐhuan māo.",
-        "translation": "I like cat."
+        "chinese": "我家养了一只可爱的小白猫。",
+        "pinyin": "wǒ jiā yǎng le yì zhī kě'ài de xiǎo bái māo.",
+        "translation": "My family keeps a cute little white cat."
       },
       {
-        "chinese": "这是猫。",
-        "pinyin": "zhè shì māo.",
-        "translation": "This is cat."
+        "chinese": "猫正躺在椅子上晒太阳。",
+        "pinyin": "māo zhèng tǎng zài yǐzi shang shài tàiyáng.",
+        "translation": "The cat is lying on the chair sunbathing."
       }
     ]
   },
@@ -2047,14 +2047,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢狗。",
-        "pinyin": "wǒ xǐhuan gǒu.",
-        "translation": "I like dog."
+        "chinese": "那只小黑狗非常聪明温顺。",
+        "pinyin": "nà zhī xiǎo hēi gǒu fēicháng cōngming wēnshùn.",
+        "translation": "That little black dog is very smart and gentle."
       },
       {
-        "chinese": "这是狗。",
-        "pinyin": "zhè shì gǒu.",
-        "translation": "This is dog."
+        "chinese": "邻居家有一只大狗。",
+        "pinyin": "línjū jiā yǒu yì zhī dà gǒu.",
+        "translation": "The neighbor's family has a large dog."
       }
     ]
   },
@@ -2062,20 +2062,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 98,
     "character": "东西",
     "pinyin": "dōngxi",
-    "meaning": "thing",
+    "meaning": "thing, stuff, object",
     "category": "Noun",
     "level": 1,
     "strokes": 8,
     "examples": [
       {
-        "chinese": "我喜欢东西。",
-        "pinyin": "wǒ xǐhuan dōngxi.",
-        "translation": "I like thing."
+        "chinese": "超市里有很多新鲜的东西。",
+        "pinyin": "chāoshì lǐ yǒu hěn duō xīnxian de dōngxi.",
+        "translation": "There are many fresh items in the supermarket."
       },
       {
-        "chinese": "这是东西。",
-        "pinyin": "zhè shì dōngxi.",
-        "translation": "This is thing."
+        "chinese": "你书包里装了什么东西？",
+        "pinyin": "nǐ shūbāo lǐ zhuāng le shénme dōngxi?",
+        "translation": "What things are packed inside your backpack?"
       }
     ]
   },
@@ -2083,20 +2083,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 99,
     "character": "人",
     "pinyin": "rén",
-    "meaning": "person",
+    "meaning": "person, people, human",
     "category": "Noun",
     "level": 1,
     "strokes": 2,
     "examples": [
       {
-        "chinese": "我喜欢人。",
-        "pinyin": "wǒ xǐhuan rén.",
-        "translation": "I like person."
+        "chinese": "广场上有很多人在跳舞。",
+        "pinyin": "guǎngchǎng shang yǒu hěn duō rén zài tiàowǔ.",
+        "translation": "There are many people dancing in the square."
       },
       {
-        "chinese": "这是人。",
-        "pinyin": "zhè shì rén.",
-        "translation": "This is person."
+        "chinese": "他是一个非常善良友好的人。",
+        "pinyin": "tā shì yí gè fēicháng shànliáng yǒuhǎo de rén.",
+        "translation": "He is a very kind and friendly person."
       }
     ]
   },
@@ -2110,14 +2110,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢名字。",
-        "pinyin": "wǒ xǐhuan míngzi.",
-        "translation": "I like name."
+        "chinese": "请问您的中文名字叫什么？",
+        "pinyin": "qǐngwèn nín de zhōngwén míngzi jiào shénme?",
+        "translation": "May I ask what your Chinese name is?"
       },
       {
-        "chinese": "这是名字。",
-        "pinyin": "zhè shì míngzi.",
-        "translation": "This is name."
+        "chinese": "请在试卷右上角写上你的名字。",
+        "pinyin": "qǐng zài shìjuàn yòushàngjiǎo xiě shang nǐ de míngzi.",
+        "translation": "Please write your name in the top right corner of the test paper."
       }
     ]
   },
@@ -2131,14 +2131,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 4,
     "examples": [
       {
-        "chinese": "我喜欢书。",
-        "pinyin": "wǒ xǐhuan shū.",
-        "translation": "I like book."
+        "chinese": "这本汉语教材写得非常生动。",
+        "pinyin": "zhè běn hànyǔ jiàocái xiě de fēicháng shēngdòng.",
+        "translation": "This Chinese textbook is written very vividly."
       },
       {
-        "chinese": "这是书。",
-        "pinyin": "zhè shì shū.",
-        "translation": "This is book."
+        "chinese": "他每天晚上睡前都要看一会儿书。",
+        "pinyin": "tā měitiān wǎnshang shuì qián dōu yào kàn yíhuìr shū.",
+        "translation": "He reads books for a while every night before sleeping."
       }
     ]
   },
@@ -2146,20 +2146,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 102,
     "character": "汉语",
     "pinyin": "hànyǔ",
-    "meaning": "mandarin Chinese",
+    "meaning": "Mandarin Chinese (spoken language)",
     "category": "Noun",
     "level": 1,
     "strokes": 12,
     "examples": [
       {
-        "chinese": "我喜欢汉语。",
-        "pinyin": "wǒ xǐhuan hànyǔ.",
-        "translation": "I like mandarin Chinese."
+        "chinese": "学习汉语虽然有挑战，但非常有趣。",
+        "pinyin": "xuéxí hànyǔ suīrán yǒu tiǎozhàn, dàn fēicháng yǒuqù.",
+        "translation": "Although studying Chinese has challenges, it is very interesting."
       },
       {
-        "chinese": "这是汉语。",
-        "pinyin": "zhè shì hànyǔ.",
-        "translation": "This is mandarin Chinese."
+        "chinese": "他能用标准汉语和当地人流利交流。",
+        "pinyin": "tā néng yòng biāozhǔn hànyǔ hé dāngdì rén liúlì jiāoliú.",
+        "translation": "He can communicate fluently with locals in standard Mandarin."
       }
     ]
   },
@@ -2167,20 +2167,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 103,
     "character": "字",
     "pinyin": "zì",
-    "meaning": "character",
+    "meaning": "Chinese character, word, script",
     "category": "Noun",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢字。",
-        "pinyin": "wǒ xǐhuan zì.",
-        "translation": "I like character."
+        "chinese": "汉字有着悠久的造字历史。",
+        "pinyin": "hànzì yǒu zhe yōujiǔ de zàozì lìshǐ.",
+        "translation": "Chinese characters have a long history of character formation."
       },
       {
-        "chinese": "这是字。",
-        "pinyin": "zhè shì zì.",
-        "translation": "This is character."
+        "chinese": "他的毛笔字写得非常端正工整。",
+        "pinyin": "tā de máobǐ zì xiě de fēicháng duānzhèng gōngzhěng.",
+        "translation": "His calligraphy brush writing is very neat and well-structured."
       }
     ]
   },
@@ -2188,20 +2188,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 104,
     "character": "桌子",
     "pinyin": "zhuōzi",
-    "meaning": "desk",
+    "meaning": "desk, table",
     "category": "Noun",
     "level": 1,
     "strokes": 10,
     "examples": [
       {
-        "chinese": "我喜欢桌子。",
-        "pinyin": "wǒ xǐhuan zhuōzi.",
-        "translation": "I like desk."
+        "chinese": "书本和笔记本电脑整齐地摆在桌子上。",
+        "pinyin": "shūběn hé bǐjìběn diànnǎo zhěngqí de bǎi zài zhuōzi shang.",
+        "translation": "Books and the laptop are neatly arranged on the desk."
       },
       {
-        "chinese": "这是桌子。",
-        "pinyin": "zhè shì zhuōzi.",
-        "translation": "This is desk."
+        "chinese": "教室里换了一批新桌子。",
+        "pinyin": "jiàoshì lǐ huàn le yì pī xīn zhuōzi.",
+        "translation": "The classroom got a batch of new desks."
       }
     ]
   },
@@ -2215,14 +2215,14 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "strokes": 12,
     "examples": [
       {
-        "chinese": "我喜欢椅子。",
-        "pinyin": "wǒ xǐhuan yǐzi.",
-        "translation": "I like chair."
+        "chinese": "请坐在靠窗的这把椅子上。",
+        "pinyin": "qǐng zuò zài kào chuāng de zhè bǎ yǐzi shang.",
+        "translation": "Please sit on this chair by the window."
       },
       {
-        "chinese": "这是椅子。",
-        "pinyin": "zhè shì yǐzi.",
-        "translation": "This is chair."
+        "chinese": "这把木头椅子坐起来很舒服。",
+        "pinyin": "zhè bǎ mùtou yǐzi zuò qǐlái hěn shūfu.",
+        "translation": "This wooden chair feels very comfortable to sit on."
       }
     ]
   },
@@ -2440,20 +2440,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 116,
     "character": "说",
     "pinyin": "shuō",
-    "meaning": "speak",
+    "meaning": "speak, say, talk",
     "category": "Verb",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢说。",
-        "pinyin": "wǒ xǐhuan shuō.",
-        "translation": "I like speak."
+        "chinese": "请慢一点儿说，我听得懂。",
+        "pinyin": "qǐng màn yìdiǎnr shuō, wǒ tīng de dǒng.",
+        "translation": "Please speak a bit slower, I can understand."
       },
       {
-        "chinese": "这是说。",
-        "pinyin": "zhè shì shuō.",
-        "translation": "This is speak."
+        "chinese": "他用汉语说了一段精彩的故事。",
+        "pinyin": "tā yòng hànyǔ shuō le yí duàn jīngcǎi de gùshi.",
+        "translation": "He told a wonderful story in Mandarin Chinese."
       }
     ]
   },
@@ -2671,20 +2671,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 127,
     "character": "打电话",
     "pinyin": "dǎdiànhuà",
-    "meaning": "make phone call",
+    "meaning": "make a phone call",
     "category": "Verb",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢打电话。",
-        "pinyin": "wǒ xǐhuan dǎdiànhuà.",
-        "translation": "I like make phone call."
+        "chinese": "我晚上会给爸爸妈妈打电话。",
+        "pinyin": "wǒ wǎnshang huì gěi bàba māma dǎ diànhuà.",
+        "translation": "I will call mom and dad tonight."
       },
       {
-        "chinese": "这是打电话。",
-        "pinyin": "zhè shì dǎdiànhuà.",
-        "translation": "This is make phone call."
+        "chinese": "他正在办公室打电话处理业务。",
+        "pinyin": "tā zhèngzài bàngōngshì dǎ diànhuà chǔlǐ yèwù.",
+        "translation": "He is in the office on the phone handling business."
       }
     ]
   },
@@ -2692,20 +2692,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 128,
     "character": "做",
     "pinyin": "zuò",
-    "meaning": "do",
+    "meaning": "do, make, produce",
     "category": "Verb",
     "level": 1,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我喜欢做。",
-        "pinyin": "wǒ xǐhuan zuò.",
-        "translation": "I like do."
+        "chinese": "周末你在家做什么呢？",
+        "pinyin": "zhōumò nǐ zài jiā zuò shénme ne?",
+        "translation": "What are you doing at home over the weekend?"
       },
       {
-        "chinese": "这是做。",
-        "pinyin": "zhè shì zuò.",
-        "translation": "This is do."
+        "chinese": "妈妈今天做了丰盛的晚饭。",
+        "pinyin": "māma jīntiān zuò le fēngshèng de wǎnfàn.",
+        "translation": "Mom made a sumptuous dinner today."
       }
     ]
   },
@@ -3196,20 +3196,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 152,
     "character": "它",
     "pinyin": "tā",
-    "meaning": "it",
+    "meaning": "it (third-person neuter pronoun)",
     "category": "General",
     "level": 2,
     "strokes": 5,
     "examples": [
       {
-        "chinese": "这是我家的小猫，它很可爱。",
-        "pinyin": "zhè shì wǒ jiā de xiǎomāo, tā hěn kě'ài.",
-        "translation": "This is my cat, it is very cute."
+        "chinese": "我养了一只小狗，它的毛很白。",
+        "pinyin": "wǒ yǎng le yì zhī xiǎo gǒu, tā de máo hěn bái.",
+        "translation": "I keep a puppy, its fur is very white."
       },
       {
-        "chinese": "它喜欢在桌子下睡觉。",
-        "pinyin": "tā xǐhuan zài zhuōzi xià shuìjiào.",
-        "translation": "It likes to sleep under the table."
+        "chinese": "这只猫真漂亮，它很喜欢晒太阳。",
+        "pinyin": "zhè zhī māo zhēn piàoliang, tā hěn xǐhuan shài tàiyáng.",
+        "translation": "This cat is really pretty; it loves sunbathing."
       }
     ]
   },
@@ -3364,20 +3364,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 160,
     "character": "第一",
     "pinyin": "dìyī",
-    "meaning": "first",
+    "meaning": "first, number one, primary",
     "category": "General",
     "level": 2,
     "strokes": 11,
     "examples": [
       {
-        "chinese": "他是第一个到教室的。",
-        "pinyin": "tā shì dì yī ge dào jiàoshì de.",
-        "translation": "He was the first to arrive in the classroom."
+        "chinese": "他在汉语比赛中得了第一名。",
+        "pinyin": "tā zài hànyǔ bǐsài zhōng dé le dì-yī míng.",
+        "translation": "He won first place in the Chinese speech competition."
       },
       {
-        "chinese": "这是我的第一杯咖啡。",
-        "pinyin": "zhè shì wǒ de dì yī bēi kāfēi.",
-        "translation": "This is my first cup of coffee."
+        "chinese": "这是我第一次来北京旅游。",
+        "pinyin": "zhè shì wǒ dì-yī cì lái běijīng lǚyóu.",
+        "translation": "This is my first time visiting Beijing."
       }
     ]
   },
@@ -3385,20 +3385,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 161,
     "character": "次",
     "pinyin": "cì",
-    "meaning": "times",
+    "meaning": "number of times, frequency (measure word)",
     "category": "General",
     "level": 2,
     "strokes": 6,
     "examples": [
       {
-        "chinese": "我去过两次中国。",
-        "pinyin": "wǒ qù guo liǎng cì zhōngguó.",
-        "translation": "I have been to China twice."
+        "chinese": "这本书我已经读了三次了。",
+        "pinyin": "zhè běn shū wǒ yǐjīng dú le sān cì le.",
+        "translation": "I have already read this book three times."
       },
       {
-        "chinese": "这是我第一次吃北京烤鸭。",
-        "pinyin": "zhè shì wǒ dì yī cì chī běijīng kǎoyā.",
-        "translation": "This is my first time eating Peking roast duck."
+        "chinese": "下次我们一起去故宫参观吧。",
+        "pinyin": "xià cì wǒmen yìqǐ qù gùgōng cānguān ba.",
+        "translation": "Next time let's visit the Forbidden City together."
       }
     ]
   },
@@ -6514,20 +6514,20 @@ export const VOCABULARY_DATA: VocabularyEntry[] = [
     "id": 310,
     "character": "办法",
     "pinyin": "bànfǎ",
-    "meaning": "Way",
+    "meaning": "way, method, means, solution",
     "category": "HSK 3 Standard",
     "level": 3,
     "strokes": 4,
     "examples": [
       {
-        "chinese": "这是一个好办法！",
-        "pinyin": "Zhè shì yí ge hǎo bànfǎ!",
-        "translation": "This is a great solution!"
+        "chinese": "别着急，我们一定能想出解决的办法。",
+        "pinyin": "bié zháojí, wǒmen yídìng néng xiǎng chū jiějué de bànfǎ.",
+        "translation": "Don't worry, we can definitely figure out a solution."
       },
       {
-        "chinese": "你想出办法了吗？",
-        "pinyin": "Nǐ xiǎng chū bànfǎ le ma?",
-        "translation": "Have you thought of a way?"
+        "chinese": "这个办法非常好，既简单又有效。",
+        "pinyin": "zhè gè bànfǎ fēicháng hǎo, jì jiǎndān yòu yǒuxiào.",
+        "translation": "This method is great—both simple and effective."
       }
     ]
   },
