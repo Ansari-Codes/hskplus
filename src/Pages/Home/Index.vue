@@ -43,7 +43,7 @@ const totals = {
   dialogues: 30,
   tests: 33,
   comparisons: 15,
-  radicals: 25,
+  radicals: 45,
 }
 
 // Live interactive mini-drill for the homepage
@@ -93,6 +93,14 @@ const faqs = [
     
     <!-- Hero Section -->
     <section class="relative overflow-hidden border-b border-border bg-gradient-to-b from-surface via-background to-background py-10 px-4 sm:px-6 lg:px-8 lg:py-16">
+      <!-- Ambient Background Glow & Decorative Elements -->
+      <div class="pointer-events-none absolute -top-24 left-1/4 -z-10 h-96 w-96 rounded-full bg-primary/15 blur-3xl opacity-75 animate-pulse" />
+      <div class="pointer-events-none absolute top-1/3 -right-24 -z-10 h-80 w-80 rounded-full bg-amber-500/10 blur-3xl opacity-60" />
+      <div class="pointer-events-none absolute -bottom-20 left-10 -z-10 h-64 w-64 rounded-full bg-rose-500/10 blur-2xl opacity-50" />
+      <div class="pointer-events-none absolute right-12 top-6 font-serif text-[140px] font-black text-foreground/[0.02] select-none hidden lg:block">
+        学无止境
+      </div>
+
       <div class="mx-auto max-w-7xl">
         <!-- Split Hero Grid: Content (Left) + Interactive Studio (Right) -->
         <div class="grid items-center gap-10 lg:grid-cols-12 lg:gap-12">
@@ -210,6 +218,175 @@ const faqs = [
           <div class="rounded-2xl border border-border bg-surface p-3.5 text-center shadow-xs transition-transform hover:-translate-y-0.5 col-span-2 sm:col-span-1">
             <p class="text-2xl font-black text-sky-600 dark:text-sky-400">{{ totals.radicals }}</p>
             <p class="text-[11px] font-semibold text-muted-foreground mt-0.5">Chinese Radicals</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What is HSK Section (Pedagogical Overview & Level Roadmap) -->
+    <section id="what-is-hsk" class="relative overflow-hidden border-b border-border bg-surface/50 py-16 px-4 sm:px-6 lg:px-8">
+      <!-- Ambient Glow & Calligraphy Watermark -->
+      <div class="pointer-events-none absolute -top-24 right-0 -z-10 h-96 w-96 rounded-full bg-primary/10 blur-3xl" />
+      <div class="pointer-events-none absolute -bottom-24 left-0 -z-10 h-96 w-96 rounded-full bg-amber-500/10 blur-3xl" />
+      <div class="pointer-events-none absolute right-8 top-1/2 -translate-y-1/2 font-serif text-[180px] font-black text-foreground/[0.03] select-none hidden lg:block">
+        汉语
+      </div>
+
+      <div class="mx-auto max-w-7xl">
+        <!-- Section Header -->
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-semibold text-primary">
+            <span>Official Certification Standard</span>
+            <span class="text-xs">·</span>
+            <span>汉语水平考试</span>
+          </div>
+          <h2 class="mt-3 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl text-foreground">
+            What is the HSK Exam?
+          </h2>
+          <p class="mt-4 text-base sm:text-lg text-muted-foreground leading-relaxed">
+            <strong>HSK</strong> stands for <em>Hànyǔ Shuǐpíng Kǎoshì</em> (汉语水平考试), China's official standardized test of Chinese language proficiency for non-native speakers. Administered globally by <strong>CLEC</strong> (Center for Language Education and Cooperation / Hanban), it serves as the international benchmark for university admissions, Chinese Government Scholarships (CSC), and work visa applications.
+          </p>
+        </div>
+
+        <!-- 4 Core Value Pillars Grid -->
+        <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs hover:border-primary/40 hover:shadow-md transition-all hover:-translate-y-1">
+            <div class="flex size-12 items-center justify-center rounded-xl bg-blue-500/10 text-2xl">
+              🎓
+            </div>
+            <h3 class="mt-4 text-lg font-bold text-foreground">University & CSC Scholarships</h3>
+            <p class="mt-2 text-sm text-muted-foreground leading-relaxed">
+              Mandatory requirement for undergraduate, master's, and PhD degree programs in Chinese universities, and a vital credential to win prestigious CSC and Confucius Institute scholarships.
+            </p>
+          </div>
+
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs hover:border-primary/40 hover:shadow-md transition-all hover:-translate-y-1">
+            <div class="flex size-12 items-center justify-center rounded-xl bg-emerald-500/10 text-2xl">
+              💼
+            </div>
+            <h3 class="mt-4 text-lg font-bold text-foreground">Work Visa Points & Careers</h3>
+            <p class="mt-2 text-sm text-muted-foreground leading-relaxed">
+              Earn critical qualifying points on China's foreigner work permit scoring system (Class A / B Talent), and unlock multinational career opportunities across international tech and trade.
+            </p>
+          </div>
+
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs hover:border-primary/40 hover:shadow-md transition-all hover:-translate-y-1">
+            <div class="flex size-12 items-center justify-center rounded-xl bg-amber-500/10 text-2xl">
+              📐
+            </div>
+            <h3 class="mt-4 text-lg font-bold text-foreground">Standardized CEFR Alignment</h3>
+            <p class="mt-2 text-sm text-muted-foreground leading-relaxed">
+              Systematically mapped to the Common European Framework of Reference: HSK 1 corresponds to CEFR A1, HSK 2 to A2, and HSK 3 to B1, ensuring measurable linguistic progress.
+            </p>
+          </div>
+
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs hover:border-primary/40 hover:shadow-md transition-all hover:-translate-y-1">
+            <div class="flex size-12 items-center justify-center rounded-xl bg-purple-500/10 text-2xl">
+              📜
+            </div>
+            <h3 class="mt-4 text-lg font-bold text-foreground">Lifetime Credential Value</h3>
+            <p class="mt-2 text-sm text-muted-foreground leading-relaxed">
+              Official HSK certificates hold permanent lifetime qualification status for professional CVs, with scores valid for 2 full years for academic admissions and visa petitions.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3-Tier Roadmap Card with Direct Level Gateways -->
+        <div class="mt-10 rounded-3xl border border-border bg-gradient-to-br from-surface to-surface-raised p-6 sm:p-8 shadow-sm">
+          <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-6 border-b border-border/80">
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-primary">Curriculum Roadmap</span>
+              <h3 class="text-2xl font-extrabold text-foreground mt-1">HSK Level Progression & Standards</h3>
+              <p class="text-sm text-muted-foreground mt-1">
+                HSK Plus prepares you step-by-step for the foundational tiers with zero paywalls:
+              </p>
+            </div>
+            <div class="flex flex-wrap items-center gap-3">
+              <RouterLink to="/score-calculator">
+                <UiButton variant="outline" size="sm">
+                  🧮 Score Calculator
+                </UiButton>
+              </RouterLink>
+              <RouterLink to="/downloads">
+                <UiButton variant="secondary" size="sm">
+                  📥 Official Course PDFs
+                </UiButton>
+              </RouterLink>
+            </div>
+          </div>
+
+          <div class="mt-6 grid gap-6 md:grid-cols-3">
+            <!-- Level 1 Card -->
+            <div class="flex flex-col justify-between rounded-2xl border border-blue-500/20 bg-blue-500/5 p-5 transition-all hover:border-blue-500/40 hover:shadow-sm">
+              <div>
+                <div class="flex items-center justify-between">
+                  <UiBadge variant="primary">HSK 1 · CEFR A1</UiBadge>
+                  <span class="text-xs font-bold text-muted-foreground">150 Words</span>
+                </div>
+                <h4 class="mt-3 text-lg font-bold text-foreground">Beginner / Survival Mandarin</h4>
+                <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                  Understand and use simple everyday Chinese phrases, satisfy basic communication needs, and prepare for further language study. Includes 15 standard lessons and 15 sentence structures.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-1.5 text-[11px] font-semibold text-muted-foreground">
+                  <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Pass: 120/200</span>
+                  <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Listening + Reading</span>
+                  <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Full Pinyin</span>
+                </div>
+              </div>
+              <RouterLink to="/hsk1" class="mt-5 block">
+                <UiButton class="w-full" variant="outline" size="sm">
+                  Enter HSK 1 Hub →
+                </UiButton>
+              </RouterLink>
+            </div>
+
+            <!-- Level 2 Card -->
+            <div class="flex flex-col justify-between rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-5 transition-all hover:border-emerald-500/40 hover:shadow-sm">
+              <div>
+                <div class="flex items-center justify-between">
+                  <UiBadge variant="secondary">HSK 2 · CEFR A2</UiBadge>
+                  <span class="text-xs font-bold text-muted-foreground">300 Words (+150)</span>
+                </div>
+                <h4 class="mt-3 text-lg font-bold text-foreground">Elementary / Daily Routine</h4>
+                <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                  Communicate in simple, routine tasks requiring a direct exchange of information on familiar everyday matters. 15 standard lessons, 15 patterns, and 10 real-world dialogues.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-1.5 text-[11px] font-semibold text-muted-foreground">
+                  <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Pass: 120/200</span>
+                  <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Listening + Reading</span>
+                  <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Pinyin Support</span>
+                </div>
+              </div>
+              <RouterLink to="/hsk2" class="mt-5 block">
+                <UiButton class="w-full" variant="outline" size="sm">
+                  Enter HSK 2 Hub →
+                </UiButton>
+              </RouterLink>
+            </div>
+
+            <!-- Level 3 Card -->
+            <div class="flex flex-col justify-between rounded-2xl border border-purple-500/20 bg-purple-500/5 p-5 transition-all hover:border-purple-500/40 hover:shadow-sm">
+              <div>
+                <div class="flex items-center justify-between">
+                  <UiBadge variant="primary">HSK 3 · CEFR B1</UiBadge>
+                  <span class="text-xs font-bold text-muted-foreground">600 Words (+300)</span>
+                </div>
+                <h4 class="mt-3 text-lg font-bold text-foreground">Intermediate / Practical Fluency</h4>
+                <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                  Communicate in Chinese in your daily, academic and professional life. Includes Hanzi-only questions without pinyin annotations, plus a dedicated character writing section.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-1.5 text-[11px] font-semibold text-muted-foreground">
+                  <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Pass: 180/300</span>
+                  <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Listening + Reading + Writing</span>
+                  <span class="rounded-md bg-surface px-2 py-0.5 border border-border">Hanzi Only</span>
+                </div>
+              </div>
+              <RouterLink to="/hsk3" class="mt-5 block">
+                <UiButton class="w-full" variant="outline" size="sm">
+                  Enter HSK 3 Hub →
+                </UiButton>
+              </RouterLink>
+            </div>
           </div>
         </div>
       </div>

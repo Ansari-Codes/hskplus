@@ -12,20 +12,79 @@ const router = useRouter()
 const { getByCharacter, getByLevel } = useVocabulary()
 
 const level = computed<HskLevel>(() => route.params.level === '3' ? 3 : route.params.level === '2' ? 2 : 1)
-const character = computed(() => typeof route.query.char === 'string' ? route.query.char : '')
 const entries = computed(() => getByLevel(level.value))
 
+const rawCharQuery = computed(() => {
+  const q = route.query.char
+  if (typeof q !== 'string' || !q) return ''
+  try {
+    return decodeURIComponent(q).trim()
+  } catch {
+    return q.trim()
+  }
+})
+
 const entry = computed(() => {
-  const vocabularyEntry = character.value ? getByCharacter(character.value, level.value) : undefined
-  return vocabularyEntry || entries.value[0]
+  const query = rawCharQuery.value
+  if (!query) return entries.value[0]
+
+  // 1. Exact match in current level
+  const exactInLevel = entries.value.find(e => e.character === query)
+  if (exactInLevel) return exactInLevel
+
+  // 2. Exact match in any level
+  const exactAny = getByCharacter(query)
+  if (exactAny) return exactAny
+
+  // 3. Substring match in current level (e.g. '学' matches '学校', '学习', etc.)
+  const partialInLevel = entries.value.find(e => e.character.includes(query))
+  if (partialInLevel) return partialInLevel
+
+  // 4. Substring match across any level
+  const allEntries = useVocabulary().allEntries
+  const partialAny = allEntries.find(e => e.character.includes(query))
+  if (partialAny) return partialAny
+
+  // 5. Standalone single Hanzi character fallback
+  if (/\p{Script=Han}/u.test(query)) {
+    return {
+      id: 9999,
+      character: query,
+      pinyin: '',
+      meaning: `Character: ${query}`,
+      category: 'Single Character',
+      level: level.value,
+      strokes: 0,
+      examples: []
+    }
+  }
+
+  return entries.value[0]
 })
 
 const characterIndex = ref(0)
 const entryCharacters = computed(() => Array.from(entry.value?.character ?? ''))
-const currentCharacter = computed(() => entryCharacters.value[characterIndex.value] ?? '')
 
-watch(() => entry.value?.character, () => {
-  characterIndex.value = 0
+watch(
+  () => [entry.value?.character, rawCharQuery.value],
+  () => {
+    const q = rawCharQuery.value
+    if (q && entry.value?.character) {
+      const chars = Array.from(entry.value.character)
+      const idx = chars.indexOf(q)
+      if (idx !== -1) {
+        characterIndex.value = idx
+        return
+      }
+    }
+    characterIndex.value = 0
+  },
+  { immediate: true }
+)
+
+const currentCharacter = computed(() => {
+  if (entryCharacters.value.length === 0) return rawCharQuery.value || '中'
+  return entryCharacters.value[characterIndex.value] ?? entryCharacters.value[0]
 })
 
 const currentIndex = computed(() => {

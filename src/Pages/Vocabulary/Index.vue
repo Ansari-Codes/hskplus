@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
+import { ref, computed } from 'vue'
+import { useRoute, useRouter, RouterLink } from 'vue-router'
 import { useVocabulary } from '../../Composables/useVocabulary'
 import { UiButton } from '../../Ui'
 import CompAdSense from '../../Components/CompAdSense.vue'
@@ -16,21 +16,55 @@ const { getByCharacter, getByLevel } = useVocabulary()
 const level = computed<HskLevel>(() => route.params.level === '3' ? 3 : route.params.level === '2' ? 2 : 1)
 const entries = computed(() => getByLevel(level.value))
 
+// Mobile View Mode: 'detail' | 'list'
+const mobileTab = ref<'detail' | 'list'>('detail')
+
 const selectedCharacter = computed(() => {
   const queryCharacter = route.query.char
   if (typeof queryCharacter === 'string' && queryCharacter !== 'none' && queryCharacter !== '') {
-    return queryCharacter
+    try {
+      return decodeURIComponent(queryCharacter).trim()
+    } catch {
+      return queryCharacter.trim()
+    }
   }
   return entries.value[0]?.character || ''
 })
 
 const selectedEntry = computed(() => {
-  const entry = selectedCharacter.value ? getByCharacter(selectedCharacter.value, level.value) : undefined
-  return entry || entries.value[0]
+  const q = selectedCharacter.value
+  if (!q) return entries.value[0]
+  // 1. Exact match in current level
+  const exact = getByCharacter(q, level.value)
+  if (exact) return exact
+  // 2. Substring match in current level (e.g. '学' matches '学校')
+  const partial = entries.value.find(e => e.character.includes(q))
+  if (partial) return partial
+  // 3. Fallback to first entry
+  return entries.value[0]
+})
+
+const currentWordIndex = computed(() => {
+  return entries.value.findIndex(e => e.character === selectedEntry.value?.character)
 })
 
 function selectCharacter(character: string) {
-  return router.push({ name: 'vocabulary', params: { level: level.value }, query: { char: character } })
+  mobileTab.value = 'detail'
+  router.push({ name: 'vocabulary', params: { level: level.value }, query: { char: character } })
+}
+
+function prevWord() {
+  if (currentWordIndex.value > 0) {
+    const prev = entries.value[currentWordIndex.value - 1]
+    selectCharacter(prev.character)
+  }
+}
+
+function nextWord() {
+  if (currentWordIndex.value < entries.value.length - 1) {
+    const next = entries.value[currentWordIndex.value + 1]
+    selectCharacter(next.character)
+  }
 }
 
 function openPractice(character: string) {
@@ -39,43 +73,105 @@ function openPractice(character: string) {
 </script>
 
 <template>
-  <main class="min-h-screen bg-background px-4 py-8 text-foreground sm:px-6 lg:px-8">
-    <div class="mx-auto max-w-6xl">
-      <header class="mb-8 flex flex-wrap items-center justify-between gap-4">
-        <div>
-          <div class="flex items-center gap-2">
-            <RouterLink to="/" class="text-sm font-medium text-primary hover:underline">← Home</RouterLink>
+  <main class="min-h-screen bg-background px-3 py-6 text-foreground sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-6xl space-y-6">
+      
+      <!-- Breadcrumb & Header -->
+      <header class="flex flex-col gap-4">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div class="flex items-center gap-2 text-xs sm:text-sm">
+            <RouterLink to="/" class="font-medium text-primary hover:underline">← Home</RouterLink>
             <span class="text-muted-foreground">/</span>
-            <RouterLink :to="`/hsk${level}`" class="text-sm font-medium text-primary hover:underline">HSK {{ level }} Portal</RouterLink>
+            <RouterLink :to="`/hsk${level}`" class="font-medium text-primary hover:underline">HSK {{ level }} Portal</RouterLink>
+            <span class="text-muted-foreground">/</span>
+            <span class="font-semibold text-foreground">Vocabulary</span>
           </div>
-          <h1 class="mt-2 text-3xl font-extrabold tracking-tight">HSK {{ level }} Vocabulary ({{ entries.length }} Words)</h1>
-          <p class="mt-2 text-muted-foreground">
-            Review the HSK {{ level }} word list with pinyin and English glosses. Supplemental details are omitted when they are not supported by the source.
+
+          <!-- Quick Navigation between levels -->
+          <div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-xs">
+            <RouterLink :to="{ name: 'vocabulary', params: { level: 1 } }">
+              <UiButton :variant="level === 1 ? 'primary' : 'outline'" size="sm" class="px-2.5 py-1 text-xs">HSK 1 (150)</UiButton>
+            </RouterLink>
+            <RouterLink :to="{ name: 'vocabulary', params: { level: 2 } }">
+              <UiButton :variant="level === 2 ? 'primary' : 'outline'" size="sm" class="px-2.5 py-1 text-xs">HSK 2 (150)</UiButton>
+            </RouterLink>
+            <RouterLink :to="{ name: 'vocabulary', params: { level: 3 } }">
+              <UiButton :variant="level === 3 ? 'primary' : 'outline'" size="sm" class="px-2.5 py-1 text-xs">HSK 3 (300)</UiButton>
+            </RouterLink>
+            <RouterLink :to="{ name: 'vocabulary-practice', params: { level: level }, query: { char: selectedCharacter } }">
+              <UiButton variant="secondary" size="sm" class="px-2.5 py-1 text-xs">✍️ Practice</UiButton>
+            </RouterLink>
+          </div>
+        </div>
+
+        <div>
+          <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight">
+            HSK {{ level }} Official Vocabulary ({{ entries.length }} Words)
+          </h1>
+          <p class="mt-1 text-xs sm:text-sm text-muted-foreground">
+            Complete official lexicon with stroke animations, audio pronunciation, constituent breakdowns, origins, and contextual sentences.
           </p>
-          <p v-if="level === 3" class="mt-2 text-xs text-muted-foreground">
+          <p v-if="level === 3" class="mt-1 text-[11px] text-muted-foreground">
             {{ HSK3_VOCABULARY_SOURCE_NOTE }}
           </p>
         </div>
-        <div class="flex items-center gap-2">
-          <RouterLink :to="{ name: 'vocabulary', params: { level: 1 } }">
-            <UiButton :variant="level === 1 ? 'primary' : 'outline'" size="sm">HSK 1 (150)</UiButton>
-          </RouterLink>
-          <RouterLink :to="{ name: 'vocabulary', params: { level: 2 } }">
-            <UiButton :variant="level === 2 ? 'primary' : 'outline'" size="sm">HSK 2 (150)</UiButton>
-          </RouterLink>
-          <RouterLink :to="{ name: 'vocabulary', params: { level: 3 } }">
-            <UiButton :variant="level === 3 ? 'primary' : 'outline'" size="sm">HSK 3 (300)</UiButton>
-          </RouterLink>
-          <RouterLink :to="{ name: 'vocabulary-practice', params: { level: level } }">
-            <UiButton variant="secondary" size="sm">✍️ Hanzi Practice Lab</UiButton>
-          </RouterLink>
-        </div>
       </header>
 
-      <CompAdSense format="banner" slot-id="hsk-vocabulary-top" />
+      <!-- Mobile Tab Bar (Visible on mobile & tablet, hidden on desktop lg:) -->
+      <div class="block lg:hidden rounded-2xl border border-border bg-surface p-2 shadow-xs space-y-2">
+        <div class="grid grid-cols-2 gap-1.5">
+          <button
+            type="button"
+            class="rounded-xl py-2 text-xs font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5"
+            :class="mobileTab === 'detail' ? 'bg-primary text-white shadow-xs' : 'bg-muted/60 text-muted-foreground hover:text-foreground'"
+            @click="mobileTab = 'detail'"
+          >
+            <span>📖 Word Detail</span>
+            <span v-if="selectedEntry" class="opacity-90 font-serif">({{ selectedEntry.character }})</span>
+          </button>
 
+          <button
+            type="button"
+            class="rounded-xl py-2 text-xs font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5"
+            :class="mobileTab === 'list' ? 'bg-primary text-white shadow-xs' : 'bg-muted/60 text-muted-foreground hover:text-foreground'"
+            @click="mobileTab = 'list'"
+          >
+            <span>📋 Word List</span>
+            <span class="opacity-90">({{ entries.length }})</span>
+          </button>
+        </div>
+
+        <!-- Mobile Word Quick Flipper Strip -->
+        <div class="flex items-center justify-between border-t border-border/70 pt-2 px-1 text-xs">
+          <button
+            type="button"
+            :disabled="currentWordIndex <= 0"
+            class="rounded-lg px-2 py-1 font-semibold text-muted-foreground hover:text-foreground disabled:opacity-30 cursor-pointer"
+            @click="prevWord"
+          >
+            ◀ Prev Word
+          </button>
+
+          <span class="font-bold text-foreground text-xs">
+            #{{ (currentWordIndex >= 0 ? currentWordIndex : 0) + 1 }} / {{ entries.length }}
+          </span>
+
+          <button
+            type="button"
+            :disabled="currentWordIndex >= entries.length - 1"
+            class="rounded-lg px-2 py-1 font-semibold text-muted-foreground hover:text-foreground disabled:opacity-30 cursor-pointer"
+            @click="nextWord"
+          >
+            Next Word ▶
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Layout: Adaptive Grid -->
       <div class="grid items-start gap-6 lg:grid-cols-[20rem_minmax(0,1fr)]">
-        <aside>
+        
+        <!-- Left: Word List Column (Always visible on desktop; conditionally on mobile based on tab) -->
+        <aside :class="[mobileTab === 'list' ? 'block' : 'hidden lg:block']">
           <div class="mb-3 flex items-center justify-between">
             <h2 class="text-sm font-semibold text-muted-foreground">Word List · {{ entries.length }}</h2>
             <span class="text-xs text-primary font-medium">HSK {{ level }}</span>
@@ -83,7 +179,8 @@ function openPractice(character: string) {
           <CompVocabularyList :entries="entries" :selected-character="selectedCharacter" @select="selectCharacter" />
         </aside>
 
-        <section>
+        <!-- Right: Character Detail Column (Always visible on desktop; conditionally on mobile based on tab) -->
+        <section :class="[mobileTab === 'detail' ? 'block' : 'hidden lg:block']" class="min-w-0">
           <CompCharacterDetail
             v-if="selectedEntry"
             :entry="selectedEntry"
@@ -93,11 +190,14 @@ function openPractice(character: string) {
           <div v-else class="rounded-2xl border border-border bg-surface p-8 text-center">
             <p class="text-lg font-semibold">Character not found</p>
             <p class="mt-2 text-sm text-muted-foreground">
-              Please choose a character from the list on the left.
+              Please choose a character from the list.
             </p>
           </div>
         </section>
+
       </div>
+
+      <CompAdSense format="banner" slot-id="hsk-vocabulary-top" />
     </div>
   </main>
 </template>

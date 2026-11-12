@@ -75,6 +75,17 @@ const modules = computed(() => [
     gradient: 'from-rose-500/10 to-red-500/10 border-rose-200 dark:border-rose-900/40'
   },
   {
+    id: 'radicals',
+    title: `HSK ${level.value} Radicals & Semantic Roots`,
+    badge: `HSK ${level.value} Roots`,
+    badgeVariant: 'secondary' as const,
+    icon: '氵',
+    description: `Master the essential Chinese character radicals and components that construct HSK ${level.value} vocabulary. Learn pictographic origins, stroke counts, and memory mnemonics.`,
+    link: `/radicals?level=${level.value}`,
+    action: 'Explore Radicals',
+    gradient: 'from-amber-500/10 to-emerald-500/10 border-amber-200 dark:border-amber-900/40'
+  },
+  {
     id: 'tests',
     title: `HSK ${level.value} Timed Mock Tests`,
     badge: '5 Listening + 5 Reading + Writing',

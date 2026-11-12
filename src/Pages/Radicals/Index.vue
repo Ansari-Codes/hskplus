@@ -1,15 +1,39 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
-import { RouterLink } from 'vue-router'
-import { RADICALS_DATA, type ChineseRadical } from '../../Data/radicalsData'
+import { ref, computed, watch } from 'vue'
+import { useRoute, RouterLink } from 'vue-router'
+import { RADICALS_DATA, type ChineseRadical, type RadicalCategory } from '../../Data/radicalsData'
 import { UiButton, UiIcon } from '../../Ui'
 import { speakChinese } from '../../Utils/speech'
 import CompAdSense from '../../Components/CompAdSense.vue'
 
+const route = useRoute()
+
+const categoriesList: { label: string; value: 'all' | RadicalCategory; icon: string }[] = [
+  { label: 'All Categories', value: 'all', icon: '🌟' },
+  { label: 'Nature & Elements', value: 'Nature & Elements', icon: '🌊' },
+  { label: 'People & Body', value: 'People & Body', icon: '👤' },
+  { label: 'Actions & Movement', value: 'Actions & Movement', icon: '🏃' },
+  { label: 'Structures & Space', value: 'Structures & Space', icon: '🏠' },
+  { label: 'Food, Plants & Clothing', value: 'Food, Plants & Clothing', icon: '🌾' },
+  { label: 'Mind, Speech & Culture', value: 'Mind, Speech & Culture', icon: '💬' },
+]
+
 const searchQuery = ref('')
+const selectedCategory = ref<'all' | RadicalCategory>('all')
 const selectedStrokes = ref<'all' | number>('all')
 const selectedLevel = ref<'all' | 1 | 2 | 3>('all')
 const activeRadical = ref<ChineseRadical | null>(RADICALS_DATA[0])
+
+// Sync with route query ?level=1|2|3
+watch(
+  () => route.query.level,
+  (lvl) => {
+    if (lvl === '1' || lvl === '2' || lvl === '3') {
+      selectedLevel.value = parseInt(lvl, 10) as 1 | 2 | 3
+    }
+  },
+  { immediate: true }
+)
 
 const filteredRadicals = computed(() => {
   return RADICALS_DATA.filter((item) => {
@@ -27,6 +51,11 @@ const filteredRadicals = computed(() => {
       if (!matchRadical && !matchPinyin && !matchNameZh && !matchNameEn && !matchMeaning && !matchExamples) {
         return false
       }
+    }
+
+    // Category filter
+    if (selectedCategory.value !== 'all' && item.category !== selectedCategory.value) {
+      return false
     }
 
     // Stroke filter
@@ -67,10 +96,10 @@ function playAudio(text: string) {
         <div class="flex flex-wrap items-center justify-between gap-4">
           <div>
             <h1 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
-              Essential Chinese Radicals Directory (部首)
+              HSK 1–3 Chinese Radicals Directory (部首)
             </h1>
             <p class="mt-2 text-muted-foreground max-w-3xl">
-              Radicals are the semantic building blocks of Chinese characters. Master these 25+ essential radicals to decode over 85% of HSK 1–3 vocabulary without rote memorization.
+              Radicals are the semantic building blocks of Chinese characters. Filter by category, HSK level, or stroke count to decode over 85% of HSK 1–3 vocabulary without rote memorization.
             </p>
           </div>
           <RouterLink to="/blogs/rules-of-chinese-stroke-order">
@@ -82,9 +111,11 @@ function playAudio(text: string) {
         </div>
       </header>
 
-      <!-- Search & Filters -->
-      <section class="rounded-2xl border border-border bg-surface p-5 shadow-xs space-y-4">
-        <div class="flex flex-wrap gap-4">
+      <!-- Search & Filters Container -->
+      <section class="rounded-3xl border border-border bg-surface p-5 sm:p-6 shadow-xs space-y-4">
+        
+        <!-- Search Bar + Level + Strokes -->
+        <div class="flex flex-wrap items-center gap-4">
           <div class="relative flex-1 min-w-[240px]">
             <input
               v-model="searchQuery"
@@ -94,21 +125,6 @@ function playAudio(text: string) {
             />
           </div>
 
-          <!-- Stroke filter -->
-          <div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-xs">
-            <span class="text-muted-foreground font-semibold mr-1">Strokes:</span>
-            <button
-              v-for="st in ['all', 2, 3, 4, 5, 7] as const"
-              :key="st"
-              type="button"
-              class="rounded-lg px-2.5 py-1.5 font-medium transition-colors"
-              :class="selectedStrokes === st ? 'bg-primary text-white font-bold' : 'bg-muted text-muted-foreground hover:text-foreground'"
-              @click="selectedStrokes = st"
-            >
-              {{ st === 'all' ? 'All' : `${st} strokes` }}
-            </button>
-          </div>
-
           <!-- Level filter -->
           <div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-xs">
             <span class="text-muted-foreground font-semibold mr-1">Level:</span>
@@ -116,11 +132,46 @@ function playAudio(text: string) {
               v-for="lvl in ['all', 1, 2, 3] as const"
               :key="lvl"
               type="button"
-              class="rounded-lg px-2.5 py-1.5 font-medium transition-colors"
+              class="rounded-lg px-3 py-1.5 font-medium transition-colors cursor-pointer"
               :class="selectedLevel === lvl ? 'bg-primary text-white font-bold' : 'bg-muted text-muted-foreground hover:text-foreground'"
               @click="selectedLevel = lvl"
             >
               {{ lvl === 'all' ? 'All HSK' : `HSK ${lvl}` }}
+            </button>
+          </div>
+
+          <!-- Stroke filter -->
+          <div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-xs">
+            <span class="text-muted-foreground font-semibold mr-1">Strokes:</span>
+            <button
+              v-for="st in ['all', 2, 3, 4, 5, 7, 8] as const"
+              :key="st"
+              type="button"
+              class="rounded-lg px-2.5 py-1.5 font-medium transition-colors cursor-pointer"
+              :class="selectedStrokes === st ? 'bg-primary text-white font-bold' : 'bg-muted text-muted-foreground hover:text-foreground'"
+              @click="selectedStrokes = st"
+            >
+              {{ st === 'all' ? 'All' : `${st}` }}
+            </button>
+          </div>
+        </div>
+
+        <!-- Category Filter Pills (Requested by user) -->
+        <div class="border-t border-border/70 pt-3">
+          <div class="text-[11px] font-bold uppercase tracking-wider text-muted-foreground mb-2">
+            Filter by Semantic Category
+          </div>
+          <div class="flex flex-wrap gap-2 text-xs">
+            <button
+              v-for="cat in categoriesList"
+              :key="cat.value"
+              type="button"
+              class="rounded-xl px-3 py-1.5 font-semibold transition-all cursor-pointer flex items-center gap-1.5 border"
+              :class="selectedCategory === cat.value ? 'border-primary bg-primary/10 text-primary font-bold shadow-xs' : 'border-border bg-surface text-muted-foreground hover:text-foreground hover:border-primary/40'"
+              @click="selectedCategory = cat.value"
+            >
+              <span>{{ cat.icon }}</span>
+              <span>{{ cat.label }}</span>
             </button>
           </div>
         </div>
@@ -133,7 +184,11 @@ function playAudio(text: string) {
         <div class="lg:col-span-7 space-y-4">
           <div class="flex items-center justify-between text-xs text-muted-foreground px-1">
             <span>Showing {{ filteredRadicals.length }} radicals</span>
-            <span>Click any radical to inspect origins & HSK words</span>
+            <span>Click any radical to inspect origins & vocabulary</span>
+          </div>
+
+          <div v-if="filteredRadicals.length === 0" class="rounded-2xl border border-border bg-surface p-8 text-center text-sm text-muted-foreground">
+            No radicals matching your filters. Try selecting "All Categories" or clearing the search.
           </div>
 
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -199,9 +254,12 @@ function playAudio(text: string) {
               </span>
             </div>
 
-            <!-- Meaning & Variants -->
+            <!-- Meaning & Category -->
             <div class="space-y-2">
-              <div class="text-xs font-bold uppercase tracking-wider text-muted-foreground">Core Meaning</div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold uppercase tracking-wider text-muted-foreground">Core Meaning</span>
+                <span class="rounded-md bg-muted px-2 py-0.5 text-[11px] font-semibold text-muted-foreground">{{ activeRadical.category }}</span>
+              </div>
               <p class="text-sm font-semibold text-foreground leading-relaxed">
                 {{ activeRadical.meaning }}
               </p>

@@ -362,7 +362,25 @@ onBeforeUnmount(() => {
           </div>
         </div>
 
-        <!-- Direct Nav Links -->
+        <!-- Direct Nav Links (Elevated from practice dropdown + core resources) -->
+        <RouterLink
+          to="/mock-tests"
+          class="rounded-lg px-3 py-1.5 text-sm transition-colors hover:bg-muted hover:text-foreground"
+          :class="route.path === '/mock-tests' ? 'bg-muted/80 text-foreground font-semibold' : ''"
+          @click="closeAllMenus"
+        >
+          Mock Tests
+        </RouterLink>
+
+        <RouterLink
+          to="/radicals"
+          class="rounded-lg px-3 py-1.5 text-sm transition-colors hover:bg-muted hover:text-foreground"
+          :class="route.path === '/radicals' ? 'bg-muted/80 text-foreground font-semibold' : ''"
+          @click="closeAllMenus"
+        >
+          Radicals
+        </RouterLink>
+
         <RouterLink
           to="/blogs"
           class="rounded-lg px-3 py-1.5 text-sm transition-colors hover:bg-muted hover:text-foreground"
@@ -370,14 +388,6 @@ onBeforeUnmount(() => {
           @click="closeAllMenus"
         >
           Guides
-        </RouterLink>
-
-        <RouterLink
-          to="/#comparison"
-          class="rounded-lg px-3 py-1.5 text-sm transition-colors hover:bg-muted hover:text-foreground"
-          @click="closeAllMenus"
-        >
-          Compare
         </RouterLink>
 
         <RouterLink
@@ -633,20 +643,27 @@ onBeforeUnmount(() => {
 
       <!-- Links -->
       <div class="border-t border-border/70 pt-2">
-        <div class="grid grid-cols-3 gap-1 text-center text-xs font-semibold text-muted-foreground">
+        <div class="grid grid-cols-4 gap-1 text-center text-xs font-semibold text-muted-foreground">
+          <RouterLink
+            to="/mock-tests"
+            class="rounded-lg py-2 hover:bg-muted hover:text-foreground"
+            @click="closeAllMenus"
+          >
+            Tests
+          </RouterLink>
+          <RouterLink
+            to="/radicals"
+            class="rounded-lg py-2 hover:bg-muted hover:text-foreground"
+            @click="closeAllMenus"
+          >
+            Radicals
+          </RouterLink>
           <RouterLink
             to="/blogs"
             class="rounded-lg py-2 hover:bg-muted hover:text-foreground"
             @click="closeAllMenus"
           >
             Guides
-          </RouterLink>
-          <RouterLink
-            to="/#comparison"
-            class="rounded-lg py-2 hover:bg-muted hover:text-foreground"
-            @click="closeAllMenus"
-          >
-            Compare
           </RouterLink>
           <RouterLink
             to="/about"
