@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "generate:sitemap": "node scripts/generate_sitemap.cjs",
-    "build": "node scripts/generate_sitemap.cjs && vue-tsc -b && vite build",
+    "prerender": "node scripts/prerender_routes.cjs",
+    "build": "node scripts/generate_sitemap.cjs && vue-tsc -b && vite build && node scripts/prerender_routes.cjs",
     "preview": "vite preview"
   },
   "dependencies": {
