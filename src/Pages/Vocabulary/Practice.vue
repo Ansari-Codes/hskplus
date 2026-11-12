@@ -15,6 +15,14 @@ const level = computed<HskLevel>(() => route.params.level === '3' ? 3 : route.pa
 const entries = computed(() => getByLevel(level.value))
 
 const rawCharQuery = computed(() => {
+  const param = route.params.char
+  if (typeof param === 'string' && param) {
+    try {
+      return decodeURIComponent(param).trim()
+    } catch {
+      return param.trim()
+    }
+  }
   const q = route.query.char
   if (typeof q !== 'string' || !q) return ''
   try {

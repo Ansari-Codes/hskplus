@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import { comparisonsData, type ComparisonItem } from '../../Data/comparisonsData'
 import CompAdSense from '../../Components/CompAdSense.vue'
@@ -11,6 +11,24 @@ const slug = computed(() => route.params.slug as string)
 const item = computed<ComparisonItem | undefined>(() => {
   return comparisonsData.find(c => c.slug === slug.value)
 })
+
+// Dynamic SEO updates
+watch(
+  item,
+  (val) => {
+    if (!val) return
+    document.title = `${val.title} | HSK Plus Confusing Words Guide`
+    let metaDesc = document.querySelector('meta[name="description"]')
+    if (metaDesc) {
+      metaDesc.setAttribute('content', val.summary)
+    }
+    let canonical = document.querySelector('link[rel="canonical"]')
+    if (canonical) {
+      canonical.setAttribute('href', `https://desihop.net/compare/${val.slug}`)
+    }
+  },
+  { immediate: true }
+)
 
 // Quiz interactive state
 const selectedAnswers = ref<Record<number, number>>({})

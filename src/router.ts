@@ -112,8 +112,28 @@ const routes: RouteRecordRaw[] = [
     component: () => import('./Pages/Vocabulary/Index.vue'),
   },
   {
+    path: '/hsk:level(1|2|3)/vocabulary/:char',
+    name: 'vocabulary-word',
+    component: () => import('./Pages/Vocabulary/Index.vue'),
+  },
+  {
+    path: '/hsk:level(1|2|3)/word/:char',
+    name: 'hsk-word-detail',
+    component: () => import('./Pages/Vocabulary/Index.vue'),
+  },
+  {
+    path: '/word/:char',
+    name: 'word-detail',
+    component: () => import('./Pages/Vocabulary/Index.vue'),
+  },
+  {
     path: '/hsk:level(1|2|3)/practice',
     name: 'vocabulary-practice',
+    component: () => import('./Pages/Vocabulary/Practice.vue'),
+  },
+  {
+    path: '/hsk:level(1|2|3)/practice/:char',
+    name: 'vocabulary-practice-word',
     component: () => import('./Pages/Vocabulary/Practice.vue'),
   },
 

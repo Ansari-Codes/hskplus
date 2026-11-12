@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { useRoute, useRouter, RouterLink } from 'vue-router'
 import { useVocabulary } from '../../Composables/useVocabulary'
 import { UiButton } from '../../Ui'
@@ -13,13 +13,37 @@ const route = useRoute()
 const router = useRouter()
 const { getByCharacter, getByLevel } = useVocabulary()
 
-const level = computed<HskLevel>(() => route.params.level === '3' ? 3 : route.params.level === '2' ? 2 : 1)
+const level = computed<HskLevel>(() => {
+  if (route.params.level === '3') return 3
+  if (route.params.level === '2') return 2
+  if (route.params.level === '1') return 1
+  const raw = route.params.char || route.query.char
+  if (typeof raw === 'string' && raw) {
+    try {
+      const char = decodeURIComponent(raw).trim()
+      const found = getByCharacter(char)
+      if (found) return found.level
+    } catch {
+      // ignore
+    }
+  }
+  return 1
+})
+
 const entries = computed(() => getByLevel(level.value))
 
 // Mobile View Mode: 'detail' | 'list'
 const mobileTab = ref<'detail' | 'list'>('detail')
 
 const selectedCharacter = computed(() => {
+  const paramChar = route.params.char
+  if (typeof paramChar === 'string' && paramChar !== '') {
+    try {
+      return decodeURIComponent(paramChar).trim()
+    } catch {
+      return paramChar.trim()
+    }
+  }
   const queryCharacter = route.query.char
   if (typeof queryCharacter === 'string' && queryCharacter !== 'none' && queryCharacter !== '') {
     try {
@@ -37,10 +61,13 @@ const selectedEntry = computed(() => {
   // 1. Exact match in current level
   const exact = getByCharacter(q, level.value)
   if (exact) return exact
-  // 2. Substring match in current level (e.g. '学' matches '学校')
+  // 2. Exact match across any level
+  const exactAny = getByCharacter(q)
+  if (exactAny) return exactAny
+  // 3. Substring match in current level (e.g. '学' matches '学校')
   const partial = entries.value.find(e => e.character.includes(q))
   if (partial) return partial
-  // 3. Fallback to first entry
+  // 4. Fallback to first entry
   return entries.value[0]
 })
 
@@ -50,7 +77,10 @@ const currentWordIndex = computed(() => {
 
 function selectCharacter(character: string) {
   mobileTab.value = 'detail'
-  router.push({ name: 'vocabulary', params: { level: level.value }, query: { char: character } })
+  router.push({
+    name: 'vocabulary-word',
+    params: { level: String(level.value), char: character }
+  })
 }
 
 function prevWord() {
@@ -68,8 +98,32 @@ function nextWord() {
 }
 
 function openPractice(character: string) {
-  return router.push({ name: 'vocabulary-practice', params: { level: level.value }, query: { char: character } })
+  return router.push({
+    name: 'vocabulary-practice-word',
+    params: { level: String(level.value), char: character }
+  })
 }
+
+// Update page title, meta description & canonical URL dynamically for each word
+watch(
+  [selectedEntry, level],
+  ([entry, lvl]) => {
+    if (!entry) return
+    document.title = `${entry.character} (${entry.pinyin}) - HSK ${lvl} Vocabulary | Meaning, Origin & Stroke Practice - HSK Plus`
+
+    const desc = `Master the HSK ${lvl} word "${entry.character}" (${entry.pinyin}): "${entry.meaning}". Includes native speech audio, character origin & radicals, stroke order animations, and example sentences.`
+    let metaDesc = document.querySelector('meta[name="description"]')
+    if (metaDesc) {
+      metaDesc.setAttribute('content', desc)
+    }
+
+    let canonical = document.querySelector('link[rel="canonical"]')
+    if (canonical) {
+      canonical.setAttribute('href', `https://desihop.net/hsk${lvl}/vocabulary/${encodeURIComponent(entry.character)}`)
+    }
+  },
+  { immediate: true }
+)
 </script>
 
 <template>

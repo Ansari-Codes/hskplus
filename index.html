@@ -13,6 +13,20 @@
     <meta name="theme-color" content="#c23314" />
     <meta name="google-site-verification" content="L9P_6bn8qLYFWvUkyiSrC7SHIjxYiqMJVOREjFiSn_Q" />
 
+    <!-- GitHub Pages Single Page App Redirect Resolver -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+
     <!-- Primary Meta Tags -->
     <title>HSK Plus — Free HSK 1, 2 & 3 Learning Platform & Encyclopedia</title>
     <meta name="title" content="HSK Plus — Free HSK 1, 2 & 3 Learning Platform & Encyclopedia" />
