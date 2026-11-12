@@ -6,6 +6,7 @@ import { UiButton, UiIcon } from '../../Ui'
 import CompHanziWriter from '../../Components/CompHanziWriter.vue'
 import CompAdSense from '../../Components/CompAdSense.vue'
 import type { HskLevel } from './types'
+import { setRouteJsonLd, getVocabularyJsonLd } from '../../Utils/jsonLd'
 
 const route = useRoute()
 const router = useRouter()
@@ -112,6 +113,8 @@ watch(
 
     let metaKw = document.querySelector('meta[name="keywords"]')
     if (metaKw) metaKw.setAttribute('content', `${char}, ${val.pinyin}, ${char} stroke order, write ${char}, chinese character practice, HSK ${lvl}`)
+
+    setRouteJsonLd(getVocabularyJsonLd(val, lvl))
   },
   { immediate: true }
 )

@@ -8,6 +8,7 @@ import { HSK3_VOCABULARY_SOURCE_NOTE } from '../../Data/hsk3VocabularyData'
 import CompCharacterDetail from './Comps/CompCharacterDetail.vue'
 import CompVocabularyList from './Comps/CompVocabularyList.vue'
 import type { HskLevel } from './types'
+import { setRouteJsonLd, getVocabularyJsonLd, getVocabularyOverviewJsonLd } from '../../Utils/jsonLd'
 
 const route = useRoute()
 const router = useRouter()
@@ -131,6 +132,8 @@ watch(
 
       let metaKw = document.querySelector('meta[name="keywords"]')
       if (metaKw) metaKw.setAttribute('content', `HSK ${lvl} vocabulary list, HSK ${lvl} words, learn chinese HSK ${lvl}, HSK ${lvl} audio, HSK ${lvl} pdf, HSK flashcards`)
+
+      setRouteJsonLd(getVocabularyOverviewJsonLd(lvl, vocabCount))
       return
     }
 
@@ -149,6 +152,8 @@ watch(
     if (metaKw) {
       metaKw.setAttribute('content', `${entry.character}, ${entry.pinyin}, ${entry.meaning}, ${entry.character} meaning, ${entry.character} stroke order, ${entry.character} chinese, HSK ${lvl} vocabulary, learn chinese`)
     }
+
+    setRouteJsonLd(getVocabularyJsonLd(entry, lvl))
   },
   { immediate: true }
 )

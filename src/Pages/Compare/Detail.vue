@@ -4,6 +4,7 @@ import { useRoute, RouterLink } from 'vue-router'
 import { comparisonsData, type ComparisonItem } from '../../Data/comparisonsData'
 import CompAdSense from '../../Components/CompAdSense.vue'
 import { speakChinese } from '../../Utils/speech'
+import { setRouteJsonLd, getComparisonJsonLd } from '../../Utils/jsonLd'
 
 const route = useRoute()
 
@@ -35,6 +36,8 @@ watch(
     if (metaKw) {
       metaKw.setAttribute('content', `${val.words.map(w => w.hanzi).join(', ')}, ${val.words.map(w => w.pinyin).join(', ')}, ${pairTitle}, chinese grammar difference, ${val.level} grammar, confusing words chinese`)
     }
+
+    setRouteJsonLd(getComparisonJsonLd(val))
   },
   { immediate: true }
 )

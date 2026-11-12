@@ -65,6 +65,372 @@ function getShortMeaning(meaning, maxLen = 22) {
   return primary.slice(0, maxLen - 1).trim() + '…';
 }
 
+function getVocabularyJsonLd(word, level, canonicalUrl) {
+  let examplesText = `Practice speaking and writing ${word.character} (${word.pinyin}) in daily Chinese conversation.`;
+  if (word.examples && word.examples.length > 0) {
+    examplesText = word.examples.slice(0, 2).map((ex, idx) =>
+      `Example ${idx + 1}: "${ex.chinese}" (${ex.pinyin}) translates to "${ex.translation}".`
+    ).join(' ');
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://desihop.net/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": `HSK ${level}`,
+            "item": `https://desihop.net/hsk${level}`
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": `HSK ${level} Vocabulary`,
+            "item": `https://desihop.net/hsk${level}/vocabulary`
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": `${word.character} (${word.pinyin})`,
+            "item": canonicalUrl
+          }
+        ]
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": `${word.character} (${word.pinyin})`,
+        "description": `Chinese word "${word.character}" (${word.pinyin}) means "${word.meaning}". Official HSK ${level} vocabulary (${word.category || 'Word'}, ${word.strokes || 0} strokes).`,
+        "termCode": word.character,
+        "inDefinedTermSet": `https://desihop.net/hsk${level}/vocabulary`
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": `What does ${word.character} (${word.pinyin}) mean in Chinese?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": `In Mandarin Chinese, ${word.character} (pronounced ${word.pinyin}) means "${word.meaning}". It is an official HSK ${level} vocabulary word.`
+            }
+          },
+          {
+            "@type": "Question",
+            "name": `How many strokes are in the Chinese character ${word.character}?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": `The Chinese character ${word.character} (${word.pinyin}) has ${word.strokes || 0} strokes.`
+            }
+          },
+          {
+            "@type": "Question",
+            "name": `How do you use ${word.character} (${word.pinyin}) in a Chinese sentence?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": examplesText
+            }
+          }
+        ]
+      }
+    ]
+  };
+}
+
+function getComparisonJsonLd(comp, canonicalUrl) {
+  const pairTitle = comp.title.split(':')[0].trim();
+
+  const faqItems = [
+    {
+      "@type": "Question",
+      "name": `What is the difference between ${comp.words.map(w => `${w.hanzi} (${w.pinyin})`).join(' and ')} in Chinese?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": comp.summary
+      }
+    }
+  ];
+
+  if (comp.words.length >= 2) {
+    faqItems.push({
+      "@type": "Question",
+      "name": `When should I use ${comp.words[0].hanzi} vs ${comp.words[1].hanzi}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Use ${comp.words[0].hanzi} (${comp.words[0].pinyin}) when: ${comp.words[0].coreFunction || comp.words[0].meaning}. Use ${comp.words[1].hanzi} (${comp.words[1].pinyin}) when: ${comp.words[1].coreFunction || comp.words[1].meaning}.`
+      }
+    });
+  }
+
+  if (comp.faq && comp.faq.length > 0) {
+    comp.faq.slice(0, 2).forEach(f => {
+      faqItems.push({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": f.a
+        }
+      });
+    });
+  } else if (comp.mistakes && comp.mistakes.length > 0) {
+    const m = comp.mistakes[0];
+    faqItems.push({
+      "@type": "Question",
+      "name": `What is a common mistake when using ${pairTitle}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `A common error is saying "${m.incorrectZh}" instead of "${m.correctZh}". ${m.explanation}`
+      }
+    });
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://desihop.net/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Confusing Words",
+            "item": "https://desihop.net/compare"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": pairTitle,
+            "item": canonicalUrl
+          }
+        ]
+      },
+      {
+        "@type": ["Article", "LearningResource"],
+        "headline": `${pairTitle}: Key Differences, Grammar Rules & Quiz`,
+        "description": comp.summary,
+        "educationalLevel": comp.level,
+        "learningResourceType": "Grammar Guide",
+        "inLanguage": "en",
+        "url": canonicalUrl,
+        "author": {
+          "@type": "Organization",
+          "name": "HSK Plus Pedagogical Team",
+          "url": "https://desihop.net/about"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "HSK Plus",
+          "url": "https://desihop.net/",
+          "logo": "https://desihop.net/hskplus-logo.png"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqItems
+      }
+    ]
+  };
+}
+
+function getBlogJsonLd(blog, canonicalUrl) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://desihop.net/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://desihop.net/blogs"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": blog.title,
+            "item": canonicalUrl
+          }
+        ]
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": blog.title,
+        "description": blog.excerpt,
+        "url": canonicalUrl,
+        "datePublished": blog.date,
+        "author": {
+          "@type": "Person",
+          "name": blog.author
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "HSK Plus",
+          "url": "https://desihop.net/",
+          "logo": "https://desihop.net/hskplus-logo.png"
+        },
+        "inLanguage": "en"
+      }
+    ]
+  };
+}
+
+function getVocabularyOverviewJsonLd(level, vocabCount, canonicalUrl) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://desihop.net/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": `HSK ${level}`,
+            "item": `https://desihop.net/hsk${level}`
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": `HSK ${level} Vocabulary`,
+            "item": canonicalUrl
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": `HSK ${level} Vocabulary List (${vocabCount} Words)`,
+        "description": `Complete directory of all ${vocabCount} official vocabulary words required for HSK ${level}.`,
+        "numberOfItems": vocabCount,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      }
+    ]
+  };
+}
+
+function getHskHubJsonLd(level, cumulativeWords, canonicalUrl) {
+  const educationalLevel =
+    level === 1 ? 'Beginner (CEFR A1)' : level === 2 ? 'Elementary (CEFR A2)' : 'Intermediate (CEFR B1)';
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://desihop.net/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": `HSK ${level} Portal`,
+            "item": canonicalUrl
+          }
+        ]
+      },
+      {
+        "@type": "Course",
+        "name": `HSK ${level} Complete Learning Curriculum`,
+        "description": `Comprehensive preparation portal for HSK ${level}. Master all ${cumulativeWords} official vocabulary words, standard textbook lessons, core grammar patterns, dialogues, and timed exams.`,
+        "provider": {
+          "@type": "EducationalOrganization",
+          "name": "HSK Plus",
+          "url": "https://desihop.net/"
+        },
+        "educationalLevel": educationalLevel,
+        "isAccessibleForFree": true,
+        "url": canonicalUrl
+      }
+    ]
+  };
+}
+
+function getModuleJsonLd(moduleName, canonicalUrl, description, level) {
+  const breadcrumbs = [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://desihop.net/"
+    }
+  ];
+
+  if (level) {
+    breadcrumbs.push({
+      "@type": "ListItem",
+      "position": 2,
+      "name": `HSK ${level}`,
+      "item": `https://desihop.net/hsk${level}`
+    });
+    breadcrumbs.push({
+      "@type": "ListItem",
+      "position": 3,
+      "name": moduleName,
+      "item": canonicalUrl
+    });
+  } else {
+    breadcrumbs.push({
+      "@type": "ListItem",
+      "position": 2,
+      "name": moduleName,
+      "item": canonicalUrl
+    });
+  }
+
+  const entities = [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": breadcrumbs
+    }
+  ];
+
+  if (level) {
+    entities.push({
+      "@type": "LearningResource",
+      "name": moduleName,
+      "description": description,
+      "educationalLevel": `HSK ${level}`,
+      "isAccessibleForFree": true,
+      "url": canonicalUrl
+    });
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": entities
+  };
+}
+
 function generateHtml(meta) {
   let html = templateHtml;
 
@@ -94,6 +460,19 @@ function generateHtml(meta) {
 
   // Canonical Link
   html = html.replace(/<link\s+[^>]*?rel=["']canonical["'][^>]*>/i, `<link rel="canonical" href="${escapeAttr(meta.canonical)}" />`);
+
+  // Route-Specific JSON-LD
+  if (meta.jsonLd) {
+    const jsonLdString = JSON.stringify(meta.jsonLd).replace(/<\/script>/gi, '<\\/script>');
+    const scriptTag = `    <script id="route-json-ld" type="application/ld+json">${jsonLdString}</script>`;
+    if (html.includes('id="route-json-ld"')) {
+      html = html.replace(/<script id="route-json-ld"[\s\S]*?<\/script>/i, scriptTag);
+    } else {
+      html = html.replace('</head>', `  ${scriptTag}\n  </head>`);
+    }
+  } else if (html.includes('id="route-json-ld"')) {
+    html = html.replace(/<script id="route-json-ld"[\s\S]*?<\/script>\s*/i, '');
+  }
 
   // Semantic SEO Summary block inside <div id="app">
   if (meta.summaryHtml) {
@@ -305,13 +684,19 @@ const corePages = [
 ];
 
 corePages.forEach(p => {
-  routesToPrerender.push(p);
+  const jsonLd = p.path === '/' ? null : getModuleJsonLd(p.crumb, p.canonical, p.description);
+  routesToPrerender.push({
+    ...p,
+    jsonLd
+  });
   if (p.aliases) {
     p.aliases.forEach(alias => {
+      const aliasCanonical = `https://desihop.net${alias}`;
       routesToPrerender.push({
         ...p,
         path: alias,
-        canonical: `https://desihop.net${alias}`
+        canonical: aliasCanonical,
+        jsonLd: getModuleJsonLd(p.crumb, aliasCanonical, p.description)
       });
     });
   }
@@ -416,13 +801,27 @@ corePages.forEach(p => {
   ];
 
   levelModules.forEach(mod => {
-    routesToPrerender.push(mod);
+    let jsonLd;
+    if (mod.path === `/hsk${lvl}`) {
+      jsonLd = getHskHubJsonLd(lvl, cumulativeWords, mod.canonical);
+    } else if (mod.path === `/hsk${lvl}/vocabulary`) {
+      jsonLd = getVocabularyOverviewJsonLd(lvl, vocabCount, mod.canonical);
+    } else {
+      jsonLd = getModuleJsonLd(mod.crumb, mod.canonical, mod.description, lvl);
+    }
+
+    routesToPrerender.push({
+      ...mod,
+      jsonLd
+    });
     if (mod.aliases) {
       mod.aliases.forEach(alias => {
+        const aliasCanonical = `https://desihop.net${alias}`;
         routesToPrerender.push({
           ...mod,
           path: alias,
-          canonical: `https://desihop.net${alias}`
+          canonical: aliasCanonical,
+          jsonLd
         });
       });
     }
@@ -431,13 +830,17 @@ corePages.forEach(p => {
 
 // 3. Educational Blog Guides (24 blogs)
 blogsData.forEach(blog => {
+  const canonical = `https://desihop.net/blogs/${blog.slug}`;
+  const jsonLd = getBlogJsonLd(blog, canonical);
+
   routesToPrerender.push({
     path: `/blogs/${blog.slug}`,
     title: `${blog.title} — HSK Plus`,
     description: blog.excerpt,
-    canonical: `https://desihop.net/blogs/${blog.slug}`,
+    canonical,
     keywords: `${blog.title}, learn chinese, HSK study guide, ${blog.category}`,
     crumb: `Blog: ${blog.title}`,
+    jsonLd,
     summaryHtml: `
       <h1>${escapeHtml(blog.title)}</h1>
       <p style="font-size: 1.125rem; color: #4b5563;">${escapeHtml(blog.excerpt)}</p>
@@ -457,6 +860,7 @@ compData.forEach(comp => {
   const description = `Confused by ${pairTitle} in Chinese? Learn the exact grammar rules, side-by-side example sentences, common mistakes, and take a quick interactive quiz.`;
   const canonical = `https://desihop.net/compare/${comp.slug}`;
   const keywords = `${comp.words.map(w => w.hanzi).join(', ')}, ${comp.words.map(w => w.pinyin).join(', ')}, ${pairTitle}, chinese grammar difference, ${comp.level} grammar, confusing words chinese`;
+  const jsonLd = getComparisonJsonLd(comp, canonical);
 
   routesToPrerender.push({
     path: `/compare/${comp.slug}`,
@@ -465,6 +869,7 @@ compData.forEach(comp => {
     canonical,
     keywords,
     crumb: `Comparison: ${comp.shortTitle}`,
+    jsonLd,
     summaryHtml: `
       <h1>${escapeHtml(comp.title)}</h1>
       <p style="font-size: 1.125rem; font-weight: 500; color: #1f2937;">${escapeHtml(comp.summary)}</p>
@@ -536,6 +941,8 @@ vocabData.forEach(word => {
     ${examplesHtml}
   `;
 
+  const wordJsonLd = getVocabularyJsonLd(word, word.level, canonical);
+
   // 1. Primary canonical route: /hskX/vocabulary/<encodedChar>
   routesToPrerender.push({
     path: `/hsk${word.level}/vocabulary/${encodedChar}`,
@@ -545,7 +952,8 @@ vocabData.forEach(word => {
     canonical,
     keywords,
     crumb: `HSK ${word.level} Vocabulary &gt; ${word.character}`,
-    summaryHtml
+    summaryHtml,
+    jsonLd: wordJsonLd
   });
 
   // 2. Physical UTF-8 directory: /hskX/vocabulary/<rawChar> (strictly pointing canonical to primary encoded URL)
@@ -557,7 +965,8 @@ vocabData.forEach(word => {
       canonical,
       keywords,
       crumb: `HSK ${word.level} Vocabulary &gt; ${word.character}`,
-      summaryHtml
+      summaryHtml,
+      jsonLd: wordJsonLd
     });
   }
 
@@ -569,7 +978,8 @@ vocabData.forEach(word => {
     canonical,
     keywords,
     crumb: `Word &gt; ${word.character}`,
-    summaryHtml
+    summaryHtml,
+    jsonLd: wordJsonLd
   });
 
   // 4. Convenience alias: /word/<rawChar> (canonical points to primary /hskX/vocabulary/<encodedChar>)
@@ -581,7 +991,8 @@ vocabData.forEach(word => {
       canonical,
       keywords,
       crumb: `Word &gt; ${word.character}`,
-      summaryHtml
+      summaryHtml,
+      jsonLd: wordJsonLd
     });
   }
 
@@ -593,7 +1004,8 @@ vocabData.forEach(word => {
     canonical,
     keywords,
     crumb: `HSK ${word.level} Word &gt; ${word.character}`,
-    summaryHtml
+    summaryHtml,
+    jsonLd: wordJsonLd
   });
   if (encodedChar !== word.character) {
     routesToPrerender.push({
@@ -603,7 +1015,8 @@ vocabData.forEach(word => {
       canonical,
       keywords,
       crumb: `HSK ${word.level} Word &gt; ${word.character}`,
-      summaryHtml
+      summaryHtml,
+      jsonLd: wordJsonLd
     });
   }
 });

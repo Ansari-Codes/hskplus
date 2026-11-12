@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
 import HomePage from './Pages/Home/Index.vue'
+import { setRouteJsonLd, getHskHubJsonLd, getModuleJsonLd } from './Utils/jsonLd'
 
 const routes: RouteRecordRaw[] = [
   // Home Page
@@ -191,4 +192,51 @@ export const router = createRouter({
       return { top: 0 }
     }
   },
+})
+
+router.afterEach((to) => {
+  const selfManagedRoutes = [
+    'vocabulary',
+    'vocabulary-word',
+    'vocabulary-practice',
+    'vocabulary-practice-word',
+    'hsk-word-detail',
+    'word-detail',
+    'compare-detail',
+    'blog-detail'
+  ]
+
+  if (selfManagedRoutes.includes(String(to.name))) {
+    return
+  }
+
+  if (to.name === 'home') {
+    setRouteJsonLd(null)
+  } else if (to.name === 'hsk-hub' && to.params.level) {
+    const lvl = Number(to.params.level)
+    const count = lvl === 1 ? 150 : lvl === 2 ? 300 : 600
+    setRouteJsonLd(getHskHubJsonLd(lvl, count))
+  } else if (to.name === 'compare-list') {
+    setRouteJsonLd(getModuleJsonLd('Confusing Words Lab', '/compare', 'Master tricky Chinese word pairs and triplets with side-by-side rules, pitfall analysis, and quizzes.'))
+  } else if (to.name === 'blogs') {
+    setRouteJsonLd(getModuleJsonLd('Chinese Learning Blogs', '/blogs', '24 longform educational guides covering Mandarin grammar rules, stroke order, and exam strategies.'))
+  } else if (to.name === 'radicals') {
+    setRouteJsonLd(getModuleJsonLd('Chinese Radicals Directory', '/radicals', '45+ essential Chinese character radicals categorized by semantic domain.'))
+  } else if (to.name === 'pinyin') {
+    setRouteJsonLd(getModuleJsonLd('Interactive Pinyin Soundboard', '/pinyin', 'Interactive soundboard with 21 initials, 24 finals, tone pitch contours, and ear trainer.'))
+  } else if (to.name === 'score-calculator') {
+    setRouteJsonLd(getModuleJsonLd('HSK Score Calculator', '/score-calculator', 'Calculate official HSK 1, 2, and 3 exam scores instantly.'))
+  } else if (to.name === 'downloads') {
+    setRouteJsonLd(getModuleJsonLd('HSK Course Material Downloads', '/downloads', 'Download official BLCUP Standard Course textbooks, workbooks, and audio.'))
+  } else if (to.name === 'all-mock-tests') {
+    setRouteJsonLd(getModuleJsonLd('33 Official Timed HSK Mock Tests', '/mock-tests', '33 realistic HSK mock examinations with countdown timers and instant grading.'))
+  } else if (to.name === 'about') {
+    setRouteJsonLd(getModuleJsonLd('About HSK Plus', '/about', 'Mission, pedagogical methodology, and open curriculum behind HSK Plus.'))
+  } else if (to.name === 'contact') {
+    setRouteJsonLd(getModuleJsonLd('Contact HSK Plus', '/contact', 'Get in touch with the HSK Plus editorial and technical team.'))
+  } else if (to.name === 'privacy-policy') {
+    setRouteJsonLd(getModuleJsonLd('Privacy Policy', '/privacy-policy', 'Privacy policy and data protection disclosures for HSK Plus.'))
+  } else if (to.name === 'terms-of-service') {
+    setRouteJsonLd(getModuleJsonLd('Terms of Service', '/terms-of-service', 'Terms and conditions for utilizing HSK Plus study materials.'))
+  }
 })

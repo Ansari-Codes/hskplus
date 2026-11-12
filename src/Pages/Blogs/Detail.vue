@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, watch } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import MarkdownIt from 'markdown-it'
 import { katex } from '@mdit/plugin-katex'
@@ -8,6 +8,7 @@ import { getBlogBySlug, getAllBlogs } from '../../Data/blogsData'
 import { UiButton, UiBadge } from '../../Ui'
 import CompAdSense from '../../Components/CompAdSense.vue'
 import BlogConceptDiagram from '../../Components/BlogConceptDiagram.vue'
+import { setRouteJsonLd, getBlogJsonLd } from '../../Utils/jsonLd'
 
 const route = useRoute()
 const slug = computed(() => route.params.slug as string)
@@ -38,6 +39,22 @@ markdown.renderer.rules.table_close = (tokens, index, options) =>
   `${renderToken(tokens, index, options)}</div>\n`
 
 const renderedContent = computed(() => markdown.render(post.value?.content ?? ''))
+
+watch(
+  post,
+  (p) => {
+    if (!p) return
+    document.title = `${p.title} — HSK Plus`
+    let metaDesc = document.querySelector('meta[name="description"]')
+    if (metaDesc) metaDesc.setAttribute('content', p.excerpt)
+    let canonical = document.querySelector('link[rel="canonical"]')
+    if (canonical) canonical.setAttribute('href', `https://desihop.net/blogs/${p.slug}`)
+    let metaKw = document.querySelector('meta[name="keywords"]')
+    if (metaKw) metaKw.setAttribute('content', `${p.title}, learn chinese, HSK study guide, ${p.category}`)
+    setRouteJsonLd(getBlogJsonLd(p))
+  },
+  { immediate: true }
+)
 </script>
 
 <template>
