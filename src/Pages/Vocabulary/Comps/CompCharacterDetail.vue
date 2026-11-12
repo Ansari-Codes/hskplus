@@ -7,6 +7,8 @@ import { speakChinese } from '../../../Utils/speech'
 import CompStrokeAnimation from '../../../Components/CompStrokeAnimation.vue'
 import { toggleWordLearned, isWordLearned } from '../../../stores/progress'
 import { getWordOriginInfo } from '../../../Utils/wordEtymology'
+import { comparisonsData } from '../../../Data/comparisonsData'
+import { getVocabularyByLevel, type HskLevel } from '../../../Data/vocabularyData'
 
 const props = defineProps<{
   entry: VocabularyEntry
@@ -69,6 +71,53 @@ const originInfo = computed(() => {
     props.entry.category
   )
 })
+
+// Confusing Word Guide match
+const matchingComparison = computed(() => {
+  return comparisonsData.find(c => c.words.some(w => w.hanzi === props.entry.character))
+})
+
+// Level entries & Prev/Next navigation
+const levelEntries = computed(() => getVocabularyByLevel(props.level as HskLevel))
+const currentIndex = computed(() => levelEntries.value.findIndex(e => e.character === props.entry.character))
+const prevEntry = computed(() => currentIndex.value > 0 ? levelEntries.value[currentIndex.value - 1] : null)
+const nextEntry = computed(() => currentIndex.value < levelEntries.value.length - 1 ? levelEntries.value[currentIndex.value + 1] : null)
+
+// Related words: 6-8 words from same category (or same level)
+const relatedWords = computed(() => {
+  const currentCat = props.entry.category
+  const sameCat = levelEntries.value.filter(e => e.character !== props.entry.character && e.category === currentCat)
+  if (sameCat.length >= 6) {
+    return sameCat.slice(0, 8)
+  }
+  const others = levelEntries.value.filter(e => e.character !== props.entry.character && !sameCat.includes(e))
+  return [...sameCat, ...others].slice(0, 8)
+})
+
+// FAQ Q&As matching JSON-LD
+const faqList = computed(() => {
+  let sentenceAnswer = `Practice speaking and writing ${props.entry.character} (${props.entry.pinyin}) in daily Chinese conversation.`
+  if (props.entry.examples && props.entry.examples.length > 0) {
+    sentenceAnswer = props.entry.examples.slice(0, 2).map((ex, idx) =>
+      `Example ${idx + 1}: "${ex.chinese}" (${ex.pinyin}) translates to "${ex.translation}".`
+    ).join(' ')
+  }
+
+  return [
+    {
+      q: `What does ${props.entry.character} (${props.entry.pinyin}) mean in Chinese?`,
+      a: `In Mandarin Chinese, ${props.entry.character} (pronounced ${props.entry.pinyin}) means "${props.entry.meaning}". It is an official HSK ${props.level} vocabulary word (${props.entry.category || 'Word'}).`
+    },
+    {
+      q: `How many strokes are in the Chinese character ${props.entry.character}?`,
+      a: `The Chinese character ${props.entry.character} (${props.entry.pinyin}) has ${props.entry.strokes || 0} strokes.`
+    },
+    {
+      q: `How do you use ${props.entry.character} (${props.entry.pinyin}) in a Chinese sentence?`,
+      a: sentenceAnswer
+    }
+  ]
+})
 </script>
 
 <template>
@@ -116,6 +165,30 @@ const originInfo = computed(() => {
           <UiIcon name="book" :size="14" />
           Practice
         </UiButton>
+      </div>
+    </div>
+
+    <!-- Confusing Word Comparison Guide Card (Cross-linking) -->
+    <div
+      v-if="matchingComparison"
+      class="rounded-2xl border border-rose-500/30 bg-rose-500/10 p-4 sm:p-5 text-foreground space-y-2"
+    >
+      <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-rose-600 dark:text-rose-400">
+        <span>⚖️</span>
+        <span>Grammar Alert & Confusing Word Guide</span>
+      </div>
+      <p class="text-xs sm:text-sm text-foreground/90 leading-relaxed">
+        Confused between <strong>{{ matchingComparison.words.map(w => `${w.hanzi} (${w.pinyin})`).join(' and ') }}</strong>?
+        Read our complete side-by-side grammar comparison, key distinction rules, and take the quiz.
+      </p>
+      <div class="pt-1">
+        <RouterLink
+          :to="'/compare/' + matchingComparison.slug"
+          class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-rose-600 dark:text-rose-400 hover:underline"
+        >
+          <span>Read the {{ matchingComparison.shortTitle }} Comparison & Quiz</span>
+          <span>→</span>
+        </RouterLink>
       </div>
     </div>
 
@@ -211,13 +284,17 @@ const originInfo = computed(() => {
           </p>
         </div>
 
-        <div class="mt-3 rounded-xl bg-muted/60 p-3 text-xs text-muted-foreground flex items-center justify-between">
-          <span>💡 Click <strong>Practice</strong> to train stroke order on the Tian Zi Ge canvas.</span>
-        </div>
+        <RouterLink
+          :to="`/hsk${level}/practice/${encodeURIComponent(entry.character)}`"
+          class="mt-3 flex items-center justify-between rounded-xl bg-primary/10 border border-primary/20 p-3 text-xs font-bold text-primary hover:bg-primary/20 transition-colors"
+        >
+          <span>✍️ Practice Writing {{ entry.character }} on Tian Zi Ge Canvas</span>
+          <span>Open Writing Lab →</span>
+        </RouterLink>
       </section>
     </div>
 
-    <!-- Character Origin & Pedagogical Description Box (Requested by user) -->
+    <!-- Character Origin & Pedagogical Description Box -->
     <div class="rounded-2xl border border-border bg-surface-raised p-4 sm:p-6 space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2 border-b border-border/70 pb-3">
         <div class="flex items-center gap-2">
@@ -252,5 +329,83 @@ const originInfo = computed(() => {
         <span class="font-bold text-foreground">Etymological Background:</span> {{ originInfo.originStory }}
       </div>
     </div>
+
+    <!-- Frequently Asked Questions (Matching JSON-LD FAQPage) -->
+    <section class="rounded-2xl border border-border bg-surface-raised p-4 sm:p-6 space-y-4">
+      <div class="flex items-center gap-2 border-b border-border/70 pb-3">
+        <span class="text-lg">❓</span>
+        <h3 class="text-sm sm:text-base font-bold text-foreground">
+          Frequently Asked Questions about {{ entry.character }} ({{ entry.pinyin }})
+        </h3>
+      </div>
+      <div class="divide-y divide-border/60">
+        <div v-for="(faq, fIdx) in faqList" :key="fIdx" class="py-3 space-y-1">
+          <h4 class="text-xs sm:text-sm font-bold text-foreground flex items-start gap-1.5">
+            <span class="text-primary font-black">Q:</span>
+            <span>{{ faq.q }}</span>
+          </h4>
+          <p class="text-xs text-muted-foreground leading-relaxed pl-4">
+            {{ faq.a }}
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prev & Next Word Navigation Flipper -->
+    <nav class="flex items-center justify-between border-t border-border pt-4 text-xs">
+      <RouterLink
+        v-if="prevEntry"
+        :to="`/hsk${level}/vocabulary/${encodeURIComponent(prevEntry.character)}`"
+        class="flex items-center gap-1 font-semibold text-primary hover:underline max-w-[45%] truncate"
+      >
+        <span>←</span>
+        <span class="truncate">{{ prevEntry.character }} ({{ prevEntry.pinyin }}) - {{ prevEntry.meaning }}</span>
+      </RouterLink>
+      <span v-else class="text-muted-foreground/50">Start of HSK {{ level }}</span>
+
+      <RouterLink :to="`/hsk${level}/vocabulary`" class="text-muted-foreground hover:text-foreground hidden sm:inline font-medium">
+        All HSK {{ level }} Words ({{ levelEntries.length }})
+      </RouterLink>
+
+      <RouterLink
+        v-if="nextEntry"
+        :to="`/hsk${level}/vocabulary/${encodeURIComponent(nextEntry.character)}`"
+        class="flex items-center gap-1 font-semibold text-primary hover:underline max-w-[45%] truncate justify-end"
+      >
+        <span class="truncate">{{ nextEntry.character }} ({{ nextEntry.pinyin }}) - {{ nextEntry.meaning }}</span>
+        <span>→</span>
+      </RouterLink>
+      <span v-else class="text-muted-foreground/50">End of HSK {{ level }}</span>
+    </nav>
+
+    <!-- Related HSK Words Mesh -->
+    <section class="rounded-2xl border border-border bg-surface-raised p-4 sm:p-6 space-y-4">
+      <div class="flex items-center justify-between border-b border-border/70 pb-3">
+        <div class="flex items-center gap-2">
+          <span class="text-lg">🔗</span>
+          <h3 class="text-sm sm:text-base font-bold text-foreground">
+            Related HSK {{ level }} Words ({{ entry.category || 'Lexicon' }})
+          </h3>
+        </div>
+        <RouterLink :to="`/hsk${level}/vocabulary`" class="text-xs text-primary font-semibold hover:underline">
+          View All HSK {{ level }} ({{ levelEntries.length }}) →
+        </RouterLink>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
+        <RouterLink
+          v-for="rel in relatedWords"
+          :key="rel.character"
+          :to="`/hsk${rel.level}/vocabulary/${encodeURIComponent(rel.character)}`"
+          class="rounded-xl border border-border bg-surface p-2.5 transition-colors hover:border-primary/50 flex flex-col justify-between"
+        >
+          <div class="flex items-baseline justify-between gap-1">
+            <span class="text-lg font-bold font-serif text-primary">{{ rel.character }}</span>
+            <span class="text-[11px] font-semibold text-muted-foreground">{{ rel.pinyin }}</span>
+          </div>
+          <p class="text-[11px] text-foreground/80 truncate mt-1">{{ rel.meaning }}</p>
+        </RouterLink>
+      </div>
+    </section>
   </article>
 </template>

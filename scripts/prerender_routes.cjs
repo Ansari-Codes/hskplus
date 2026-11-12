@@ -732,6 +732,20 @@ corePages.forEach(p => {
       summaryHtml: `
         <h1>HSK ${lvl} Official Vocabulary Encyclopedia</h1>
         <p>Complete directory of all ${vocabCount} vocabulary words required for HSK ${lvl}. Includes native audio pronunciation, character breakdowns, radicals, and example sentences.</p>
+        <div style="margin-top: 2rem;">
+          <h2>All ${vocabData.filter(w => w.level === lvl).length} HSK ${lvl} Vocabulary Words</h2>
+          <ul style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem; list-style: none; padding: 0; margin-top: 1rem;">
+            ${vocabData.filter(w => w.level === lvl).map(w => `
+              <li style="background: #ffffff; padding: 0.75rem; border-radius: 0.5rem; border: 1px solid #e5e7eb;">
+                <a href="https://desihop.net/hsk${lvl}/vocabulary/${encodeURIComponent(w.character)}" style="text-decoration: none; color: inherit; display: block;">
+                  <div style="font-size: 1.5rem; font-weight: bold; color: #c23314; font-family: serif;">${escapeHtml(w.character)}</div>
+                  <div style="font-size: 0.875rem; font-weight: 600; color: #4b5563;">${escapeHtml(w.pinyin)}</div>
+                  <div style="font-size: 0.75rem; color: #6b7280; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${escapeHtml(w.meaning)}</div>
+                </a>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
       `
     },
     {
@@ -862,6 +876,47 @@ compData.forEach(comp => {
   const keywords = `${comp.words.map(w => w.hanzi).join(', ')}, ${comp.words.map(w => w.pinyin).join(', ')}, ${pairTitle}, chinese grammar difference, ${comp.level} grammar, confusing words chinese`;
   const jsonLd = getComparisonJsonLd(comp, canonical);
 
+  const comparedWordsLinksHtml = `
+    <div style="margin-top: 1.5rem; padding: 1.25rem; background: #f9fafb; border-radius: 0.75rem; border: 1px solid #e5e7eb;">
+      <h3 style="margin-top: 0; font-size: 1.15rem; color: #111827;">Vocabulary Profiles &amp; Stroke Order Practice</h3>
+      <p style="font-size: 0.85rem; color: #6b7280; margin: 0 0 1rem 0;">Explore individual character entries, native speech pronunciation, and Tian Zi Ge writing labs.</p>
+      <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem;">
+        ${comp.words.map(w => {
+          const wEntry = vocabData.find(v => v.character === w.hanzi);
+          const wLevel = wEntry ? wEntry.level : 1;
+          const enc = encodeURIComponent(w.hanzi);
+          return `
+            <li style="padding: 0.75rem; background: #ffffff; border-radius: 0.5rem; border: 1px solid #e5e7eb;">
+              <div>
+                <strong style="font-size: 1.35rem; color: #c23314; font-family: serif;">${escapeHtml(w.hanzi)}</strong>
+                <span style="font-weight: bold; color: #4b5563;">(${escapeHtml(w.pinyin)})</span> &mdash;
+                <span style="color: #374151;">${escapeHtml(w.meaning)} (${escapeHtml(w.partOfSpeech)})</span>
+              </div>
+              <p style="margin: 0.25rem 0 0.5rem 0; font-size: 0.8rem; color: #6b7280;">${escapeHtml(w.coreFunction)}</p>
+              <div style="font-size: 0.85rem;">
+                <a href="https://desihop.net/hsk${wLevel}/vocabulary/${enc}" style="color: #c23314; font-weight: bold; text-decoration: underline; margin-right: 1.25rem;">View HSK ${wLevel} Vocabulary Profile &rarr;</a>
+                <a href="https://desihop.net/hsk${wLevel}/practice/${enc}" style="color: #4b5563; font-weight: 600; text-decoration: underline;">Practice Writing on Canvas &rarr;</a>
+              </div>
+            </li>
+          `;
+        }).join('')}
+      </ul>
+    </div>
+  `;
+
+  const faqEntity = jsonLd['@graph'].find(e => e['@type'] === 'FAQPage');
+  const compFaqsHtml = faqEntity && faqEntity.mainEntity ? `
+    <div style="margin-top: 2rem; border-top: 1px solid #e5e7eb; padding-top: 1.25rem;">
+      <h3 style="font-size: 1.25rem; color: #111827; margin-bottom: 1rem;">Frequently Asked Questions &amp; Practical Rules</h3>
+      ${faqEntity.mainEntity.map(f => `
+        <div style="margin-bottom: 1rem;">
+          <h4 style="font-size: 1rem; font-weight: bold; color: #1f2937; margin: 0 0 0.25rem 0;">${escapeHtml(f.name)}</h4>
+          <p style="margin: 0; color: #4b5563; line-height: 1.5;">${escapeHtml(f.acceptedAnswer.text)}</p>
+        </div>
+      `).join('')}
+    </div>
+  ` : '';
+
   routesToPrerender.push({
     path: `/compare/${comp.slug}`,
     title,
@@ -878,12 +933,8 @@ compData.forEach(comp => {
           ${escapeHtml(comp.level)} &bull; ${escapeHtml(comp.cefr)}
         </span>
       </div>
-      <div style="margin-top: 1.5rem;">
-        <h3>Key Words Compared</h3>
-        <ul>
-          ${comp.words.map(w => `<li><strong>${escapeHtml(w.hanzi)}</strong> (${escapeHtml(w.pinyin)}) &mdash; ${escapeHtml(w.meaning)} (${escapeHtml(w.partOfSpeech)})</li>`).join('')}
-        </ul>
-      </div>
+      ${comparedWordsLinksHtml}
+      ${compFaqsHtml}
     `
   });
 });
@@ -922,6 +973,111 @@ vocabData.forEach(word => {
     `
     : '';
 
+  // Interlinking & Content Enrichment
+  const levelWords = vocabData.filter(w => w.level === word.level);
+  const wordIndex = levelWords.findIndex(w => w.character === word.character);
+  const prevWord = wordIndex > 0 ? levelWords[wordIndex - 1] : null;
+  const nextWord = wordIndex < levelWords.length - 1 ? levelWords[wordIndex + 1] : null;
+
+  // 1. Confusing Word Comparison Match
+  const matchingComp = compData.find(c => c.words.some(w => w.hanzi === word.character));
+  const compCardHtml = matchingComp ? `
+    <div style="margin: 1.5rem 0; padding: 1.25rem; border-radius: 0.75rem; background: #fff1f2; border: 1px solid #fecdd3;">
+      <div style="font-size: 0.875rem; font-weight: bold; color: #be123c; margin-bottom: 0.25rem;">
+        ⚖️ Grammar Alert &amp; Confusing Word Guide
+      </div>
+      <p style="margin: 0.25rem 0 0.75rem 0; font-size: 0.95rem; color: #1f2937; line-height: 1.5;">
+        Confused between <strong>${matchingComp.words.map(w => `${escapeHtml(w.hanzi)} (${escapeHtml(w.pinyin)})`).join(' and ')}</strong>?
+        Read our detailed side-by-side grammar comparison, key distinction rules, and take the interactive quiz.
+      </p>
+      <a href="https://desihop.net/compare/${matchingComp.slug}" style="display: inline-block; font-weight: bold; color: #c23314; text-decoration: underline;">
+        Read the ${escapeHtml(matchingComp.shortTitle)} Grammar Guide &amp; Quiz &rarr;
+      </a>
+    </div>
+  ` : '';
+
+  // 2. Interactive Writing Studio Link
+  const practiceLinkHtml = `
+    <div style="margin: 1.5rem 0;">
+      <a href="https://desihop.net/hsk${word.level}/practice/${encodedChar}" style="display: inline-block; padding: 0.75rem 1.25rem; background: #c23314; color: #ffffff; text-decoration: none; border-radius: 0.5rem; font-weight: bold; font-size: 0.95rem;">
+        ✍️ Practice Writing ${escapeHtml(word.character)} on Interactive Tian Zi Ge Canvas &rarr;
+      </a>
+    </div>
+  `;
+
+  // 3. Visible FAQ Section (Matching JSON-LD FAQPage)
+  let sentenceAnswer = `Practice speaking and writing ${word.character} (${word.pinyin}) in daily Chinese conversation.`;
+  if (word.examples && word.examples.length > 0) {
+    sentenceAnswer = word.examples.slice(0, 2).map((ex, idx) =>
+      `Example ${idx + 1}: "${ex.chinese}" (${ex.pinyin}) translates to "${ex.translation}".`
+    ).join(' ');
+  }
+
+  const faqSectionHtml = `
+    <section style="margin-top: 2rem; border-top: 1px solid #e5e7eb; padding-top: 1.5rem;">
+      <h2 style="font-size: 1.5rem; font-weight: bold; color: #111827; margin-bottom: 1rem;">
+        Frequently Asked Questions about ${escapeHtml(word.character)} (${escapeHtml(word.pinyin)})
+      </h2>
+      <div style="margin-bottom: 1.25rem;">
+        <h3 style="font-size: 1.05rem; font-weight: bold; color: #1f2937; margin: 0 0 0.25rem 0;">
+          Q: What does ${escapeHtml(word.character)} (${escapeHtml(word.pinyin)}) mean in Chinese?
+        </h3>
+        <p style="margin: 0; color: #4b5563; line-height: 1.5;">
+          In Mandarin Chinese, <strong>${escapeHtml(word.character)}</strong> (pronounced ${escapeHtml(word.pinyin)}) means "${escapeHtml(word.meaning)}". It is an official HSK ${word.level} vocabulary word (${escapeHtml(word.category || 'Word')}).
+        </p>
+      </div>
+      <div style="margin-bottom: 1.25rem;">
+        <h3 style="font-size: 1.05rem; font-weight: bold; color: #1f2937; margin: 0 0 0.25rem 0;">
+          Q: How many strokes are in the Chinese character ${escapeHtml(word.character)}?
+        </h3>
+        <p style="margin: 0; color: #4b5563; line-height: 1.5;">
+          The Chinese character <strong>${escapeHtml(word.character)}</strong> (${escapeHtml(word.pinyin)}) has <strong>${word.strokes || 0} strokes</strong>.
+        </p>
+      </div>
+      <div style="margin-bottom: 1.25rem;">
+        <h3 style="font-size: 1.05rem; font-weight: bold; color: #1f2937; margin: 0 0 0.25rem 0;">
+          Q: How do you use ${escapeHtml(word.character)} (${escapeHtml(word.pinyin)}) in a Chinese sentence?
+        </h3>
+        <p style="margin: 0; color: #4b5563; line-height: 1.5;">
+          ${escapeHtml(sentenceAnswer)}
+        </p>
+      </div>
+    </section>
+  `;
+
+  // 4. Previous and Next Word Navigation
+  const prevNextNavHtml = `
+    <nav style="display: flex; justify-content: space-between; align-items: center; margin: 2rem 0; padding-top: 1rem; border-top: 1px solid #e5e7eb; font-size: 0.875rem;">
+      ${prevWord ? `<a href="https://desihop.net/hsk${word.level}/vocabulary/${encodeURIComponent(prevWord.character)}" style="color: #c23314; font-weight: bold; text-decoration: none;">&larr; Prev: ${escapeHtml(prevWord.character)} (${escapeHtml(prevWord.pinyin)})</a>` : '<span style="color: #9ca3af;">Start of HSK ' + word.level + '</span>'}
+      <a href="https://desihop.net/hsk${word.level}/vocabulary" style="color: #4b5563; font-weight: 600; text-decoration: none;">All HSK ${word.level} Words (${levelWords.length})</a>
+      ${nextWord ? `<a href="https://desihop.net/hsk${word.level}/vocabulary/${encodeURIComponent(nextWord.character)}" style="color: #c23314; font-weight: bold; text-decoration: none;">Next: ${escapeHtml(nextWord.character)} (${escapeHtml(nextWord.pinyin)}) &rarr;</a>` : '<span style="color: #9ca3af;">End of HSK ' + word.level + '</span>'}
+    </nav>
+  `;
+
+  // 5. Related Words Mesh (6-8 words from same category or level)
+  const sameCatWords = levelWords.filter(w => w.character !== word.character && w.category === word.category);
+  const otherLevelWords = levelWords.filter(w => w.character !== word.character && w.category !== word.category);
+  const relatedWords = [...sameCatWords, ...otherLevelWords].slice(0, 8);
+
+  const relatedWordsHtml = `
+    <section style="margin-top: 2rem; padding: 1.25rem; border-radius: 0.75rem; background: #f9fafb; border: 1px solid #e5e7eb;">
+      <h3 style="margin-top: 0; font-size: 1.15rem; font-weight: bold; color: #111827; margin-bottom: 0.75rem;">
+        Related HSK ${word.level} Words (${escapeHtml(word.category || 'Vocabulary')})
+      </h3>
+      <ul style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0.75rem; list-style: none; padding: 0; margin: 0;">
+        ${relatedWords.map(rw => `
+          <li style="background: #ffffff; padding: 0.75rem; border-radius: 0.5rem; border: 1px solid #e5e7eb;">
+            <a href="https://desihop.net/hsk${rw.level}/vocabulary/${encodeURIComponent(rw.character)}" style="text-decoration: none; color: inherit; display: block;">
+              <div style="font-size: 1.35rem; font-weight: bold; color: #c23314; font-family: serif;">${escapeHtml(rw.character)}</div>
+              <div style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">${escapeHtml(rw.pinyin)}</div>
+              <div style="font-size: 0.75rem; color: #374151; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0.25rem;">${escapeHtml(rw.meaning)}</div>
+            </a>
+          </li>
+        `).join('')}
+      </ul>
+    </section>
+  `;
+
   // Semantic <h1> block directly front-loading Character, Pinyin, Meaning, and HSK Level
   const summaryHtml = `
     <h1 style="font-size: 2.25rem; font-weight: 900; color: #111827; margin-bottom: 0.75rem;">
@@ -937,8 +1093,13 @@ vocabData.forEach(word => {
       <span><strong>Category:</strong> ${escapeHtml(word.category)}</span> &bull;
       <span><strong>Stroke Count:</strong> ${word.strokes}</span>
     </div>
+    ${compCardHtml}
+    ${practiceLinkHtml}
     <p>Practice writing <strong>${escapeHtml(word.character)}</strong> with stroke animations, character anatomy & mnemonics, and native audio pronunciation on HSK Plus.</p>
     ${examplesHtml}
+    ${faqSectionHtml}
+    ${prevNextNavHtml}
+    ${relatedWordsHtml}
   `;
 
   const wordJsonLd = getVocabularyJsonLd(word, word.level, canonical);

@@ -2,6 +2,7 @@
 import { ref, computed, watch } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import { comparisonsData, type ComparisonItem } from '../../Data/comparisonsData'
+import { VOCABULARY_DATA } from '../../Data/vocabularyData'
 import CompAdSense from '../../Components/CompAdSense.vue'
 import { speakChinese } from '../../Utils/speech'
 import { setRouteJsonLd, getComparisonJsonLd } from '../../Utils/jsonLd'
@@ -11,6 +12,38 @@ const route = useRoute()
 const slug = computed(() => route.params.slug as string)
 const item = computed<ComparisonItem | undefined>(() => {
   return comparisonsData.find(c => c.slug === slug.value)
+})
+
+function getWordLevel(character: string): number {
+  const match = VOCABULARY_DATA.find(v => v.character === character)
+  return match?.level || 1
+}
+
+const fullFaqList = computed(() => {
+  if (!item.value) return []
+  const val = item.value
+  const list: Array<{ q: string; a: string }> = [
+    {
+      q: `What is the difference between ${val.words.map(w => `${w.hanzi} (${w.pinyin})`).join(' and ')} in Chinese?`,
+      a: val.summary
+    }
+  ]
+  if (val.words.length >= 2) {
+    list.push({
+      q: `When should I use ${val.words[0].hanzi} vs ${val.words[1].hanzi}?`,
+      a: `Use ${val.words[0].hanzi} (${val.words[0].pinyin}) when: ${val.words[0].coreFunction || val.words[0].meaning}. Use ${val.words[1].hanzi} (${val.words[1].pinyin}) when: ${val.words[1].coreFunction || val.words[1].meaning}.`
+    })
+  }
+  if (val.faq && val.faq.length > 0) {
+    val.faq.forEach(f => list.push(f))
+  } else if (val.mistakes && val.mistakes.length > 0) {
+    const m = val.mistakes[0]
+    list.push({
+      q: `What is a common mistake when using ${val.title.split(':')[0].trim()}?`,
+      a: `A common error is saying "${m.incorrectZh}" instead of "${m.correctZh}". ${m.explanation}`
+    })
+  }
+  return list
 })
 
 // Dynamic SEO updates
@@ -107,6 +140,56 @@ const quizScore = computed(() => {
     </div>
 
     <main class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8 space-y-12">
+      <!-- 0. Compared Words Directory & Stroke Practice (Interlinking) -->
+      <section class="rounded-3xl border border-border bg-surface p-6 sm:p-8 shadow-xs space-y-4">
+        <div class="flex items-center gap-2">
+          <span class="text-xl">📚</span>
+          <h2 class="text-lg sm:text-xl font-bold text-foreground">
+            Vocabulary Profiles &amp; Stroke Order Practice
+          </h2>
+        </div>
+        <p class="text-xs sm:text-sm text-muted-foreground">
+          Study individual character profiles, native audio pronunciation, stroke animations, and Tian Zi Ge handwriting labs.
+        </p>
+
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div
+            v-for="w in item.words"
+            :key="w.hanzi"
+            class="rounded-2xl border border-border bg-surface-raised p-4 flex flex-col justify-between space-y-3 hover:border-primary/50 transition-colors"
+          >
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-3xl font-black font-serif text-primary">{{ w.hanzi }}</span>
+                <span class="rounded-md bg-primary/10 px-2 py-0.5 text-xs font-bold text-primary">
+                  HSK {{ getWordLevel(w.hanzi) }}
+                </span>
+              </div>
+              <div class="text-xs font-bold text-muted-foreground mt-0.5">{{ w.pinyin }} &bull; {{ w.partOfSpeech }}</div>
+              <p class="text-xs text-foreground/90 font-medium mt-1.5">{{ w.meaning }}</p>
+              <p class="text-[11px] text-muted-foreground mt-1 line-clamp-2">{{ w.coreFunction }}</p>
+            </div>
+
+            <div class="flex flex-col gap-1.5 pt-2 border-t border-border/70 text-xs">
+              <RouterLink
+                :to="`/hsk${getWordLevel(w.hanzi)}/vocabulary/${encodeURIComponent(w.hanzi)}`"
+                class="inline-flex items-center justify-between font-bold text-primary hover:underline"
+              >
+                <span>📖 {{ w.hanzi }} Vocabulary Profile</span>
+                <span>→</span>
+              </RouterLink>
+              <RouterLink
+                :to="`/hsk${getWordLevel(w.hanzi)}/practice/${encodeURIComponent(w.hanzi)}`"
+                class="inline-flex items-center justify-between text-muted-foreground hover:text-foreground font-semibold"
+              >
+                <span>✍️ Practice Writing {{ w.hanzi }}</span>
+                <span>Canvas →</span>
+              </RouterLink>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- 1. The Comparison Matrix Table -->
       <section class="rounded-3xl border border-border bg-surface p-6 sm:p-8 shadow-xs space-y-4">
         <h2 class="text-xl sm:text-2xl font-black text-foreground">
@@ -329,15 +412,15 @@ const quizScore = computed(() => {
         </div>
       </section>
 
-      <!-- 5. Frequently Asked Questions -->
-      <section v-if="item.faq && item.faq.length > 0" class="rounded-3xl border border-border bg-surface p-6 sm:p-8 shadow-xs space-y-4">
+      <!-- 5. Frequently Asked Questions (Matching JSON-LD FAQPage) -->
+      <section v-if="fullFaqList && fullFaqList.length > 0" class="rounded-3xl border border-border bg-surface p-6 sm:p-8 shadow-xs space-y-4">
         <h2 class="text-xl sm:text-2xl font-black text-foreground">
-          ❓ Frequently Asked Questions
+          ❓ Frequently Asked Questions &amp; Practical Rules
         </h2>
 
         <div class="divide-y divide-border/70">
           <div
-            v-for="(f, fIdx) in item.faq"
+            v-for="(f, fIdx) in fullFaqList"
             :key="fIdx"
             class="py-4 space-y-1.5"
           >
